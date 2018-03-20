@@ -232,6 +232,9 @@
     <Compile Include="..\ManualSourceDB.Server\DataSources\dbmanualsourceData\child.lsml.cs">
       <Link>UserCode\Shared\child.lsml.cs</Link>
     </Compile>
+    <Compile Include="..\ManualSourceDB.Server\DataSources\dbmanualsourceData\cpn.lsml.cs">
+      <Link>UserCode\Shared\cpn.lsml.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screens\amostrastbsListDetail.lsml.cs">
       <DependentUpon>amostrastbsListDetail.lsml</DependentUpon>
