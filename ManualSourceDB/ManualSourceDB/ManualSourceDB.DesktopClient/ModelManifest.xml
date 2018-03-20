@@ -2,6 +2,9 @@
 <ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Documents>
 <<<<<<< HEAD
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Client.lsml" Checksum="69FE875F6F948F6C290E972141D01414E2D0939ADE2BC6B3F144128F5E7F6BE2" />
+=======
+<<<<<<< HEAD
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Client.lsml" Checksum="F1BA24D7815395CB652A9A141B6E0BDB30EA7894645EEE4F2917A06EE085BC6B" />
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\children.lsml" Checksum="360880BF98DB1C9D9AEFBB21DC89329E3827AE31DBD8831AC0976CB273B37568" />
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\mothers.lsml" Checksum="1CA4C3EF8AF09A64B5F33DD8F731C8225AD321D8CF84909F18E8216E35D5E596" />
@@ -20,6 +23,7 @@
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiariovgbsListDetail.lsml" Checksum="0CE3C6DDE62AD972AC5C5383F93A2A8E0334C680C7300554D0EA1364FF38DFCB" />
 =======
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Client.lsml" Checksum="F1BA24D7815395CB652A9A141B6E0BDB30EA7894645EEE4F2917A06EE085BC6B" />
+>>>>>>> 2773a9c973f24cd87f16af0511693de5f4594758
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\children.lsml" Checksum="360880BF98DB1C9D9AEFBB21DC89329E3827AE31DBD8831AC0976CB273B37568" />
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\mothers.lsml" Checksum="1CA4C3EF8AF09A64B5F33DD8F731C8225AD321D8CF84909F18E8216E35D5E596" />
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Proxies.lsml" Checksum="7DAF05EE63A75E34AD59262070421B71D83E0B87C0AEB1DDF4B3DE9D5B182D3C" />
@@ -34,7 +38,11 @@
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\paciente_resistente_tbsListDetail.lsml" Checksum="79EF9C65E4D827E4B316FF317F462A5DF01C31D8125C9C867071B62BE75191FE" />
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\pacientetbsListDetail.lsml" Checksum="D74623F2DF9405885232F3EF37C943B43ADD87EB2D455A797F9C28FCC3308515" />
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiarioppesListDetail.lsml" Checksum="6909F5077E75257D14134D84893D9134626BAF12A0DEA8A85CDD4FD880D6AE62" />
+<<<<<<< HEAD
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiariovgbsListDetail.lsml" Checksum="C5608D6BB0B3F10E5DACEF67BE86D174F833F74F1250E08AA1679C85861B87F6" />
+=======
     <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiariovgbsListDetail.lsml" Checksum="0CE3C6DDE62AD972AC5C5383F93A2A8E0334C680C7300554D0EA1364FF38DFCB" />
 >>>>>>> 18a8fca1a84bffbe3896df143c128b785db02523
+>>>>>>> 2773a9c973f24cd87f16af0511693de5f4594758
   </Documents>
 </ModelDocumentManifest>

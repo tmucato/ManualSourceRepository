@@ -82,6 +82,21 @@ namespace LightSwitchApplication
         }
         
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void cpnsListDetail_CanRun(ref bool result);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void cpnsListDetail_Run(ref bool handled);
+    
+        /// <summary>
+        /// Opens the ShowcpnsListDetail screen.  If the screen is already opened, it is activated and shown.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public void ShowcpnsListDetail()
+        {
+            ((global::Microsoft.LightSwitch.Details.Client.IClientApplicationDetails)this.Details).InvokeMethod(this.Details.Methods.ShowcpnsListDetail);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void cppsListDetail_CanRun(ref bool result);
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void cppsListDetail_Run(ref bool handled);
@@ -201,21 +216,6 @@ namespace LightSwitchApplication
             ((global::Microsoft.LightSwitch.Details.Client.IClientApplicationDetails)this.Details).InvokeMethod(this.Details.Methods.Showt_registodiariovgbsListDetail);
         }
         
-        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void cpnsListDetail_CanRun(ref bool result);
-        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        partial void cpnsListDetail_Run(ref bool handled);
-    
-        /// <summary>
-        /// Opens the ShowcpnsListDetail screen.  If the screen is already opened, it is activated and shown.
-        /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public void ShowcpnsListDetail()
-        {
-            ((global::Microsoft.LightSwitch.Details.Client.IClientApplicationDetails)this.Details).InvokeMethod(this.Details.Methods.ShowcpnsListDetail);
-        }
-        
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -281,6 +281,8 @@ namespace LightSwitchApplication
                         return global::LightSwitchApplication.ccrsListDetail.CreateInstance();
                     case "childrenListDetail":
                         return global::LightSwitchApplication.childrenListDetail.CreateInstance();
+                    case "cpnsListDetail":
+                        return global::LightSwitchApplication.cpnsListDetail.CreateInstance();
                     case "cppsListDetail":
                         return global::LightSwitchApplication.cppsListDetail.CreateInstance();
                     case "csr_pfsListDetail":
@@ -297,8 +299,6 @@ namespace LightSwitchApplication
                         return global::LightSwitchApplication.t_registodiarioppesListDetail.CreateInstance();
                     case "t_registodiariovgbsListDetail":
                         return global::LightSwitchApplication.t_registodiariovgbsListDetail.CreateInstance();
-                    case "cpnsListDetail":
-                        return global::LightSwitchApplication.cpnsListDetail.CreateInstance();
                 }
             
                 return base.CreateScreen(screenName, args);
@@ -344,6 +344,15 @@ namespace LightSwitchApplication
                     {
                         return (global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
                                base.GetItem(global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties.ShowchildrenListDetail);
+                    }
+                }
+
+                public global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass> ShowcpnsListDetail
+                {
+                    get
+                    {
+                        return (global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
+                               base.GetItem(global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties.ShowcpnsListDetail);
                     }
                 }
 
@@ -419,15 +428,6 @@ namespace LightSwitchApplication
                     }
                 }
 
-                public global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass> ShowcpnsListDetail
-                {
-                    get
-                    {
-                        return (global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
-                               base.GetItem(global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties.ShowcpnsListDetail);
-                    }
-                }
-
             }
 
             [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -461,6 +461,15 @@ namespace LightSwitchApplication
                     {
                         return (global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
                                base.GetItem(global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties.ShowchildrenListDetail);
+                    }
+                }
+
+                public global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass> ShowcpnsListDetail
+                {
+                    get
+                    {
+                        return (global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
+                               base.GetItem(global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties.ShowcpnsListDetail);
                     }
                 }
 
@@ -536,15 +545,6 @@ namespace LightSwitchApplication
                     }
                 }
 
-                public global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass> ShowcpnsListDetail
-                {
-                    get
-                    {
-                        return (global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
-                               base.GetItem(global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties.ShowcpnsListDetail);
-                    }
-                }
-
             }
 
             [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -601,6 +601,20 @@ namespace LightSwitchApplication
                 private static global::Microsoft.LightSwitch.IExecutable _ShowchildrenListDetail_CreateExecutableObject(global::LightSwitchApplication.Application.DetailsClass d)
                 {
                     return ((global::LightSwitchApplication.Application.DetailsClass)d).Methods.ShowchildrenListDetail.CreateInvocation(new object[0]);
+                }
+
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
+                    ShowcpnsListDetail = new global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry(
+                        "ShowcpnsListDetail",
+                        global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties._ShowcpnsListDetail_Stub,
+                        global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties._ShowcpnsListDetail_CreateExecutableObject);
+                private static void _ShowcpnsListDetail_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.Application.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data> c, global::LightSwitchApplication.Application.DetailsClass d, object sf)
+                {
+                    c(d, ref d._ShowcpnsListDetailCommand, sf);
+                }
+                private static global::Microsoft.LightSwitch.IExecutable _ShowcpnsListDetail_CreateExecutableObject(global::LightSwitchApplication.Application.DetailsClass d)
+                {
+                    return ((global::LightSwitchApplication.Application.DetailsClass)d).Methods.ShowcpnsListDetail.CreateInvocation(new object[0]);
                 }
 
                 public static readonly global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
@@ -715,20 +729,6 @@ namespace LightSwitchApplication
                     return ((global::LightSwitchApplication.Application.DetailsClass)d).Methods.Showt_registodiariovgbsListDetail.CreateInvocation(new object[0]);
                 }
 
-                public static readonly global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
-                    ShowcpnsListDetail = new global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry(
-                        "ShowcpnsListDetail",
-                        global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties._ShowcpnsListDetail_Stub,
-                        global::LightSwitchApplication.Application.DetailsClass.CommandSetProperties._ShowcpnsListDetail_CreateExecutableObject);
-                private static void _ShowcpnsListDetail_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.Application.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data> c, global::LightSwitchApplication.Application.DetailsClass d, object sf)
-                {
-                    c(d, ref d._ShowcpnsListDetailCommand, sf);
-                }
-                private static global::Microsoft.LightSwitch.IExecutable _ShowcpnsListDetail_CreateExecutableObject(global::LightSwitchApplication.Application.DetailsClass d)
-                {
-                    return ((global::LightSwitchApplication.Application.DetailsClass)d).Methods.ShowcpnsListDetail.CreateInvocation(new object[0]);
-                }
-
             }
 
             [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -812,6 +812,32 @@ namespace LightSwitchApplication
                     if (!handled)
                     {
                         d.ShowScreen("LightSwitchApplication.ManualSourceDB.DesktopClient:childrenListDetail", () => global::LightSwitchApplication.childrenListDetail.CreateInstance(), args);
+                    }
+                }
+ 
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
+                    ShowcpnsListDetail = new global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry(
+                        "ShowcpnsListDetail",
+                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowcpnsListDetail_Stub,
+                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowcpnsListDetail_CanInvoke,
+                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowcpnsListDetail_InvokeMethod);
+                private static void _ShowcpnsListDetail_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.Application.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data> c, global::LightSwitchApplication.Application.DetailsClass d, object sf)
+                {
+                    c(d, ref d._ShowcpnsListDetailMethod, sf);
+                }
+                private static global::System.Exception _ShowcpnsListDetail_CanInvoke(global::LightSwitchApplication.Application.DetailsClass d, global::System.Collections.ObjectModel.ReadOnlyCollection<object> args, global::System.Exception ex)
+                {
+                    bool result = true;
+                    d.Application.cpnsListDetail_CanRun(ref result);
+                    return result ? null : ex;
+                }
+                private static void _ShowcpnsListDetail_InvokeMethod(global::LightSwitchApplication.Application.DetailsClass d, global::System.Collections.ObjectModel.ReadOnlyCollection<object> args)
+                {
+                    bool handled = false;
+                    d.Application.cpnsListDetail_Run(ref handled);
+                    if (!handled)
+                    {
+                        d.ShowScreen("LightSwitchApplication.ManualSourceDB.DesktopClient:cpnsListDetail", () => global::LightSwitchApplication.cpnsListDetail.CreateInstance(), args);
                     }
                 }
  
@@ -1023,32 +1049,6 @@ namespace LightSwitchApplication
                     }
                 }
  
-                public static readonly global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
-                    ShowcpnsListDetail = new global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry(
-                        "ShowcpnsListDetail",
-                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowcpnsListDetail_Stub,
-                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowcpnsListDetail_CanInvoke,
-                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowcpnsListDetail_InvokeMethod);
-                private static void _ShowcpnsListDetail_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.Application.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data> c, global::LightSwitchApplication.Application.DetailsClass d, object sf)
-                {
-                    c(d, ref d._ShowcpnsListDetailMethod, sf);
-                }
-                private static global::System.Exception _ShowcpnsListDetail_CanInvoke(global::LightSwitchApplication.Application.DetailsClass d, global::System.Collections.ObjectModel.ReadOnlyCollection<object> args, global::System.Exception ex)
-                {
-                    bool result = true;
-                    d.Application.cpnsListDetail_CanRun(ref result);
-                    return result ? null : ex;
-                }
-                private static void _ShowcpnsListDetail_InvokeMethod(global::LightSwitchApplication.Application.DetailsClass d, global::System.Collections.ObjectModel.ReadOnlyCollection<object> args)
-                {
-                    bool handled = false;
-                    d.Application.cpnsListDetail_Run(ref handled);
-                    if (!handled)
-                    {
-                        d.ShowScreen("LightSwitchApplication.ManualSourceDB.DesktopClient:cpnsListDetail", () => global::LightSwitchApplication.cpnsListDetail.CreateInstance(), args);
-                    }
-                }
- 
             }
 
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowamostrastbsListDetailMethod;
@@ -1056,6 +1056,8 @@ namespace LightSwitchApplication
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowccrsListDetailMethod;
 
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowchildrenListDetailMethod;
+
+            private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowcpnsListDetailMethod;
 
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowcppsListDetailMethod;
 
@@ -1073,13 +1075,13 @@ namespace LightSwitchApplication
 
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _Showt_registodiariovgbsListDetailMethod;
 
-            private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowcpnsListDetailMethod;
-
             private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowamostrastbsListDetailCommand;
 
             private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowccrsListDetailCommand;
 
             private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowchildrenListDetailCommand;
+
+            private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowcpnsListDetailCommand;
 
             private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowcppsListDetailCommand;
 
@@ -1096,8 +1098,6 @@ namespace LightSwitchApplication
             private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _Showt_registodiarioppesListDetailCommand;
 
             private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _Showt_registodiariovgbsListDetailCommand;
-
-            private global::Microsoft.LightSwitch.Details.Framework.Base.ApplicationCommand<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowcpnsListDetailCommand;
 
         }
     }

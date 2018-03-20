@@ -266,9 +266,6 @@
     <Compile Include="Screens\t_registodiarioppesListDetail.lsml.cs">
       <DependentUpon>t_registodiarioppesListDetail.lsml</DependentUpon>
     </Compile>
-    <Compile Include="Screens\t_registodiariovgbsListDetail.lsml.cs">
-      <DependentUpon>t_registodiariovgbsListDetail.lsml</DependentUpon>
-    </Compile>
     <Compile Include="UserCode\Application.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -285,7 +282,6 @@
     <LightSwitchModel Include="Screens\childrenListDetail.lsml" />
     <LightSwitchModel Include="Screens\ccrsListDetail.lsml" />
     <LightSwitchModel Include="Screens\cppsListDetail.lsml" />
-    <LightSwitchModel Include="Screens\t_registodiariovgbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\t_registodiarioppesListDetail.lsml" />
     <LightSwitchModel Include="Screens\laboratoriotbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\paciente_resistente_tbsListDetail.lsml" />
@@ -293,6 +289,7 @@
     <LightSwitchModel Include="Screens\amostrastbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\csr_pfsListDetail.lsml" />
     <LightSwitchModel Include="Screens\cpnsListDetail.lsml" />
+    <LightSwitchModel Include="Screens\t_registodiariovgbsListDetail.lsml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

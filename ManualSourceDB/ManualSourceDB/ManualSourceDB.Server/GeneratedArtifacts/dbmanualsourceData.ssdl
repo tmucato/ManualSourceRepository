@@ -936,7 +936,7 @@
     </Key>
     <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="us" Type="text" />
-    <Property Name="Nid" Type="text" />
+    <Property Name="Nid" Type="text" Nullable="false" />
     <Property Name="Data" Type="datetime" />
     <Property Name="Referidode" Type="int" />
     <Property Name="ResultadoHIVExposta" Type="int" />

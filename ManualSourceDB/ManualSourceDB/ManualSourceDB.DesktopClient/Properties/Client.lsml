@@ -3,7 +3,6 @@
   Name="LightSwitchApplication.ManualSourceDB.DesktopClient"
   TargetPlatform="RichClient"
   Version="1.0.0.0"
-  DefaultNavigationItem="!module/NavigationItems[Tasks]"
   Shell="Microsoft.LightSwitch.Cosmopolitan:CosmopolitanShell"
   Theme="Microsoft.LightSwitch.RichClient:Blue" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
   <Application.Attributes>
@@ -58,9 +57,6 @@
       Name="ScreenCommandShowcppsListDetail"
       Target="!module/Methods[ShowcppsListDetail]" />
     <ApplicationCommand
-      Name="ScreenCommandShowt_registodiariovgbsListDetail"
-      Target="!module/Methods[Showt_registodiariovgbsListDetail]" />
-    <ApplicationCommand
       Name="ScreenCommandShowt_registodiarioppesListDetail"
       Target="!module/Methods[Showt_registodiarioppesListDetail]" />
     <ApplicationCommand
@@ -81,11 +77,13 @@
     <ApplicationCommand
       Name="ScreenCommandShowcpnsListDetail"
       Target="!module/Methods[ShowcpnsListDetail]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowt_registodiariovgbsListDetail"
+      Target="!module/Methods[Showt_registodiariovgbsListDetail]" />
   </Application.Commands>
   <Application.NavigationItems>
     <ApplicationNavigationGroup
-      Name="Tasks"
-      DefaultItem="!module/NavigationItems[Tasks]/Children[cpnsListDetail]">
+      Name="Tasks">
       <ApplicationNavigationGroup.Attributes>
         <DisplayName
           Value="SMI" />
@@ -97,6 +95,9 @@
         Name="childrenListDetail"
         Command="!module/Commands[ScreenCommandShowchildrenListDetail]" />
       <ApplicationNavigationLink
+        Name="link7"
+        Command="!module/Commands[ScreenCommandShowcpnsListDetail]" />
+      <ApplicationNavigationLink
         Name="ccrsListDetail"
         Command="!module/Commands[ScreenCommandShowccrsListDetail]" />
       <ApplicationNavigationLink
@@ -105,22 +106,20 @@
       <ApplicationNavigationLink
         Name="csr_pfsListDetail"
         Command="!module/Commands[ScreenCommandShowcsr_pfsListDetail]" />
-      <ApplicationNavigationLink
-        Name="cpnsListDetail"
-        Command="!module/Commands[ScreenCommandShowcpnsListDetail]" />
     </ApplicationNavigationGroup>
     <ApplicationNavigationGroup
-      Name="group">
+      Name="group"
+      DefaultItem="!module/NavigationItems[group]/Children[link]">
       <ApplicationNavigationGroup.Attributes>
         <DisplayName
           Value="VGB" />
       </ApplicationNavigationGroup.Attributes>
       <ApplicationNavigationLink
-        Name="link"
-        Command="!module/Commands[ScreenCommandShowt_registodiariovgbsListDetail]" />
-      <ApplicationNavigationLink
         Name="link1"
         Command="!module/Commands[ScreenCommandShowt_registodiarioppesListDetail]" />
+      <ApplicationNavigationLink
+        Name="link"
+        Command="!module/Commands[ScreenCommandShowt_registodiariovgbsListDetail]" />
     </ApplicationNavigationGroup>
     <ApplicationNavigationGroup
       Name="group1">
