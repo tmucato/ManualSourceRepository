@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Documents>
+<<<<<<< HEAD
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Client.lsml" Checksum="F1BA24D7815395CB652A9A141B6E0BDB30EA7894645EEE4F2917A06EE085BC6B" />
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\children.lsml" Checksum="360880BF98DB1C9D9AEFBB21DC89329E3827AE31DBD8831AC0976CB273B37568" />
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\mothers.lsml" Checksum="1CA4C3EF8AF09A64B5F33DD8F731C8225AD321D8CF84909F18E8216E35D5E596" />
@@ -17,5 +18,23 @@
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\pacientetbsListDetail.lsml" Checksum="D74623F2DF9405885232F3EF37C943B43ADD87EB2D455A797F9C28FCC3308515" />
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiarioppesListDetail.lsml" Checksum="6909F5077E75257D14134D84893D9134626BAF12A0DEA8A85CDD4FD880D6AE62" />
     <Document FullPath="C:\Devs\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiariovgbsListDetail.lsml" Checksum="0CE3C6DDE62AD972AC5C5383F93A2A8E0334C680C7300554D0EA1364FF38DFCB" />
+=======
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Client.lsml" Checksum="F1BA24D7815395CB652A9A141B6E0BDB30EA7894645EEE4F2917A06EE085BC6B" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\children.lsml" Checksum="360880BF98DB1C9D9AEFBB21DC89329E3827AE31DBD8831AC0976CB273B37568" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\dbmanualsourceData\mothers.lsml" Checksum="1CA4C3EF8AF09A64B5F33DD8F731C8225AD321D8CF84909F18E8216E35D5E596" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Properties\Proxies.lsml" Checksum="7DAF05EE63A75E34AD59262070421B71D83E0B87C0AEB1DDF4B3DE9D5B182D3C" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\amostrastbsListDetail.lsml" Checksum="B8197EAB52B1F16BCD85193C2F2805BEB819BD5E4D48C50EA9EA5B3258F06AC2" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\ccrsListDetail.lsml" Checksum="98B151262790E412238BE4DFD863770841D70DFBF2F30A5F30CEBD70B5E35B99" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\childrenListDetail.lsml" Checksum="D4DD1B9A046F3C30007CF377E3F4F16EC3F21A4051EC3C8616299D0FCFE991F2" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\cpnsListDetail.lsml" Checksum="92F58CF23B338D453570020BD7589CF43C635BC4D0E54072E962D4FFBACDE8C8" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\cppsListDetail.lsml" Checksum="359CCA476417BC53406C2DEAA60CEBF5F9E774C2C5001D32DE3846A552E4D943" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\csr_pfsListDetail.lsml" Checksum="68B2E012C07BEFDE4E0968C3500BCD51266A01C01322DEF0497F00CA12C98040" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\laboratoriotbsListDetail.lsml" Checksum="FE3905944BCD3D651068CE1669281918AA14A7D31BBDB283FE926BB2BEADABEB" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\mothersListDetail.lsml" Checksum="1EA6C993660D9D70ACC7FBDDB969C6A3DBD97FD3D76F3C130F1774049A61347D" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\paciente_resistente_tbsListDetail.lsml" Checksum="79EF9C65E4D827E4B316FF317F462A5DF01C31D8125C9C867071B62BE75191FE" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\pacientetbsListDetail.lsml" Checksum="D74623F2DF9405885232F3EF37C943B43ADD87EB2D455A797F9C28FCC3308515" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiarioppesListDetail.lsml" Checksum="6909F5077E75257D14134D84893D9134626BAF12A0DEA8A85CDD4FD880D6AE62" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFManualSourceRepository\ManualSourceRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.DesktopClient\Screens\t_registodiariovgbsListDetail.lsml" Checksum="0CE3C6DDE62AD972AC5C5383F93A2A8E0334C680C7300554D0EA1364FF38DFCB" />
+>>>>>>> 18a8fca1a84bffbe3896df143c128b785db02523
   </Documents>
 </ModelDocumentManifest>
