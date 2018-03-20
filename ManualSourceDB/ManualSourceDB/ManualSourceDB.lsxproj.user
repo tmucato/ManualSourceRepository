@@ -5,7 +5,15 @@
     <ProjectView>ProjectFiles</ProjectView>
     <StartUpClientProject>ManualSourceDB.DesktopClient</StartUpClientProject>
     <SchemaManagementSchemaBuildState>0</SchemaManagementSchemaBuildState>
+<<<<<<< HEAD
     <SchemaManagementLastSsdlWriteTime>636571353864762134</SchemaManagementLastSsdlWriteTime>
+=======
+<<<<<<< HEAD
+    <SchemaManagementLastSsdlWriteTime>636571276602382529</SchemaManagementLastSsdlWriteTime>
+=======
+    <SchemaManagementLastSsdlWriteTime>636571294030406271</SchemaManagementLastSsdlWriteTime>
+>>>>>>> 18a8fca1a84bffbe3896df143c128b785db02523
+>>>>>>> 2773a9c973f24cd87f16af0511693de5f4594758
     <SchemaManagementDatabaseIncludesSecurityObjects>True</SchemaManagementDatabaseIncludesSecurityObjects>
     <GrantedPermissions>LightSwitchApplication:DATA_CLERK,Microsoft.LightSwitch.Security:SecurityAdministration</GrantedPermissions>
     <EncryptedPublishConnectionString>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAL0ZqDqTx1kyGXjFrZCDvtwAAAAACAAAAAAADZgAAwAAAABAAAAB/isdVZfm2m2Qsiu305CzGAAAAAASAAACgAAAAEAAAAGpHKFrCubSRlb/wVmMjIh3IAAAAeDZIt8KrGhN8CBXneMbVbFsDi6kopGwjfwZYnD1REO63oPMoCozMjK0wW2ZDeXMgvXinyC2RT9PX65oSP3+cPnGUKhpPkQldN5ZsQKBrSssppro7eOpYFRt/DZ90OO0p5wt40V5BuL4sOE3XXswz/b2E06FngszckRyhwZiV6dbyQrgEhClfGKhTBk4fw+2s9PBXxJtu3YG+o51FWU6+W/HReilhZs2BYNoRCosD9RtxjJFnyXT0dMtRP9fzEYRFJoulN5usLxMUAAAAxCRlDuB4c6WqVo7x/7ToaqC6MyY=</EncryptedPublishConnectionString>

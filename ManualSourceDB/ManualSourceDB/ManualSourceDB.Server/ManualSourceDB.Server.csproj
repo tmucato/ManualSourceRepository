@@ -194,6 +194,9 @@
     <Compile Include="DataSources\dbmanualsourceData\child.lsml.cs">
       <DependentUpon>children.lsml</DependentUpon>
     </Compile>
+    <Compile Include="DataSources\dbmanualsourceData\cpn.lsml.cs">
+      <DependentUpon>cpns.lsml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
