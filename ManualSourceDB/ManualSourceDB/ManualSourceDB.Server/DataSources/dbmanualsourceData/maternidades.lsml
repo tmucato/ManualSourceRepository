@@ -1,0 +1,1296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="maternidade">
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="id"
+        IsReadOnly="True"
+        PropertyType=":Int32">
+        <KeyProperty.Attributes>
+          <Hidden />
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="admissiondate"
+        PropertyType=":DateTime">
+        <EntityProperty.Attributes>
+          <Required />
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="admissionhr"
+        PropertyType=":TimeSpan?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nid_cpn"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nid_tarv"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="name"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="transfer"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="age"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="gestbirth"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="gestage"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="serostatus_unk"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="serostatus_neg3m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="serostatus_pos"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="cpn_arv_init"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mat_hiv_testing"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="triprofilafia"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tarv_init_entr"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tarv_init_matern"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="delivdate"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="delivhr"
+        PropertyType=":TimeSpan?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="freq_fpos"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="fneg"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="eutocic"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ventosa"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="caesarean"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="oth_dystocia"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="activeman3stag"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="manual_plac_remove"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ceasarean_plac_remove"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="delivcomp"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="vertical_deliv"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="partogr_filled"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="plac_previa"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="detach_plac"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="uterineatony"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="placreten"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="laceration"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="out_rupt_uter"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="maternity_rupt_uter"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tp_matern_local"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tp_arrastado"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pre_enclapsiasevera"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="C_eclampsia"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="sepsis"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ot_complications"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="malaria"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="anemia"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="hiv_sida"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tb"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="poisontrademed"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ot_complications2"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="maternaldeath"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="maternaldeathcause"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pi_antibiotics"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ev_im_pphemor"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="antihypertensive"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="magn_sulphate"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="intrauterine_asp"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="bloodtransf"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="hyster_obstetric"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tip_malaria_4dose"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="diu_ppimediate"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ot_pp"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nadovivo"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nadomorto"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nadomorto_focoentrada"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nadomorto_macerado"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_skintoskin"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="breastfeeding_1hr"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="premature"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="neonatalsepsis"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="neonatalasphyxia"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="malformation"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="success_reanimation"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="unsuccess_reanimation"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="complicat_spec"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="twin"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="gender"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="weight"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="weight_under2500gr"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="newborn_arv"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nb_syphilistreat"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_vitamin_a"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_saltferrous"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_home_arv"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="chd_home_arv"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="discharge_date"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="transfer_out_us"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="hospitaldays"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="obs"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="60" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="providername"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="dbmanualsourceData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="maternidades"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="maternidade" />
+    <QueryOperation
+      Name="maternidades_Single"
+      ReturnType="maternidade">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="maternidades" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="maternidades_SingleOrDefault"
+      ReturnType="maternidade">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="maternidades" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+  </EntityContainer>
+  <DataService
+    Name="dbmanualsourceDataDataService">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="maternidades">
+      <EntitySetMapping.Attributes>
+        <SsdlEntitySet
+          Schema="dbmanualsource"
+          Table="maternidade" />
+        <SsdlProperty
+          Name="id"
+          Nullable="False"
+          StoreGeneratedPattern="Identity"
+          Type="int"
+          Property="maternidade/Properties[id]" />
+        <SsdlProperty
+          Name="admissiondate"
+          Nullable="False"
+          Type="date"
+          Property="maternidade/Properties[admissiondate]" />
+        <SsdlProperty
+          Name="admissionhr"
+          Nullable="True"
+          Type="time"
+          Property="maternidade/Properties[admissionhr]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="nid_cpn"
+          Nullable="False"
+          Type="varchar"
+          Property="maternidade/Properties[nid_cpn]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="nid_tarv"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[nid_tarv]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="name"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[name]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="transfer"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[transfer]" />
+        <SsdlProperty
+          Name="age"
+          Nullable="True"
+          Type="int"
+          Property="maternidade/Properties[age]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="gestbirth"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[gestbirth]" />
+        <SsdlProperty
+          Name="gestage"
+          Nullable="True"
+          Type="int"
+          Property="maternidade/Properties[gestage]" />
+        <SsdlProperty
+          Name="serostatus_unk"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[serostatus_unk]" />
+        <SsdlProperty
+          Name="serostatus_neg3m"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[serostatus_neg3m]" />
+        <SsdlProperty
+          Name="serostatus_pos"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[serostatus_pos]" />
+        <SsdlProperty
+          Name="cpn_arv_init"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[cpn_arv_init]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="mat_hiv_testing"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[mat_hiv_testing]" />
+        <SsdlProperty
+          Name="triprofilafia"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[triprofilafia]" />
+        <SsdlProperty
+          Name="tarv_init_entr"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[tarv_init_entr]" />
+        <SsdlProperty
+          Name="tarv_init_matern"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[tarv_init_matern]" />
+        <SsdlProperty
+          Name="delivdate"
+          Nullable="True"
+          Type="date"
+          Property="maternidade/Properties[delivdate]" />
+        <SsdlProperty
+          Name="delivhr"
+          Nullable="True"
+          Type="time"
+          Property="maternidade/Properties[delivhr]" />
+        <SsdlProperty
+          Name="freq_fpos"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[freq_fpos]" />
+        <SsdlProperty
+          Name="fneg"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[fneg]" />
+        <SsdlProperty
+          Name="eutocic"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[eutocic]" />
+        <SsdlProperty
+          Name="ventosa"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[ventosa]" />
+        <SsdlProperty
+          Name="caesarean"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[caesarean]" />
+        <SsdlProperty
+          Name="oth_dystocia"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[oth_dystocia]" />
+        <SsdlProperty
+          Name="activeman3stag"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[activeman3stag]" />
+        <SsdlProperty
+          Name="manual_plac_remove"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[manual_plac_remove]" />
+        <SsdlProperty
+          Name="ceasarean_plac_remove"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[ceasarean_plac_remove]" />
+        <SsdlProperty
+          Name="delivcomp"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[delivcomp]" />
+        <SsdlProperty
+          Name="vertical_deliv"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[vertical_deliv]" />
+        <SsdlProperty
+          Name="partogr_filled"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[partogr_filled]" />
+        <SsdlProperty
+          Name="plac_previa"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[plac_previa]" />
+        <SsdlProperty
+          Name="detach_plac"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[detach_plac]" />
+        <SsdlProperty
+          Name="uterineatony"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[uterineatony]" />
+        <SsdlProperty
+          Name="placreten"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[placreten]" />
+        <SsdlProperty
+          Name="laceration"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[laceration]" />
+        <SsdlProperty
+          Name="out_rupt_uter"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[out_rupt_uter]" />
+        <SsdlProperty
+          Name="maternity_rupt_uter"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[maternity_rupt_uter]" />
+        <SsdlProperty
+          Name="tp_matern_local"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[tp_matern_local]" />
+        <SsdlProperty
+          Name="tp_arrastado"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[tp_arrastado]" />
+        <SsdlProperty
+          Name="pre_enclapsiasevera"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[pre_enclapsiasevera]" />
+        <SsdlProperty
+          Name=" eclampsia"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[C_eclampsia]" />
+        <SsdlProperty
+          Name="sepsis"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[sepsis]" />
+        <SsdlProperty
+          Name="ot_complications"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[ot_complications]" />
+        <SsdlProperty
+          Name="malaria"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[malaria]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="anemia"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[anemia]" />
+        <SsdlProperty
+          Name="hiv_sida"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[hiv_sida]" />
+        <SsdlProperty
+          Name="tb"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[tb]" />
+        <SsdlProperty
+          Name="poisontrademed"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[poisontrademed]" />
+        <SsdlProperty
+          Name="ot_complications2"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[ot_complications2]" />
+        <SsdlProperty
+          Name="maternaldeath"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[maternaldeath]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="maternaldeathcause"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[maternaldeathcause]" />
+        <SsdlProperty
+          Name="pi_antibiotics"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[pi_antibiotics]" />
+        <SsdlProperty
+          Name="ev_im_pphemor"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[ev_im_pphemor]" />
+        <SsdlProperty
+          Name="antihypertensive"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[antihypertensive]" />
+        <SsdlProperty
+          Name="magn_sulphate"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[magn_sulphate]" />
+        <SsdlProperty
+          Name="intrauterine_asp"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[intrauterine_asp]" />
+        <SsdlProperty
+          Name="bloodtransf"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[bloodtransf]" />
+        <SsdlProperty
+          Name="hyster_obstetric"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[hyster_obstetric]" />
+        <SsdlProperty
+          Name="tip_malaria_4dose"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[tip_malaria_4dose]" />
+        <SsdlProperty
+          Name="diu_ppimediate"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[diu_ppimediate]" />
+        <SsdlProperty
+          Name="ot_pp"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[ot_pp]" />
+        <SsdlProperty
+          Name="nadovivo"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[nadovivo]" />
+        <SsdlProperty
+          Name="nadomorto"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[nadomorto]" />
+        <SsdlProperty
+          Name="nadomorto_focoentrada"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[nadomorto_focoentrada]" />
+        <SsdlProperty
+          Name="nadomorto_macerado"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[nadomorto_macerado]" />
+        <SsdlProperty
+          Name="mot_skintoskin"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[mot_skintoskin]" />
+        <SsdlProperty
+          Name="breastfeeding_1hr"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[breastfeeding_1hr]" />
+        <SsdlProperty
+          Name="premature"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[premature]" />
+        <SsdlProperty
+          Name="neonatalsepsis"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[neonatalsepsis]" />
+        <SsdlProperty
+          Name="neonatalasphyxia"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[neonatalasphyxia]" />
+        <SsdlProperty
+          Name="malformation"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[malformation]" />
+        <SsdlProperty
+          Name="success_reanimation"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[success_reanimation]" />
+        <SsdlProperty
+          Name="unsuccess_reanimation"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[unsuccess_reanimation]" />
+        <SsdlProperty
+          Name="complicat_spec"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[complicat_spec]" />
+        <SsdlProperty
+          Name="twin"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[twin]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="gender"
+          Nullable="True"
+          Type="char"
+          Property="maternidade/Properties[gender]" />
+        <SsdlProperty
+          Name="weight"
+          Nullable="True"
+          Type="int"
+          Property="maternidade/Properties[weight]" />
+        <SsdlProperty
+          Name="weight_under2500gr"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[weight_under2500gr]" />
+        <SsdlProperty
+          Name="newborn_arv"
+          Nullable="True"
+          Type="bool"
+          Property="maternidade/Properties[newborn_arv]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="nb_syphilistreat"
+          Nullable="True"
+          Type="char"
+          Property="maternidade/Properties[nb_syphilistreat]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="mot_vitamin_a"
+          Nullable="True"
+          Type="char"
+          Property="maternidade/Properties[mot_vitamin_a]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="mot_saltferrous"
+          Nullable="True"
+          Type="char"
+          Property="maternidade/Properties[mot_saltferrous]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="mot_home_arv"
+          Nullable="True"
+          Type="char"
+          Property="maternidade/Properties[mot_home_arv]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="chd_home_arv"
+          Nullable="True"
+          Type="char"
+          Property="maternidade/Properties[chd_home_arv]" />
+        <SsdlProperty
+          Name="discharge_date"
+          Nullable="True"
+          Type="date"
+          Property="maternidade/Properties[discharge_date]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="transfer_out_us"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[transfer_out_us]" />
+        <SsdlProperty
+          Name="hospitaldays"
+          Nullable="True"
+          Type="int"
+          Property="maternidade/Properties[hospitaldays]" />
+        <SsdlProperty
+          MaxLength="60"
+          Name="obs"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[obs]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="providername"
+          Nullable="True"
+          Type="varchar"
+          Property="maternidade/Properties[providername]" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+  </DataService>
+</ServiceApplication>

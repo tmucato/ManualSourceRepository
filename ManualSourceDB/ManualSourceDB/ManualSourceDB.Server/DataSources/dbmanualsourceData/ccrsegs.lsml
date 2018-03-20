@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="ccrseg">
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="id"
+        IsReadOnly="True"
+        PropertyType=":Int32">
+        <KeyProperty.Attributes>
+          <Hidden />
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="idchild"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mothTarv5moth"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="50" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ame5m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="am5m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="recuperada"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="transinter"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="arv5m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcrmen2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcrmai2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcrposmen2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcrposmai2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tb"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="dam"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="dag"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ce9m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pnctl"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tpi"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="abandono9"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="obito9"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ce18m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="resultado18"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="transferidaCCS"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="transferidaCI"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="transferidaUS"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="abandono18"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="obito18"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <NavigationProperty
+        Name="ccr"
+        Association="idccr"
+        FromEnd="ccrseg"
+        ToEnd="ccr" />
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="dbmanualsourceData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="ccrsegs"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="ccrseg" />
+    <QueryOperation
+      Name="ccrsegs_Single"
+      ReturnType="ccrseg">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="ccrsegs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="ccrsegs_SingleOrDefault"
+      ReturnType="ccrseg">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="ccrsegs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+  </EntityContainer>
+  <DataService
+    Name="dbmanualsourceDataDataService">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="ccrsegs">
+      <EntitySetMapping.Attributes>
+        <SsdlEntitySet
+          Schema="dbmanualsource"
+          Table="ccrseg" />
+        <SsdlProperty
+          Name="id"
+          Nullable="False"
+          StoreGeneratedPattern="Identity"
+          Type="int"
+          Property="ccrseg/Properties[id]" />
+        <SsdlProperty
+          Name="idchild"
+          Nullable="True"
+          Type="int"
+          Property="ccrseg/Properties[idchild]" />
+        <SsdlProperty
+          MaxLength="50"
+          Name="mothTarv5moth"
+          Nullable="True"
+          Type="varchar"
+          Property="ccrseg/Properties[mothTarv5moth]" />
+        <SsdlProperty
+          Name="ame5m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[ame5m]" />
+        <SsdlProperty
+          Name="am5m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[am5m]" />
+        <SsdlProperty
+          Name="recuperada"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[recuperada]" />
+        <SsdlProperty
+          Name="transinter"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[transinter]" />
+        <SsdlProperty
+          Name="arv5m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[arv5m]" />
+        <SsdlProperty
+          Name="pcrmen2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[pcrmen2m]" />
+        <SsdlProperty
+          Name="pcrmai2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[pcrmai2m]" />
+        <SsdlProperty
+          Name="pcrposmen2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[pcrposmen2m]" />
+        <SsdlProperty
+          Name="pcrposmai2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[pcrposmai2m]" />
+        <SsdlProperty
+          Name="tb"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[tb]" />
+        <SsdlProperty
+          Name="dam"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[dam]" />
+        <SsdlProperty
+          Name="dag"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[dag]" />
+        <SsdlProperty
+          Name="ce9m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[ce9m]" />
+        <SsdlProperty
+          Name="pnctl"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[pnctl]" />
+        <SsdlProperty
+          Name="tpi"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[tpi]" />
+        <SsdlProperty
+          Name="abandono9"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[abandono9]" />
+        <SsdlProperty
+          Name="obito9"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[obito9]" />
+        <SsdlProperty
+          Name="ce18m"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[ce18m]" />
+        <SsdlProperty
+          Name="resultado18"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[resultado18]" />
+        <SsdlProperty
+          Name="transferidaCCS"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[transferidaCCS]" />
+        <SsdlProperty
+          Name="transferidaCI"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[transferidaCI]" />
+        <SsdlProperty
+          Name="transferidaUS"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[transferidaUS]" />
+        <SsdlProperty
+          Name="abandono18"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[abandono18]" />
+        <SsdlProperty
+          Name="obito18"
+          Nullable="True"
+          Type="bool"
+          Property="ccrseg/Properties[obito18]" />
+        <SsdlForeignKeyProperty
+          Name="idccr"
+          Nullable="False"
+          Type="int"
+          PropertyName="idccr" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+  </DataService>
+</ServiceApplication>

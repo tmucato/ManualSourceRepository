@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="amostrastb">
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="id"
+        IsReadOnly="True"
+        PropertyType=":Int64">
+        <KeyProperty.Attributes>
+          <Hidden />
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="numordem"
+        PropertyType=":Int64">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="datarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nit_nid"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="3" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="NIT"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="NID"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="20" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nome"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="60" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="sexo"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="idade"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="residencia"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="50" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="telefone"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="15" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="proveniencia"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="20" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tipoamostra"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="30" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="causarejeicao"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="40" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tipodoente"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="40" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="motivoexame"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="40" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mescontrolo"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="usreferencia"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="25" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="dataenvio"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="examesolicitado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="40" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="iniciaistecnicoenvio"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="bkresultado1"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="bkdatarecepcao1"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="bkresultado2"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="bkdatarecepcao2"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="xpertresultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="2" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="xpertdatarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="rifresultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="2" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="rifdatarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="lpa1h_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="lpa1r_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="lpa1datarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="lpa2fq_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="lpa2ag_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="lpa2datarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="cultura"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="culturadatarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="idetinficacao"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="identificacaodata"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa1h_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa1s_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa1r_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa1e_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa1z_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa1datarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa2ofl_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa2mox_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa2kan_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa2amk_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa2cap_resultado"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tsa2datarecepcao"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="dataenvioresultado"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="iniciaistecnicodevolve"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="obs"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="60" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="dbmanualsourceData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="amostrastbs"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="amostrastb" />
+    <QueryOperation
+      Name="amostrastbs_Single"
+      ReturnType="amostrastb">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="amostrastbs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int64?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="amostrastbs_SingleOrDefault"
+      ReturnType="amostrastb">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="amostrastbs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int64?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+  </EntityContainer>
+  <DataService
+    Name="dbmanualsourceDataDataService">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="amostrastbs">
+      <EntitySetMapping.Attributes>
+        <SsdlEntitySet
+          Schema="dbmanualsource"
+          Table="amostrastb" />
+        <SsdlProperty
+          Name="id"
+          Nullable="False"
+          StoreGeneratedPattern="Identity"
+          Type="bigint"
+          Property="amostrastb/Properties[id]" />
+        <SsdlProperty
+          Name="numordem"
+          Nullable="False"
+          Type="bigint"
+          Property="amostrastb/Properties[numordem]" />
+        <SsdlProperty
+          Name="datarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[datarecepcao]" />
+        <SsdlProperty
+          MaxLength="3"
+          Name="nit_nid"
+          Nullable="False"
+          Type="varchar"
+          Property="amostrastb/Properties[nit_nid]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="NIT"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[NIT]" />
+        <SsdlProperty
+          MaxLength="20"
+          Name="NID"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[NID]" />
+        <SsdlProperty
+          MaxLength="60"
+          Name="nome"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[nome]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="sexo"
+          Nullable="False"
+          Type="char"
+          Property="amostrastb/Properties[sexo]" />
+        <SsdlProperty
+          Name="idade"
+          Nullable="True"
+          Type="int"
+          Property="amostrastb/Properties[idade]" />
+        <SsdlProperty
+          MaxLength="50"
+          Name="residencia"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[residencia]" />
+        <SsdlProperty
+          MaxLength="15"
+          Name="telefone"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[telefone]" />
+        <SsdlProperty
+          MaxLength="20"
+          Name="proveniencia"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[proveniencia]" />
+        <SsdlProperty
+          MaxLength="30"
+          Name="tipoamostra"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[tipoamostra]" />
+        <SsdlProperty
+          MaxLength="40"
+          Name="causarejeicao"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[causarejeicao]" />
+        <SsdlProperty
+          MaxLength="40"
+          Name="tipodoente"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[tipodoente]" />
+        <SsdlProperty
+          MaxLength="40"
+          Name="motivoexame"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[motivoexame]" />
+        <SsdlProperty
+          Name="mescontrolo"
+          Nullable="True"
+          Type="int"
+          Property="amostrastb/Properties[mescontrolo]" />
+        <SsdlProperty
+          MaxLength="25"
+          Name="usreferencia"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[usreferencia]" />
+        <SsdlProperty
+          Name="dataenvio"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[dataenvio]" />
+        <SsdlProperty
+          MaxLength="40"
+          Name="examesolicitado"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[examesolicitado]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="iniciaistecnicoenvio"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[iniciaistecnicoenvio]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="bkresultado1"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[bkresultado1]" />
+        <SsdlProperty
+          Name="bkdatarecepcao1"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[bkdatarecepcao1]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="bkresultado2"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[bkresultado2]" />
+        <SsdlProperty
+          Name="bkdatarecepcao2"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[bkdatarecepcao2]" />
+        <SsdlProperty
+          MaxLength="2"
+          Name="xpertresultado"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[xpertresultado]" />
+        <SsdlProperty
+          Name="xpertdatarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[xpertdatarecepcao]" />
+        <SsdlProperty
+          MaxLength="2"
+          Name="rifresultado"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[rifresultado]" />
+        <SsdlProperty
+          Name="rifdatarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[rifdatarecepcao]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="lpa1h_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[lpa1h_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="lpa1r_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[lpa1r_resultado]" />
+        <SsdlProperty
+          Name="lpa1datarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[lpa1datarecepcao]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="lpa2fq_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[lpa2fq_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="lpa2ag_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[lpa2ag_resultado]" />
+        <SsdlProperty
+          Name="lpa2datarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[lpa2datarecepcao]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="cultura"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[cultura]" />
+        <SsdlProperty
+          Name="culturadatarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[culturadatarecepcao]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="idetinficacao"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[idetinficacao]" />
+        <SsdlProperty
+          Name="identificacaodata"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[identificacaodata]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa1h_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa1h_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa1s_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa1s_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa1r_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa1r_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa1e_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa1e_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa1z_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa1z_resultado]" />
+        <SsdlProperty
+          Name="tsa1datarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[tsa1datarecepcao]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa2ofl_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa2ofl_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa2mox_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa2mox_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa2kan_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa2kan_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa2amk_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa2amk_resultado]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="tsa2cap_resultado"
+          Nullable="True"
+          Type="char"
+          Property="amostrastb/Properties[tsa2cap_resultado]" />
+        <SsdlProperty
+          Name="tsa2datarecepcao"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[tsa2datarecepcao]" />
+        <SsdlProperty
+          Name="dataenvioresultado"
+          Nullable="True"
+          Type="date"
+          Property="amostrastb/Properties[dataenvioresultado]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="iniciaistecnicodevolve"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[iniciaistecnicodevolve]" />
+        <SsdlProperty
+          MaxLength="60"
+          Name="obs"
+          Nullable="True"
+          Type="varchar"
+          Property="amostrastb/Properties[obs]" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+  </DataService>
+</ServiceApplication>

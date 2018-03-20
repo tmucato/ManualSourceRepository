@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Documents>
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.HTMLClient\Properties\Client.lsml" Checksum="499C8974B6DFE6A35D4917AD180BB23384C019A4DE9B667261FE9225AF8291D6" />
+    <Document FullPath="C:\Users\tmucato\Source\EGPAFRepository\ManualSourceDB\ManualSourceDB\ManualSourceDB.HTMLClient\Properties\Proxies.lsml" Checksum="9AA2C9BE38A87B6F0BE3FA85DF3ABB12922506465380689B93B199C60CE02DDA" />
+  </Documents>
+</ModelDocumentManifest>

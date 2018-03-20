@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="ccr">
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="id"
+        IsReadOnly="True"
+        PropertyType=":Int32">
+        <KeyProperty.Attributes>
+          <Hidden />
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="nyear"
+        PropertyType=":Int32">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nlivro"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="nr_consulta"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="dataconsulta"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="age"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ageunit"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            IsFixedLength="True"
+            Value="1" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_nid_cpn"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_nid_tarv"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_hiv_lact"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mot_hiv_tarv"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="contactotb"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="desnutricao_aguda"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="12" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="exposicaoHIV"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="outracondicaorisco"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="60" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pisoniazidainicio"
+        PropertyType=":DateTime?">
+        <EntityProperty.Attributes>
+          <DateTimeConstraint
+            Precision="0"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pisoniazida"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="15" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="aleitmaternomenor6m"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="10" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="aleitmaternonaior6m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="atpu"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="csb_nut_sup"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="recuperada"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="internamento"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ctz"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="15" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="profiaxia_arv"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="colheitapcmaior2mes"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="20" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="colheitapcrmenor2mes"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="20" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="resultadopcrmaior2meses"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="resultadopcrmenor2meses"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="resultadotesterapido"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="resultadofinal"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="resulttrapido_nexp"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="5" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="saidaccr"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="20" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="chd_nid_tarv"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="45" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="obs"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="60" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="providername"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="60" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="motart_5m_chd"
+        PropertyType=":Boolean">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tb"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="dam_dag"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength
+            Value="3" />
+          <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ce"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="tpicomp"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ame_5m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="mixed_5m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="rec"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="trans_int"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="arv_5m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcr_under2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcr_above2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcrpos_under2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pcrpos_above2m"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="pnctl"
+        PropertyType=":Boolean?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <NavigationProperty
+        Name="ccrsegs"
+        Association="idccr"
+        FromEnd="ccr"
+        ToEnd="ccrseg" />
+      <NavigationProperty
+        Name="child"
+        Association="idchild"
+        FromEnd="ccr"
+        ToEnd="child" />
+    </EntityType.Properties>
+  </EntityType>
+  <Association
+    Name="idccr">
+    <AssociationEnd
+      Name="ccr"
+      Multiplicity="One"
+      EntityType="ccr">
+      <AssociationEnd.Attributes>
+        <DeleteRule />
+      </AssociationEnd.Attributes>
+    </AssociationEnd>
+    <AssociationEnd
+      Name="ccrseg"
+      Multiplicity="Many"
+      EntityType="ccrseg" />
+  </Association>
+  <EntityContainer
+    Name="dbmanualsourceData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="ccrs"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="ccr" />
+    <AssociationSet
+      Name="idccr"
+      Association="idccr">
+      <AssociationSetEnd
+        Name="ccr"
+        EntitySet="ccrs" />
+      <AssociationSetEnd
+        Name="ccrseg"
+        EntitySet="ccrsegs" />
+    </AssociationSet>
+    <QueryOperation
+      Name="ccrs_Single"
+      ReturnType="ccr">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="ccrs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="ccrs_SingleOrDefault"
+      ReturnType="ccr">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="id" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="id" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="ccrs" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="id"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'id' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+  </EntityContainer>
+  <DataService
+    Name="dbmanualsourceDataDataService">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="ccrs">
+      <EntitySetMapping.Attributes>
+        <SsdlEntitySet
+          Schema="dbmanualsource"
+          Table="ccr" />
+        <SsdlProperty
+          Name="id"
+          Nullable="False"
+          StoreGeneratedPattern="Identity"
+          Type="int"
+          Property="ccr/Properties[id]" />
+        <SsdlProperty
+          Name="nyear"
+          Nullable="False"
+          Type="int"
+          Property="ccr/Properties[nyear]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="nlivro"
+          Nullable="False"
+          Type="varchar"
+          Property="ccr/Properties[nlivro]" />
+        <SsdlProperty
+          Name="nr_consulta"
+          Nullable="True"
+          Type="int"
+          Property="ccr/Properties[nr_consulta]" />
+        <SsdlProperty
+          Name="dataconsulta"
+          Nullable="True"
+          Type="date"
+          Property="ccr/Properties[dataconsulta]" />
+        <SsdlProperty
+          Name="age"
+          Nullable="True"
+          Type="int"
+          Property="ccr/Properties[age]" />
+        <SsdlProperty
+          MaxLength="1"
+          Name="ageunit"
+          Nullable="True"
+          Type="char"
+          Property="ccr/Properties[ageunit]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="mot_nid_cpn"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[mot_nid_cpn]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="mot_nid_tarv"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[mot_nid_tarv]" />
+        <SsdlProperty
+          Name="mot_hiv_lact"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[mot_hiv_lact]" />
+        <SsdlProperty
+          Name="mot_hiv_tarv"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[mot_hiv_tarv]" />
+        <SsdlProperty
+          Name="contactotb"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[contactotb]" />
+        <SsdlProperty
+          MaxLength="12"
+          Name="desnutricao_aguda"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[desnutricao_aguda]" />
+        <SsdlProperty
+          Name="exposicaoHIV"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[exposicaoHIV]" />
+        <SsdlProperty
+          MaxLength="60"
+          Name="outracondicaorisco"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[outracondicaorisco]" />
+        <SsdlProperty
+          Name="pisoniazidainicio"
+          Nullable="True"
+          Type="date"
+          Property="ccr/Properties[pisoniazidainicio]" />
+        <SsdlProperty
+          MaxLength="15"
+          Name="pisoniazida"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[pisoniazida]" />
+        <SsdlProperty
+          MaxLength="10"
+          Name="aleitmaternomenor6m"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[aleitmaternomenor6m]" />
+        <SsdlProperty
+          Name="aleitmaternonaior6m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[aleitmaternonaior6m]" />
+        <SsdlProperty
+          Name="atpu"
+          Nullable="True"
+          Type="int"
+          Property="ccr/Properties[atpu]" />
+        <SsdlProperty
+          Name="csb_nut_sup"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[csb_nut_sup]" />
+        <SsdlProperty
+          Name="recuperada"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[recuperada]" />
+        <SsdlProperty
+          Name="internamento"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[internamento]" />
+        <SsdlProperty
+          MaxLength="15"
+          Name="ctz"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[ctz]" />
+        <SsdlProperty
+          Name="profiaxia_arv"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[profiaxia_arv]" />
+        <SsdlProperty
+          MaxLength="20"
+          Name="colheitapcmaior2mes"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[colheitapcmaior2mes]" />
+        <SsdlProperty
+          MaxLength="20"
+          Name="colheitapcrmenor2mes"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[colheitapcrmenor2mes]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="resultadopcrmaior2meses"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[resultadopcrmaior2meses]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="resultadopcrmenor2meses"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[resultadopcrmenor2meses]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="resultadotesterapido"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[resultadotesterapido]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="resultadofinal"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[resultadofinal]" />
+        <SsdlProperty
+          MaxLength="5"
+          Name="resulttrapido_nexp"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[resulttrapido_nexp]" />
+        <SsdlProperty
+          MaxLength="20"
+          Name="saidaccr"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[saidaccr]" />
+        <SsdlProperty
+          MaxLength="45"
+          Name="chd_nid_tarv"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[chd_nid_tarv]" />
+        <SsdlProperty
+          MaxLength="60"
+          Name="obs"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[obs]" />
+        <SsdlProperty
+          MaxLength="60"
+          Name="providername"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[providername]" />
+        <SsdlProperty
+          Name="motart_5m_chd"
+          Nullable="False"
+          Type="bool"
+          Property="ccr/Properties[motart_5m_chd]" />
+        <SsdlProperty
+          Name="tb"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[tb]" />
+        <SsdlProperty
+          MaxLength="3"
+          Name="dam_dag"
+          Nullable="True"
+          Type="varchar"
+          Property="ccr/Properties[dam_dag]" />
+        <SsdlProperty
+          Name="ce"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[ce]" />
+        <SsdlProperty
+          Name="tpicomp"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[tpicomp]" />
+        <SsdlProperty
+          Name="ame_5m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[ame_5m]" />
+        <SsdlProperty
+          Name="mixed_5m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[mixed_5m]" />
+        <SsdlProperty
+          Name="rec"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[rec]" />
+        <SsdlProperty
+          Name="trans_int"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[trans_int]" />
+        <SsdlProperty
+          Name="arv_5m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[arv_5m]" />
+        <SsdlProperty
+          Name="pcr_under2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[pcr_under2m]" />
+        <SsdlProperty
+          Name="pcr_above2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[pcr_above2m]" />
+        <SsdlProperty
+          Name="pcrpos_under2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[pcrpos_under2m]" />
+        <SsdlProperty
+          Name="pcrpos_above2m"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[pcrpos_above2m]" />
+        <SsdlProperty
+          Name="pnctl"
+          Nullable="True"
+          Type="bool"
+          Property="ccr/Properties[pnctl]" />
+        <SsdlForeignKeyProperty
+          Name="idchild"
+          Nullable="False"
+          Type="int"
+          PropertyName="idchild" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+    <AssociationSetMapping
+      AssociationSet="idccr">
+      <AssociationSetMapping.Attributes>
+        <SsdlAssociationSet
+          Name="idccr" />
+        <SsdlAssociationSetEnd
+          End="dbmanualsourceData/Members[idccr]/Members[ccr]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="id" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+        <SsdlAssociationSetEnd
+          End="dbmanualsourceData/Members[idccr]/Members[ccrseg]">
+          <SsdlAssociationSetEnd.Attributes>
+            <SsdlPropertyRef
+              Name="idccr" />
+          </SsdlAssociationSetEnd.Attributes>
+        </SsdlAssociationSetEnd>
+      </AssociationSetMapping.Attributes>
+    </AssociationSetMapping>
+  </DataService>
+</ServiceApplication>

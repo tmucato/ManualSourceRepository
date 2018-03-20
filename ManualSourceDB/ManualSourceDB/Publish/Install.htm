@@ -1,0 +1,59 @@
+<head>
+    <style type="text/css">
+        .style1
+        {
+            font-size: 10pt;
+        }
+        .style2
+        {
+            font-family: "Courier New";
+        }
+        .style3
+        {
+            font-size: 10pt;
+            font-family: "Courier New";
+        }
+    </style>
+</head>
+<h1>
+    Microsoft Visual Studio LightSwitch Application Install Instructions</h1>
+<p style="font-family: Verdana; font-size: small">
+&nbsp;<font size="2">The following steps are necessary to install a 2-tier desktop 
+    client application:</font></p>
+<p class="style1" style="font-family: Verdana">
+    1.&nbsp;&nbsp;&nbsp; Install SQL Server Express on the target (client) computer, if not 
+    already installed. LightSwitch Applications require SQL Server 2005 or a later 
+    version, or SQL Server Express 2005 or a later version. 
+    <a href="http://go.microsoft.com/fwlink/?LinkId=206709">Learn more about SQL Server Express installation options.</a></p>
+<p class="style1" style="font-family: Verdana">
+    2.&nbsp;&nbsp;&nbsp; On the target computer, deploy the database schema by using 
+    sqlcmd.exe command tool. The Sqlcmd.exe tool is installed with SQL Server, 
+    typically in the \Microsoft SQL Server\110\Tools\Binn directory under the 
+    Program Files or Program File (x86) directory.</p>
+<p class="style1" style="font-family: Verdana; margin-left: 40px">
+    a.&nbsp;&nbsp;&nbsp;&nbsp; From an elevated Command Prompt, change to the 
+    directory that contains the publish output and enter a command similar to the 
+    following:</p>
+<p class="style1" style="font-family: Verdana; margin-left: 80px">
+    &nbsp;<span class="style2">sqlcmd.exe -i MyApplication.sql -S .\SQLExpress</span></p>
+<p class="style1" style="font-family: Verdana; margin-left: 80px">
+&nbsp;Replace <em>MyApplication</em> with the name of your application, and replace
+    <em>.\SQLExpress</em> with the database location on the server.</p><p class="style1" style="font-family: Verdana">
+    3.&nbsp;&nbsp;&nbsp; Locate the web.config file in the Application Files 
+    subdirectory of the publish output. </p>
+<p class="style1" style="font-family: Verdana; margin-left: 40px">
+    a.&nbsp;&nbsp;&nbsp;&nbsp; Open web.config in Notepad and edit the connection in 
+    the &lt;connectionStrings&gt; <connectionStrings> section to use your server and database name. For 
+    example, for the entry similar to:</p>
+<p class="style3" style="margin-left: 80px">
+    &lt;add name=&quot;_IntrinsicData&quot; connectionString=&quot;Data 
+    Source=SERVERNAME\SQLEXPRESS;Initial Catalog=MyApplication;Integrated 
+    Security=True;Pooling=True;Connect Timeout=30;User Instance=False&quot; /&gt;</p>
+<p class="style1" style="font-family: Verdana; margin-left: 80px">
+    Replace <em>SERVERNAME </em>with the name of the database server, and replace<em>
+    <em>MyApplication</em> </em>with the name of your application.</p>
+<p class="style1" style="font-family: Verdana; ">
+    4<em>.&nbsp;&nbsp;&nbsp; 
+</em>
+        Run Setup.exe on the target computer to 
+    install the application.</p>
