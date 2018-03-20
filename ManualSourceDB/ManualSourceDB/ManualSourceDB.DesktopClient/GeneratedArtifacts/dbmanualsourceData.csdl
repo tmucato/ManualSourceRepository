@@ -890,7 +890,7 @@
     </Key>
     <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="us" Type="Edm.String" MaxLength="65535" Unicode="false" />
-    <Property Name="Nid" Type="Edm.String" MaxLength="65535" Unicode="false" />
+    <Property Name="Nid" Type="Edm.String" Nullable="false" MaxLength="65535" Unicode="false" />
     <Property Name="Data" Type="Edm.DateTime" Precision="0" ConcurrencyMode="Fixed" />
     <Property Name="Referidode" Type="Edm.Int32" ConcurrencyMode="Fixed" />
     <Property Name="ResultadoHIVExposta" Type="Edm.Int32" ConcurrencyMode="Fixed" />
