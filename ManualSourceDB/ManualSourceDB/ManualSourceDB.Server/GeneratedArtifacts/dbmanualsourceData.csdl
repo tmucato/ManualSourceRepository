@@ -679,7 +679,7 @@
     <Property Name="NIT" Type="Edm.String" Nullable="false" MaxLength="10" Unicode="false" ConcurrencyMode="Fixed" />
     <Property Name="nome" Type="Edm.String" Nullable="false" MaxLength="60" Unicode="false" ConcurrencyMode="Fixed" />
     <Property Name="sexo" Type="Edm.String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" ConcurrencyMode="Fixed" />
-    <Property Name="grupoetario" Type="Edm.Boolean" Nullable="false" ConcurrencyMode="Fixed" />
+    <Property Name="grupoetario" Type="Edm.Int32" Nullable="false" ConcurrencyMode="Fixed" />
     <Property Name="residencia" Type="Edm.String" MaxLength="30" Unicode="false" ConcurrencyMode="Fixed" />
     <Property Name="telefone" Type="Edm.String" MaxLength="15" Unicode="false" ConcurrencyMode="Fixed" />
     <Property Name="ocupacao" Type="Edm.String" MaxLength="20" Unicode="false" ConcurrencyMode="Fixed" />
@@ -740,6 +740,7 @@
     <Property Name="resultadotratamento" Type="Edm.String" MaxLength="5" Unicode="false" ConcurrencyMode="Fixed" />
     <Property Name="tb_resistente" Type="Edm.Int32" ConcurrencyMode="Fixed" />
     <Property Name="obs" Type="Edm.String" MaxLength="100" Unicode="false" ConcurrencyMode="Fixed" />
+    <Property Name="idade" Type="Edm.Int32" ConcurrencyMode="Fixed" />
   </EntityType>
   <EntityType Name="patient">
     <Key>
@@ -872,7 +873,7 @@
     </Key>
     <Property Name="id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="us" Type="Edm.String" MaxLength="65535" Unicode="false" />
-    <Property Name="nid" Type="Edm.String" MaxLength="65535" Unicode="false" />
+    <Property Name="nid" Type="Edm.String" Nullable="false" MaxLength="65535" Unicode="false" />
     <Property Name="data" Type="Edm.DateTime" Precision="0" ConcurrencyMode="Fixed" />
     <Property Name="resultadohivExposta" Type="Edm.Int32" ConcurrencyMode="Fixed" />
     <Property Name="resultadohivfonte" Type="Edm.Int32" ConcurrencyMode="Fixed" />

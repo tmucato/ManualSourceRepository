@@ -3,6 +3,7 @@
   Name="LightSwitchApplication.ManualSourceDB.DesktopClient"
   TargetPlatform="RichClient"
   Version="1.0.0.0"
+  DefaultNavigationItem="!module/NavigationItems[Tasks]"
   Shell="Microsoft.LightSwitch.Cosmopolitan:CosmopolitanShell"
   Theme="Microsoft.LightSwitch.RichClient:Blue" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
   <Application.Attributes>
@@ -57,9 +58,6 @@
       Name="ScreenCommandShowcppsListDetail"
       Target="!module/Methods[ShowcppsListDetail]" />
     <ApplicationCommand
-      Name="ScreenCommandShowt_registodiarioppesListDetail"
-      Target="!module/Methods[Showt_registodiarioppesListDetail]" />
-    <ApplicationCommand
       Name="ScreenCommandShowlaboratoriotbsListDetail"
       Target="!module/Methods[ShowlaboratoriotbsListDetail]" />
     <ApplicationCommand
@@ -80,10 +78,14 @@
     <ApplicationCommand
       Name="ScreenCommandShowt_registodiariovgbsListDetail"
       Target="!module/Methods[Showt_registodiariovgbsListDetail]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowt_registodiarioppesListDetail"
+      Target="!module/Methods[Showt_registodiarioppesListDetail]" />
   </Application.Commands>
   <Application.NavigationItems>
     <ApplicationNavigationGroup
-      Name="Tasks">
+      Name="Tasks"
+      DefaultItem="!module/NavigationItems[Tasks]/Children[t_registodiarioppesListDetail]">
       <ApplicationNavigationGroup.Attributes>
         <DisplayName
           Value="SMI" />
@@ -106,6 +108,9 @@
       <ApplicationNavigationLink
         Name="csr_pfsListDetail"
         Command="!module/Commands[ScreenCommandShowcsr_pfsListDetail]" />
+      <ApplicationNavigationLink
+        Name="t_registodiarioppesListDetail"
+        Command="!module/Commands[ScreenCommandShowt_registodiarioppesListDetail]" />
     </ApplicationNavigationGroup>
     <ApplicationNavigationGroup
       Name="group"
@@ -114,9 +119,6 @@
         <DisplayName
           Value="VGB" />
       </ApplicationNavigationGroup.Attributes>
-      <ApplicationNavigationLink
-        Name="link1"
-        Command="!module/Commands[ScreenCommandShowt_registodiarioppesListDetail]" />
       <ApplicationNavigationLink
         Name="link"
         Command="!module/Commands[ScreenCommandShowt_registodiariovgbsListDetail]" />

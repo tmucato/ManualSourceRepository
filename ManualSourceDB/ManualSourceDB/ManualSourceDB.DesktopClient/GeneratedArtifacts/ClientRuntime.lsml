@@ -3,6 +3,7 @@
   Name="LightSwitchApplication.ManualSourceDB.DesktopClient"
   TargetPlatform="RichClient"
   Version="1.0.0.0"
+  DefaultNavigationItem="!module/NavigationItems[Tasks]"
   Shell="Microsoft.LightSwitch.Cosmopolitan:CosmopolitanShell"
   Theme="Microsoft.LightSwitch.RichClient:Blue" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
   <Application.Attributes>
@@ -5800,11 +5801,12 @@
       </EntityProperty>
       <EntityProperty
         Name="nid"
-        PropertyType=":String?">
+        PropertyType=":String">
         <EntityProperty.Attributes>
           <MaxLength
             Value="65535" />
           <AnsiConstraint />
+          <Required />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5822,6 +5824,20 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Resultado do teste HIV da pessoa Exposta" />
+          <SupportedValue
+            DisplayName="HIV +"
+            Value="1" />
+          <SupportedValue
+            DisplayName="HIV -"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Indeterminado"
+            Value="3" />
+          <SupportedValue
+            DisplayName="Desconhecido"
+            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5829,6 +5845,20 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Resultado do teste HIV da pessoa Fonte" />
+          <SupportedValue
+            DisplayName="HIV +"
+            Value="1" />
+          <SupportedValue
+            DisplayName="HIV -"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Indeterminado"
+            Value="3" />
+          <SupportedValue
+            DisplayName="Desconhecido"
+            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5836,6 +5866,17 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Grau Exposicao" />
+          <SupportedValue
+            DisplayName="Massiva"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Intermedia"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Minima"
+            Value="3" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5843,6 +5884,17 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Regime PPE ao HIV Prescrito" />
+          <SupportedValue
+            DisplayName="Triplo"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Duplo"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Nao Iniciou"
+            Value="3" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5850,6 +5902,29 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Categoria" />
+          <SupportedValue
+            DisplayName="Agente de Servico"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Enfermeiro"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Medico"
+            Value="3" />
+          <SupportedValue
+            DisplayName="Cirurgiao"
+            Value="4" />
+          <SupportedValue
+            DisplayName="Tecnico de Lab."
+            Value="5" />
+          <SupportedValue
+            DisplayName="Estudante"
+            Value="6" />
+          <SupportedValue
+            DisplayName="Outro"
+            Value="7" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5857,6 +5932,29 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Local onde ocorreu o acidente" />
+          <SupportedValue
+            DisplayName="Banco de Socorros"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Enfermaria"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Maternidade"
+            Value="3" />
+          <SupportedValue
+            DisplayName="Consulta Externa"
+            Value="4" />
+          <SupportedValue
+            DisplayName="B. Operatorio"
+            Value="5" />
+          <SupportedValue
+            DisplayName="Servicos de Apoio"
+            Value="6" />
+          <SupportedValue
+            DisplayName="Outro"
+            Value="7" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5864,6 +5962,20 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Resultados PPE" />
+          <SupportedValue
+            DisplayName="Terminaram PPE"
+            Value="1" />
+          <SupportedValue
+            DisplayName="HIV-Negativo teste 6 semanas"
+            Value="2" />
+          <SupportedValue
+            DisplayName="HIV-Negativo teste 3º mes"
+            Value="3" />
+          <SupportedValue
+            DisplayName="HIV-Negativo teste 6º mes"
+            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5871,6 +5983,7 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -5881,6 +5994,7 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
     </EntityType.Properties>
@@ -26726,8 +26840,6 @@
     <Screen.Attributes>
       <SaveChangesTo
         EntityContainer="dbmanualsourceData" />
-      <DisplayName
-        Value="Registo Diário PPE" />
     </Screen.Attributes>
     <Screen.RootContentItem>
       <ContentItem
@@ -26779,7 +26891,7 @@
                 <ContentItem
                   Name="nid"
                   Kind="Value"
-                  DataType=":String?">
+                  DataType=":String">
                   <ContentItem.DataSource>
                     <ScreenExpressionTree>
                       <ChainExpression>
@@ -26889,32 +27001,6 @@
                       <ChainExpression>
                         <MemberExpression
                           Member="t_registodiarioppe/Properties[resultadoppe]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="coduser"
-                  Kind="Value"
-                  DataType=":Int32?">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="t_registodiarioppe/Properties[coduser]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="dataregisto"
-                  Kind="Value"
-                  DataType=":DateTime?">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="t_registodiarioppe/Properties[dataregisto]" />
                       </ChainExpression>
                     </ScreenExpressionTree>
                   </ContentItem.DataSource>
@@ -27037,7 +27123,7 @@
               <ContentItem
                 Name="nid1"
                 Kind="Value"
-                DataType=":String?">
+                DataType=":String">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
@@ -27147,32 +27233,6 @@
                     <ChainExpression>
                       <MemberExpression
                         Member="t_registodiarioppe/Properties[resultadoppe]" />
-                    </ChainExpression>
-                  </ScreenExpressionTree>
-                </ContentItem.DataSource>
-              </ContentItem>
-              <ContentItem
-                Name="coduser1"
-                Kind="Value"
-                DataType=":Int32?">
-                <ContentItem.DataSource>
-                  <ScreenExpressionTree>
-                    <ChainExpression>
-                      <MemberExpression
-                        Member="t_registodiarioppe/Properties[coduser]" />
-                    </ChainExpression>
-                  </ScreenExpressionTree>
-                </ContentItem.DataSource>
-              </ContentItem>
-              <ContentItem
-                Name="dataregisto1"
-                Kind="Value"
-                DataType=":DateTime?">
-                <ContentItem.DataSource>
-                  <ScreenExpressionTree>
-                    <ChainExpression>
-                      <MemberExpression
-                        Member="t_registodiarioppe/Properties[dataregisto]" />
                     </ChainExpression>
                   </ScreenExpressionTree>
                 </ContentItem.DataSource>
@@ -27791,9 +27851,6 @@
       Name="ScreenCommandShowcppsListDetail"
       Target="!module/Methods[ShowcppsListDetail]" />
     <ApplicationCommand
-      Name="ScreenCommandShowt_registodiarioppesListDetail"
-      Target="!module/Methods[Showt_registodiarioppesListDetail]" />
-    <ApplicationCommand
       Name="ScreenCommandShowlaboratoriotbsListDetail"
       Target="!module/Methods[ShowlaboratoriotbsListDetail]" />
     <ApplicationCommand
@@ -27814,6 +27871,9 @@
     <ApplicationCommand
       Name="ScreenCommandShowt_registodiariovgbsListDetail"
       Target="!module/Methods[Showt_registodiariovgbsListDetail]" />
+    <ApplicationCommand
+      Name="ScreenCommandShowt_registodiarioppesListDetail"
+      Target="!module/Methods[Showt_registodiarioppesListDetail]" />
   </Application.Commands>
   <Application.Methods>
     <ApplicationMethod
@@ -27903,7 +27963,8 @@
   </Application.Methods>
   <Application.NavigationItems>
     <ApplicationNavigationGroup
-      Name="Tasks">
+      Name="Tasks"
+      DefaultItem="!module/NavigationItems[Tasks]/Children[t_registodiarioppesListDetail]">
       <ApplicationNavigationGroup.Attributes>
         <DisplayName
           Value="SMI" />
@@ -27926,6 +27987,9 @@
       <ApplicationNavigationLink
         Name="csr_pfsListDetail"
         Command="!module/Commands[ScreenCommandShowcsr_pfsListDetail]" />
+      <ApplicationNavigationLink
+        Name="t_registodiarioppesListDetail"
+        Command="!module/Commands[ScreenCommandShowt_registodiarioppesListDetail]" />
     </ApplicationNavigationGroup>
     <ApplicationNavigationGroup
       Name="group"
@@ -27934,9 +27998,6 @@
         <DisplayName
           Value="VGB" />
       </ApplicationNavigationGroup.Attributes>
-      <ApplicationNavigationLink
-        Name="link1"
-        Command="!module/Commands[ScreenCommandShowt_registodiarioppesListDetail]" />
       <ApplicationNavigationLink
         Name="link"
         Command="!module/Commands[ScreenCommandShowt_registodiariovgbsListDetail]" />
