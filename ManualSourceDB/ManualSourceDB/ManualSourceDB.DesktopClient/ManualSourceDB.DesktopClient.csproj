@@ -260,9 +260,6 @@
     <Compile Include="Screens\mothersListDetail.lsml.cs">
       <DependentUpon>mothersListDetail.lsml</DependentUpon>
     </Compile>
-    <Compile Include="Screens\pacientetbsListDetail.lsml.cs">
-      <DependentUpon>pacientetbsListDetail.lsml</DependentUpon>
-    </Compile>
     <Compile Include="Screens\paciente_resistente_tbsListDetail.lsml.cs">
       <DependentUpon>paciente_resistente_tbsListDetail.lsml</DependentUpon>
     </Compile>
@@ -284,7 +281,6 @@
     <LightSwitchModel Include="Screens\cppsListDetail.lsml" />
     <LightSwitchModel Include="Screens\laboratoriotbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\paciente_resistente_tbsListDetail.lsml" />
-    <LightSwitchModel Include="Screens\pacientetbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\amostrastbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\csr_pfsListDetail.lsml" />
     <LightSwitchModel Include="Screens\cpnsListDetail.lsml" />

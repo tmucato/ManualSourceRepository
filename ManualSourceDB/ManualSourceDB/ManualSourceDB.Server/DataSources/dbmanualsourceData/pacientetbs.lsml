@@ -83,6 +83,8 @@
           <SupportedValue
             DisplayName="Femenino"
             Value="F" />
+          <DisplayName
+            Value="Sexo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -188,6 +190,14 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Localização da lesão" />
+          <SupportedValue
+            DisplayName="Pulmonar"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Extra Pulmonar"
+            Value="EP" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -197,6 +207,29 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Categoria" />
+          <SupportedValue
+            DisplayName="Caso Novo"
+            Value="N" />
+          <SupportedValue
+            DisplayName="Recaida"
+            Value="R" />
+          <SupportedValue
+            DisplayName="Tratamento pos falencia do tratamento"
+            Value="TPF" />
+          <SupportedValue
+            DisplayName="Tratamento pos perda de seguimento"
+            Value="TPS" />
+          <SupportedValue
+            DisplayName="Outros"
+            Value="O" />
+          <SupportedValue
+            DisplayName="Tratamento previo de TB desconhecido"
+            Value="TDP" />
+          <SupportedValue
+            DisplayName="Transferido de"
+            Value="T" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -208,6 +241,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Inicio tratamento TB" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -217,6 +252,12 @@
           <MaxLength
             Value="15" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Caso Novo Primeira Linha (Adulto)" />
+          <SupportedValue
+            Value="HRZE (4DFC)" />
+          <SupportedValue
+            Value="3DFC + Z**" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -226,6 +267,12 @@
           <MaxLength
             Value="15" />
           <AnsiConstraint />
+          <SupportedValue
+            Value="HRZE (4DFC)" />
+          <SupportedValue
+            Value="3DFC + E" />
+          <DisplayName
+            Value="Caso Novo Primeira Linha (Criança)" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -235,6 +282,13 @@
           <MaxLength
             Value="15" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Retratamento Primeira Linha" />
+          <SupportedValue
+            DisplayName="N/A"
+            Value="N/A" />
+          <SupportedValue
+            Value="S(HRZE)-S+4DFC" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -242,6 +296,8 @@
         PropertyType=":Boolean?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Tratamento de TB resistente" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -251,6 +307,8 @@
           <MaxLength
             Value="10" />
           <AnsiConstraint />
+          <DisplayName
+            Value="NIT - Tratamento de TB resistente" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -261,6 +319,17 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Local Tratamento - Fase Intensiva" />
+          <SupportedValue
+            DisplayName="Unidade Sanitaria Publica"
+            Value="UPS" />
+          <SupportedValue
+            DisplayName="Comunidade"
+            Value="COM" />
+          <SupportedValue
+            DisplayName="Clinica Privada"
+            Value="CP" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -270,6 +339,8 @@
           <MaxLength
             Value="20" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nome Local" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -279,6 +350,17 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Local Tratamento - Fase Intensiva" />
+          <SupportedValue
+            DisplayName="Unidade Sanitaria Publica"
+            Value="UPS" />
+          <SupportedValue
+            DisplayName="Comunidade"
+            Value="COM" />
+          <SupportedValue
+            DisplayName="Clinica Privada"
+            Value="CP" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -288,6 +370,8 @@
           <MaxLength
             Value="20" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nome Local" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -298,6 +382,14 @@
             IsFixedLength="True"
             Value="1" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Testado" />
+          <SupportedValue
+            DisplayName="Dentro do sector de TB"
+            Value="D" />
+          <SupportedValue
+            DisplayName="Fora do sector de TB"
+            Value="F" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -307,6 +399,17 @@
           <MaxLength
             Value="3" />
           <AnsiConstraint />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
+          <SupportedValue
+            DisplayName="Não fez"
+            Value="NF" />
+          <DisplayName
+            Value="Teste de HIV" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -316,6 +419,17 @@
           <MaxLength
             Value="3" />
           <AnsiConstraint />
+          <DisplayName
+            Value="TPC" />
+          <SupportedValue
+            DisplayName="Sim"
+            Value="S" />
+          <SupportedValue
+            DisplayName="Não"
+            Value="N" />
+          <SupportedValue
+            DisplayName="Não pode fazer"
+            Value="NP" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -325,6 +439,14 @@
           <MaxLength
             Value="1" />
           <AnsiConstraint />
+          <DisplayName
+            Value="TARV" />
+          <SupportedValue
+            DisplayName="Sim"
+            Value="S" />
+          <SupportedValue
+            DisplayName="Não"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -344,6 +466,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Inicio Tarv" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -351,6 +475,8 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Nº de contactos rastreiados" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -358,6 +484,8 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Nº que iniciou tratamento de TB" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -365,6 +493,8 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Nº crianças rastreiadas (&lt;5 anos)" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -372,6 +502,8 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Nº crianças que iniciou quimioproflaxia" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -382,6 +514,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="BK Data" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -391,6 +525,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="BK Resultado" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -400,6 +536,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="BK Nº Laboratorio" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty

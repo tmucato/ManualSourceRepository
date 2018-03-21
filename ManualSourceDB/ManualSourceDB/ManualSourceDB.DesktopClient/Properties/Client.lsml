@@ -64,9 +64,6 @@
       Name="ScreenCommandShowpaciente_resistente_tbsListDetail"
       Target="!module/Methods[Showpaciente_resistente_tbsListDetail]" />
     <ApplicationCommand
-      Name="ScreenCommandShowpacientetbsListDetail"
-      Target="!module/Methods[ShowpacientetbsListDetail]" />
-    <ApplicationCommand
       Name="ScreenCommandShowamostrastbsListDetail"
       Target="!module/Methods[ShowamostrastbsListDetail]" />
     <ApplicationCommand
@@ -129,9 +126,6 @@
         <DisplayName
           Value="TB" />
       </ApplicationNavigationGroup.Attributes>
-      <ApplicationNavigationLink
-        Name="link3"
-        Command="!module/Commands[ScreenCommandShowpacientetbsListDetail]" />
       <ApplicationNavigationLink
         Name="link2"
         Command="!module/Commands[ScreenCommandShowpaciente_resistente_tbsListDetail]" />
