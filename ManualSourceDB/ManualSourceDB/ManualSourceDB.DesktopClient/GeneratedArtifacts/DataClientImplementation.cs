@@ -3698,6 +3698,11 @@ namespace LightSwitchApplication.Implementation
             this.___OnPropertyChanged("obs");
         }
         
+        partial void OnidadeChanged()
+        {
+            this.___OnPropertyChanged("idade");
+        }
+        
     }
     #endregion
     

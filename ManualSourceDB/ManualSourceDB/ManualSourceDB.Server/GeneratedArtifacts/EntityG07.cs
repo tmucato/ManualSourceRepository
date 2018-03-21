@@ -9217,7 +9217,7 @@ namespace LightSwitchApplication
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public bool grupoetario
+        public int grupoetario
         {
             get
             {
@@ -10676,6 +10676,30 @@ namespace LightSwitchApplication
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void obs_Changed();
 
+        /// <summary>
+        /// No Modeled Description Available
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Nullable<int> idade
+        {
+            get
+            {
+                return global::LightSwitchApplication.pacientetb.DetailsClass.GetValue(this, global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties.idade);
+            }
+            set
+            {
+                global::LightSwitchApplication.pacientetb.DetailsClass.SetValue(this, global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties.idade, value);
+            }
+        }
+        
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void idade_IsReadOnly(ref bool result);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void idade_Validate(global::Microsoft.LightSwitch.EntityValidationResultsBuilder results);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void idade_Changed();
+
         #endregion
     
         #region Details Class
@@ -10806,11 +10830,11 @@ namespace LightSwitchApplication
                     }
                 }
                 
-                public global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, bool> grupoetario
+                public global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, int> grupoetario
                 {
                     get
                     {
-                        return base.GetItem(global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties.grupoetario) as global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, bool>;
+                        return base.GetItem(global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties.grupoetario) as global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, int>;
                     }
                 }
                 
@@ -11294,6 +11318,14 @@ namespace LightSwitchApplication
                     }
                 }
                 
+                public global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, global::System.Nullable<int>> idade
+                {
+                    get
+                    {
+                        return base.GetItem(global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties.idade) as global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, global::System.Nullable<int>>;
+                    }
+                }
+                
             }
     
             #pragma warning disable 109
@@ -11306,7 +11338,7 @@ namespace LightSwitchApplication
                 new string NIT { get; set; }
                 new string nome { get; set; }
                 new string sexo { get; set; }
-                new bool grupoetario { get; set; }
+                new int grupoetario { get; set; }
                 new string residencia { get; set; }
                 new string telefone { get; set; }
                 new string ocupacao { get; set; }
@@ -11367,6 +11399,7 @@ namespace LightSwitchApplication
                 new string resultadotratamento { get; set; }
                 new global::System.Nullable<int> tb_resistente { get; set; }
                 new string obs { get; set; }
+                new global::System.Nullable<int> idade { get; set; }
             }
             #pragma warning restore 109
     
@@ -11595,8 +11628,8 @@ namespace LightSwitchApplication
                 }
     
                 [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-                public static readonly global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, bool>.Entry
-                    grupoetario = new global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, bool>.Entry(
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, int>.Entry
+                    grupoetario = new global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, int>.Entry(
                         "grupoetario",
                         global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._grupoetario_Stub,
                         global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._grupoetario_ComputeIsReadOnly,
@@ -11604,7 +11637,7 @@ namespace LightSwitchApplication
                         global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._grupoetario_GetImplementationValue,
                         global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._grupoetario_SetImplementationValue,
                         global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._grupoetario_OnValueChanged);
-                private static void _grupoetario_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.pacientetb.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, bool>.Data> c, global::LightSwitchApplication.pacientetb.DetailsClass d, object sf)
+                private static void _grupoetario_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.pacientetb.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, int>.Data> c, global::LightSwitchApplication.pacientetb.DetailsClass d, object sf)
                 {
                     c(d, ref d._grupoetario, sf);
                 }
@@ -11618,11 +11651,11 @@ namespace LightSwitchApplication
                 {
                     e.grupoetario_Validate(r);
                 }
-                private static bool _grupoetario_GetImplementationValue(global::LightSwitchApplication.pacientetb.DetailsClass d)
+                private static int _grupoetario_GetImplementationValue(global::LightSwitchApplication.pacientetb.DetailsClass d)
                 {
                     return d.ImplementationEntity.grupoetario;
                 }
-                private static void _grupoetario_SetImplementationValue(global::LightSwitchApplication.pacientetb.DetailsClass d, bool v)
+                private static void _grupoetario_SetImplementationValue(global::LightSwitchApplication.pacientetb.DetailsClass d, int v)
                 {
                     d.ImplementationEntity.grupoetario = v;
                 }
@@ -13851,6 +13884,43 @@ namespace LightSwitchApplication
                     e.obs_Changed();
                 }
     
+                [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, global::System.Nullable<int>>.Entry
+                    idade = new global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, global::System.Nullable<int>>.Entry(
+                        "idade",
+                        global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._idade_Stub,
+                        global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._idade_ComputeIsReadOnly,
+                        global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._idade_Validate,
+                        global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._idade_GetImplementationValue,
+                        global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._idade_SetImplementationValue,
+                        global::LightSwitchApplication.pacientetb.DetailsClass.PropertySetProperties._idade_OnValueChanged);
+                private static void _idade_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.pacientetb.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, global::System.Nullable<int>>.Data> c, global::LightSwitchApplication.pacientetb.DetailsClass d, object sf)
+                {
+                    c(d, ref d._idade, sf);
+                }
+                private static bool _idade_ComputeIsReadOnly(global::LightSwitchApplication.pacientetb e)
+                {
+                    bool result = false;
+                    e.idade_IsReadOnly(ref result);
+                    return result;
+                }
+                private static void _idade_Validate(global::LightSwitchApplication.pacientetb e, global::Microsoft.LightSwitch.EntityValidationResultsBuilder r)
+                {
+                    e.idade_Validate(r);
+                }
+                private static global::System.Nullable<int> _idade_GetImplementationValue(global::LightSwitchApplication.pacientetb.DetailsClass d)
+                {
+                    return d.ImplementationEntity.idade;
+                }
+                private static void _idade_SetImplementationValue(global::LightSwitchApplication.pacientetb.DetailsClass d, global::System.Nullable<int> v)
+                {
+                    d.ImplementationEntity.idade = v;
+                }
+                private static void _idade_OnValueChanged(global::LightSwitchApplication.pacientetb e)
+                {
+                    e.idade_Changed();
+                }
+    
             }
     
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
@@ -13872,7 +13942,7 @@ namespace LightSwitchApplication
             private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, string>.Data _sexo;
             
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-            private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, bool>.Data _grupoetario;
+            private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, int>.Data _grupoetario;
             
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
             private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, string>.Data _residencia;
@@ -14053,6 +14123,9 @@ namespace LightSwitchApplication
             
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
             private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, string>.Data _obs;
+            
+            [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+            private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.pacientetb, global::LightSwitchApplication.pacientetb.DetailsClass, global::System.Nullable<int>>.Data _idade;
             
         }
     

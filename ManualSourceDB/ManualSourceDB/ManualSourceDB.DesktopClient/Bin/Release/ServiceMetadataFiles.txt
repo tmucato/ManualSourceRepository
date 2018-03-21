@@ -6,7 +6,6 @@ ManualSourceDB.Server.DataSources.dbmanualsourceData.ccrsegs.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.children.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.cpns.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.cpn_finals.lsml
-ManualSourceDB.Server.DataSources.dbmanualsourceData.cpn_olds.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.cpps.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.csr_pfs.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.laboratoriotbs.lsml
@@ -38,3 +37,5 @@ ManualSourceDB.Server.DataSources.dbmanualsourceData.usuarios.lsml
 ManualSourceDB.Server.Properties.DataSources.dbmanualsourceData.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.t_us.lsml
 ManualSourceDB.Server.DataSources.dbmanualsourceData.tratamentotbs.lsml
+ManualSourceDB.Server.DataSources.dbmanualsourceData.mother_cpns.lsml
+ManualSourceDB.Server.DataSources.dbmanualsourceData.mothers_cpnfinal.lsml

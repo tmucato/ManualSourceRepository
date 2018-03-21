@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bin\Application.Server.dll" size="2694144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bin\Application.Server.dll" size="2237952">
       <assemblyIdentity name="Application.Server" version="1.0.3.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ue3UrA+E6jbvObb4vJzKjtavC30=</dsig:DigestValue>
+        <dsig:DigestValue>zcSnMcYp0n24nKeEa2SlUIMR3WE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -492,14 +492,14 @@
       <dsig:DigestValue>lJWFCJ8a9N+qT2qQ8N3qZdGyRmc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="web.config" size="13078" />
-  <file name="Web\ManualSourceDB.DesktopClient.xap" size="4460639">
+  <file name="web.config" size="13057" />
+  <file name="Web\ManualSourceDB.DesktopClient.xap" size="4401062">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>RzXIsIhncn94sYinTUL2uzGloBo=</dsig:DigestValue>
+      <dsig:DigestValue>HmIVcXkMCCsJBDHy+hmdQGmABjQ=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

@@ -114,7 +114,7 @@
                 <ContentItem
                   Name="grupoetario"
                   Kind="Value"
-                  DataType=":Boolean">
+                  DataType=":Int32">
                   <ContentItem.DataSource>
                     <ScreenExpressionTree>
                       <ChainExpression>
@@ -1074,7 +1074,7 @@
               <ContentItem
                 Name="grupoetario1"
                 Kind="Value"
-                DataType=":Boolean">
+                DataType=":Int32">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
