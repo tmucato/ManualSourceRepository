@@ -6,10 +6,6 @@
   </ServiceApplication.Attributes>
   <EntityType
     Name="t_registodiariovgb">
-    <EntityType.Attributes>
-      <DisplayName
-        Value="Registo Diário VGB" />
-    </EntityType.Attributes>
     <EntityType.Methods>
       <EntityMethod
         Name="Delete">
@@ -36,19 +32,15 @@
           <MaxLength
             Value="65535" />
           <AnsiConstraint />
-          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
         Name="Nid"
-        PropertyType=":String">
+        PropertyType=":String?">
         <EntityProperty.Attributes>
           <MaxLength
             Value="65535" />
           <AnsiConstraint />
-          <DisplayName
-            Value="NID" />
-          <Required />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -66,24 +58,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <SupportedValue
-            DisplayName="Outra US"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Intra-Hospitalar"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Policia"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Comunidade"
-            Value="4" />
-          <SupportedValue
-            DisplayName="Casa"
-            Value="5" />
-          <SupportedValue
-            DisplayName="Outro"
-            Value="6" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -91,20 +65,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Resulta do Teste HIV da Pessoa Exposta" />
-          <SupportedValue
-            DisplayName="HIV +"
-            Value="1" />
-          <SupportedValue
-            DisplayName="HIV -"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Indeterminado"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Desconhacido"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -112,20 +72,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Tipo de Violência" />
-          <SupportedValue
-            DisplayName="Violència Sexual"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Violêncoa Física"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Violência Psicologica"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Outro"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -133,23 +79,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <SupportedValue
-            DisplayName="PPE para HIV"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Profilaxia para Outras ITS"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Profilaxia Hepatite B"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Contracepção de Emergencia"
-            Value="4" />
-          <SupportedValue
-            DisplayName="Apoio Psicisocial"
-            Value="5" />
-          <DisplayName
-            Value="Intervenção" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -157,23 +86,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Refêrencia" />
-          <SupportedValue
-            DisplayName="Medicina Legal"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Policia"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Apoio Psico Social"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Serviços Comunitários"
-            Value="4" />
-          <SupportedValue
-            DisplayName="Outros"
-            Value="5" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -181,20 +93,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Resultado PPE" />
-          <SupportedValue
-            DisplayName="Terminou PPE"
-            Value="1" />
-          <SupportedValue
-            DisplayName="HIV-Negativo teste de 6 semanas"
-            Value="2" />
-          <SupportedValue
-            DisplayName="HIV-Negativo teste de 3ª mês"
-            Value="3" />
-          <SupportedValue
-            DisplayName="HIV-Negativo teste de 6ª mês"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -202,7 +100,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -213,7 +110,6 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
-          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
     </EntityType.Properties>
@@ -334,7 +230,7 @@
           Property="t_registodiariovgb/Properties[us]" />
         <SsdlProperty
           Name="Nid"
-          Nullable="False"
+          Nullable="True"
           Type="text"
           Property="t_registodiariovgb/Properties[Nid]" />
         <SsdlProperty

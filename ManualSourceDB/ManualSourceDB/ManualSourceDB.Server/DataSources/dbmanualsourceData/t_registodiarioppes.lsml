@@ -36,12 +36,11 @@
       </EntityProperty>
       <EntityProperty
         Name="nid"
-        PropertyType=":String">
+        PropertyType=":String?">
         <EntityProperty.Attributes>
           <MaxLength
             Value="65535" />
           <AnsiConstraint />
-          <Required />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -59,20 +58,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Resultado do teste HIV da pessoa Exposta" />
-          <SupportedValue
-            DisplayName="HIV +"
-            Value="1" />
-          <SupportedValue
-            DisplayName="HIV -"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Indeterminado"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Desconhecido"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -80,20 +65,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Resultado do teste HIV da pessoa Fonte" />
-          <SupportedValue
-            DisplayName="HIV +"
-            Value="1" />
-          <SupportedValue
-            DisplayName="HIV -"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Indeterminado"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Desconhecido"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -101,17 +72,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Grau Exposicao" />
-          <SupportedValue
-            DisplayName="Massiva"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Intermedia"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Minima"
-            Value="3" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -119,17 +79,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Regime PPE ao HIV Prescrito" />
-          <SupportedValue
-            DisplayName="Triplo"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Duplo"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Nao Iniciou"
-            Value="3" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -137,29 +86,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Categoria" />
-          <SupportedValue
-            DisplayName="Agente de Servico"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Enfermeiro"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Medico"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Cirurgiao"
-            Value="4" />
-          <SupportedValue
-            DisplayName="Tecnico de Lab."
-            Value="5" />
-          <SupportedValue
-            DisplayName="Estudante"
-            Value="6" />
-          <SupportedValue
-            DisplayName="Outro"
-            Value="7" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -167,29 +93,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Local onde ocorreu o acidente" />
-          <SupportedValue
-            DisplayName="Banco de Socorros"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Enfermaria"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Maternidade"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Consulta Externa"
-            Value="4" />
-          <SupportedValue
-            DisplayName="B. Operatorio"
-            Value="5" />
-          <SupportedValue
-            DisplayName="Servicos de Apoio"
-            Value="6" />
-          <SupportedValue
-            DisplayName="Outro"
-            Value="7" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -197,20 +100,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Resultados PPE" />
-          <SupportedValue
-            DisplayName="Terminaram PPE"
-            Value="1" />
-          <SupportedValue
-            DisplayName="HIV-Negativo teste 6 semanas"
-            Value="2" />
-          <SupportedValue
-            DisplayName="HIV-Negativo teste 3º mes"
-            Value="3" />
-          <SupportedValue
-            DisplayName="HIV-Negativo teste 6º mes"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -218,7 +107,6 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -229,7 +117,6 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
-          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
     </EntityType.Properties>
@@ -350,7 +237,7 @@
           Property="t_registodiarioppe/Properties[us]" />
         <SsdlProperty
           Name="nid"
-          Nullable="False"
+          Nullable="True"
           Type="text"
           Property="t_registodiarioppe/Properties[nid]" />
         <SsdlProperty

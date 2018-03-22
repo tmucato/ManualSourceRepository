@@ -745,7 +745,6 @@
           <ScalarProperty Name="resultadotratamento" ColumnName="resultadotratamento" />
           <ScalarProperty Name="tb_resistente" ColumnName="tb_resistente" />
           <ScalarProperty Name="obs" ColumnName="obs" />
-          <ScalarProperty Name="idade" ColumnName="idade" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

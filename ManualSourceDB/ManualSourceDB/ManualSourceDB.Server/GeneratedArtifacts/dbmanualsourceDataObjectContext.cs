@@ -16060,7 +16060,7 @@ namespace LightSwitchApplication.Implementation
         /// <param name="grupoetario">Initial value of the grupoetario property.</param>
         /// <param name="datainiciotto">Initial value of the datainiciotto property.</param>
         /// <param name="fintensivalocal">Initial value of the fintensivalocal property.</param>
-        public static pacientetb Createpacientetb(global::System.Int64 id, global::System.Int32 ano, global::System.DateTime dataregisto, global::System.String nIT, global::System.String nome, global::System.String sexo, global::System.Int32 grupoetario, global::System.DateTime datainiciotto, global::System.String fintensivalocal)
+        public static pacientetb Createpacientetb(global::System.Int64 id, global::System.Int32 ano, global::System.DateTime dataregisto, global::System.String nIT, global::System.String nome, global::System.String sexo, global::System.Boolean grupoetario, global::System.DateTime datainiciotto, global::System.String fintensivalocal)
         {
             pacientetb pacientetb = new pacientetb();
             pacientetb.id = id;
@@ -16231,7 +16231,7 @@ namespace LightSwitchApplication.Implementation
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.Int32 grupoetario
+        public global::System.Boolean grupoetario
         {
             get
             {
@@ -16246,8 +16246,8 @@ namespace LightSwitchApplication.Implementation
                 OngrupoetarioChanged();
             }
         }
-        private global::System.Int32 _grupoetario;
-        partial void OngrupoetarioChanging(global::System.Int32 value);
+        private global::System.Boolean _grupoetario;
+        partial void OngrupoetarioChanging(global::System.Boolean value);
         partial void OngrupoetarioChanged();
     
         /// <summary>
@@ -17689,30 +17689,6 @@ namespace LightSwitchApplication.Implementation
         private global::System.String _obs;
         partial void OnobsChanging(global::System.String value);
         partial void OnobsChanged();
-    
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
-        [DataMemberAttribute()]
-        public Nullable<global::System.Int32> idade
-        {
-            get
-            {
-                return _idade;
-            }
-            set
-            {
-                OnidadeChanging(value);
-                ReportPropertyChanging("idade");
-                _idade = value;
-                ReportPropertyChanged("idade");
-                OnidadeChanged();
-            }
-        }
-        private Nullable<global::System.Int32> _idade;
-        partial void OnidadeChanging(Nullable<global::System.Int32> value);
-        partial void OnidadeChanged();
 
         #endregion
 
@@ -19699,12 +19675,10 @@ namespace LightSwitchApplication.Implementation
         /// Create a new t_registodiarioppe object.
         /// </summary>
         /// <param name="id">Initial value of the id property.</param>
-        /// <param name="nid">Initial value of the nid property.</param>
-        public static t_registodiarioppe Createt_registodiarioppe(global::System.Int32 id, global::System.String nid)
+        public static t_registodiarioppe Createt_registodiarioppe(global::System.Int32 id)
         {
             t_registodiarioppe t_registodiarioppe = new t_registodiarioppe();
             t_registodiarioppe.id = id;
-            t_registodiarioppe.nid = nid;
             return t_registodiarioppe;
         }
 
@@ -19766,7 +19740,7 @@ namespace LightSwitchApplication.Implementation
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
         [DataMemberAttribute()]
         public global::System.String nid
         {
@@ -20046,12 +20020,10 @@ namespace LightSwitchApplication.Implementation
         /// Create a new t_registodiariovgb object.
         /// </summary>
         /// <param name="id">Initial value of the Id property.</param>
-        /// <param name="nid">Initial value of the Nid property.</param>
-        public static t_registodiariovgb Createt_registodiariovgb(global::System.Int32 id, global::System.String nid)
+        public static t_registodiariovgb Createt_registodiariovgb(global::System.Int32 id)
         {
             t_registodiariovgb t_registodiariovgb = new t_registodiariovgb();
             t_registodiariovgb.Id = id;
-            t_registodiariovgb.Nid = nid;
             return t_registodiariovgb;
         }
 
@@ -20113,7 +20085,7 @@ namespace LightSwitchApplication.Implementation
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
         [DataMemberAttribute()]
         public global::System.String Nid
         {

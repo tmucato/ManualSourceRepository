@@ -51,8 +51,6 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
-          <DisplayName
-            Value="Data Registo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -63,8 +61,6 @@
           <MaxLength
             Value="10" />
           <AnsiConstraint />
-          <DisplayName
-            Value="NIT 2º Linha" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -74,8 +70,6 @@
           <MaxLength
             Value="50" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Nome Completo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -87,8 +81,6 @@
             IsFixedLength="True"
             Value="1" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Sexo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -96,8 +88,6 @@
         PropertyType=":Boolean?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Faixa Etaria" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -107,8 +97,6 @@
           <MaxLength
             Value="30" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Endereço" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -118,8 +106,6 @@
           <MaxLength
             Value="15" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Telefone" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -129,20 +115,6 @@
           <MaxLength
             Value="20" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Ocupação/Profissão" />
-          <SupportedValue
-            DisplayName="Mineiro"
-            Value="1" />
-          <SupportedValue
-            DisplayName="Prisioneiro"
-            Value="2" />
-          <SupportedValue
-            DisplayName="Trabalhado de Saude"
-            Value="3" />
-          <SupportedValue
-            DisplayName="Outro"
-            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -152,8 +124,6 @@
           <MaxLength
             Value="10" />
           <AnsiConstraint />
-          <DisplayName
-            Value="NIT Inicial (Livro de registo de doente com TB)" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -164,8 +134,6 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
-          <DisplayName
-            Value="Data do Registo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -175,14 +143,6 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Localização da lesão" />
-          <SupportedValue
-            DisplayName="Pulmonar"
-            Value="P" />
-          <SupportedValue
-            DisplayName="Extrapulmonar"
-            Value="EP" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -192,8 +152,6 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Categoria do Registo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -203,17 +161,6 @@
           <MaxLength
             Value="3" />
           <AnsiConstraint />
-          <DisplayName
-            Value="Tratamento previo de 2º linha" />
-          <SupportedValue
-            DisplayName="Sim"
-            Value="S" />
-          <SupportedValue
-            DisplayName="Não"
-            Value="N" />
-          <SupportedValue
-            DisplayName="Não Sabe"
-            Value="NS" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -221,8 +168,6 @@
         PropertyType=":Boolean?">
         <EntityProperty.Attributes>
           <NotSearchable />
-          <DisplayName
-            Value="Diagnostico confirmado por" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty

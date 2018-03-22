@@ -725,7 +725,7 @@
     <Property Name="NIT" Type="varchar" Nullable="false" MaxLength="10" />
     <Property Name="nome" Type="varchar" Nullable="false" MaxLength="60" />
     <Property Name="sexo" Type="char" Nullable="false" MaxLength="1" />
-    <Property Name="grupoetario" Type="int" Nullable="false" />
+    <Property Name="grupoetario" Type="bool" Nullable="false" />
     <Property Name="residencia" Type="varchar" MaxLength="30" />
     <Property Name="telefone" Type="varchar" MaxLength="15" />
     <Property Name="ocupacao" Type="varchar" MaxLength="20" />
@@ -786,7 +786,6 @@
     <Property Name="resultadotratamento" Type="varchar" MaxLength="5" />
     <Property Name="tb_resistente" Type="int" />
     <Property Name="obs" Type="varchar" MaxLength="100" />
-    <Property Name="idade" Type="int" />
   </EntityType>
   <EntityType Name="patient">
     <Key>
@@ -919,7 +918,7 @@
     </Key>
     <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="us" Type="text" />
-    <Property Name="nid" Type="text" Nullable="false" />
+    <Property Name="nid" Type="text" />
     <Property Name="data" Type="date" />
     <Property Name="resultadohivExposta" Type="int" />
     <Property Name="resultadohivfonte" Type="int" />
@@ -937,7 +936,7 @@
     </Key>
     <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="us" Type="text" />
-    <Property Name="Nid" Type="text" Nullable="false" />
+    <Property Name="Nid" Type="text" />
     <Property Name="Data" Type="datetime" />
     <Property Name="Referidode" Type="int" />
     <Property Name="ResultadoHIVExposta" Type="int" />

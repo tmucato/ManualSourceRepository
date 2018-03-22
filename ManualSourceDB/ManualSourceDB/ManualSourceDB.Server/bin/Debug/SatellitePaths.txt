@@ -1,4 +1,4 @@
-C:\Users\tmucato\Source\ManualSourceRepository\ManualSourceDB\ManualSourceDB\_Pvt_Extensions\Microsoft.LightSwitch.Extensions\Server\Reference\pt\Microsoft.LightSwitch.Extensions.Server.resources.dll
+C:\Users\tmucato\Source\EGPAFRepository\ManualSourceDB\ManualSourceDB\_Pvt_Extensions\Microsoft.LightSwitch.Extensions\Server\Reference\pt\Microsoft.LightSwitch.Extensions.Server.resources.dll
 C:\Program Files (x86)\Microsoft SDKs\LightSwitch\v4.0\Client\pt\Microsoft.LightSwitch.resources.dll
 C:\Program Files (x86)\Microsoft SDKs\LightSwitch\v4.0\Client\pt\Microsoft.LightSwitch.ExportProvider.resources.dll
 C:\Program Files (x86)\Microsoft SDKs\LightSwitch\v4.0\Server\pt\Microsoft.LightSwitch.ManifestService.resources.dll

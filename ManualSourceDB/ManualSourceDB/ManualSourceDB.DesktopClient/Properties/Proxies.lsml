@@ -223,6 +223,12 @@
   <EntityType>
     <EntityType.Attributes>
       <Proxy
+        Target="ServiceInterface:pacientetb" />
+    </EntityType.Attributes>
+  </EntityType>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
         Target="ServiceInterface:tratamentotb" />
     </EntityType.Attributes>
   </EntityType>
