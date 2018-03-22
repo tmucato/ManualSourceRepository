@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application
+  Name="LightSwitchApplication.ManualSourceDB.DesktopClient" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <Application.Attributes>
+    <Partial />
+  </Application.Attributes>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:child" />
+      <DisplayName
+        Value="Criança" />
+    </EntityType.Attributes>
+    <EntityType.Properties>
+      <NavigationProperty>
+        <NavigationProperty.Attributes>
+          <Proxy
+            Target="ServiceInterface:child/Properties[ccrs]" />
+          <Hidden />
+        </NavigationProperty.Attributes>
+      </NavigationProperty>
+      <NavigationProperty>
+        <NavigationProperty.Attributes>
+          <Proxy
+            Target="ServiceInterface:child/Properties[mother]" />
+          <DisplayName
+            Value="MÃE" />
+        </NavigationProperty.Attributes>
+      </NavigationProperty>
+    </EntityType.Properties>
+  </EntityType>
+</Application>
