@@ -9030,6 +9030,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data de registo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9050,6 +9052,8 @@
           <MaxLength
             Value="60" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nome Completo" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9061,14 +9065,31 @@
             IsFixedLength="True"
             Value="1" />
           <AnsiConstraint />
+          <SupportedValue
+            DisplayName="Masculino"
+            Value="M" />
+          <SupportedValue
+            DisplayName="Femenino"
+            Value="F" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
         Name="grupoetario"
-        PropertyType=":Boolean">
+        PropertyType=":Int32">
         <EntityProperty.Attributes>
           <Required />
           <NotSearchable />
+          <DisplayName
+            Value="Faixa etario" />
+          <SupportedValue
+            DisplayName="0 - 4"
+            Value="1" />
+          <SupportedValue
+            DisplayName="5 - 14"
+            Value="2" />
+          <SupportedValue
+            DisplayName="&gt;= 15"
+            Value="3" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9078,6 +9099,8 @@
           <MaxLength
             Value="30" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Residencia" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9087,6 +9110,8 @@
           <MaxLength
             Value="15" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Telefone" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9096,6 +9121,20 @@
           <MaxLength
             Value="20" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Ocupacao" />
+          <SupportedValue
+            DisplayName="Mineiro"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Prisioneiro"
+            Value="2" />
+          <SupportedValue
+            DisplayName="Trabalhador de Saude"
+            Value="3" />
+          <SupportedValue
+            DisplayName="Outro"
+            Value="4" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9105,6 +9144,29 @@
           <MaxLength
             Value="20" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Provenciencia" />
+          <SupportedValue
+            DisplayName="US Publica"
+            Value="1" />
+          <SupportedValue
+            DisplayName="Cons. Tarv"
+            Value="2" />
+          <SupportedValue
+            DisplayName="SMI"
+            Value="3" />
+          <SupportedValue
+            DisplayName="Clinica Privada"
+            Value="4" />
+          <SupportedValue
+            DisplayName="Agente Comunitario"
+            Value="5" />
+          <SupportedValue
+            DisplayName="APE"
+            Value="6" />
+          <SupportedValue
+            DisplayName="PMT"
+            Value="7" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -9612,6 +9674,13 @@
           <MaxLength
             Value="100" />
           <AnsiConstraint />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="idade"
+        PropertyType=":Int32?">
+        <EntityProperty.Attributes>
+          <NotSearchable />
         </EntityProperty.Attributes>
       </EntityProperty>
     </EntityType.Properties>
@@ -24961,7 +25030,7 @@
                 <ContentItem
                   Name="grupoetario"
                   Kind="Value"
-                  DataType=":Boolean">
+                  DataType=":Int32">
                   <ContentItem.DataSource>
                     <ScreenExpressionTree>
                       <ChainExpression>
@@ -25921,7 +25990,7 @@
               <ContentItem
                 Name="grupoetario1"
                 Kind="Value"
-                DataType=":Boolean">
+                DataType=":Int32">
                 <ContentItem.DataSource>
                   <ScreenExpressionTree>
                     <ChainExpression>
