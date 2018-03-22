@@ -527,6 +527,18 @@
           <AnsiConstraint />
           <DisplayName
             Value="BK Resultado" />
+          <SupportedValue
+            Value="+++" />
+          <SupportedValue
+            Value="++" />
+          <SupportedValue
+            Value="+" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -548,6 +560,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data GeneXpert" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -557,6 +571,20 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado GeneXpert" />
+          <SupportedValue
+            DisplayName="Detectado"
+            Value="D" />
+          <SupportedValue
+            DisplayName="Não detectado"
+            Value="ND" />
+          <SupportedValue
+            DisplayName="Erro"
+            Value="E" />
+          <SupportedValue
+            DisplayName="Indeterminado"
+            Value="I" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -566,6 +594,14 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado Rifampicina" />
+          <SupportedValue
+            DisplayName="Rifampicina Positivo"
+            Value="R+" />
+          <SupportedValue
+            DisplayName="Rifampicina Negativo"
+            Value="R-" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -575,6 +611,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Laboratorio" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -585,6 +623,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Cultura" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -594,6 +634,17 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado Cultura" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
+          <SupportedValue
+            DisplayName="Bacteriologia não feita"
+            Value="NF" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -603,6 +654,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Laboratorio" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -612,6 +665,8 @@
           <MaxLength
             Value="50" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Raio X" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -621,6 +676,8 @@
           <MaxLength
             Value="50" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Outros Exames" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -631,6 +688,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data BK 2 ou 3 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -640,6 +699,20 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado BK 2 ou 3 meses" />
+          <SupportedValue
+            Value="+++" />
+          <SupportedValue
+            Value="++" />
+          <SupportedValue
+            Value="+" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -649,6 +722,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="N º Lab BK 2 ou 3 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -659,6 +734,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Cultura 2 ou 3 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -668,6 +745,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado Cultura 2 ou 3 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -677,6 +756,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Cultura 2 ou 3 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -687,6 +768,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data BK 5 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -696,6 +779,20 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado BK 5 meses" />
+          <SupportedValue
+            Value="+++" />
+          <SupportedValue
+            Value="++" />
+          <SupportedValue
+            Value="+" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -705,6 +802,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Lab BK 5 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -715,6 +814,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Cultura 5 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -724,6 +825,14 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado Cultura 5 meses" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -733,6 +842,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Lab. Cultura 5 meses" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -743,6 +854,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data BK Fim Tratamento" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -752,6 +865,20 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado BK Fim Tratamento" />
+          <SupportedValue
+            Value="+++" />
+          <SupportedValue
+            Value="++" />
+          <SupportedValue
+            Value="+" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -761,6 +888,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Lab. BK Fim Tratamento" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -771,6 +900,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Cultura Fim Tratamento" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -780,6 +911,14 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado Cultura Fim Tratamento" />
+          <SupportedValue
+            DisplayName="Positivo"
+            Value="P" />
+          <SupportedValue
+            DisplayName="Negativo"
+            Value="N" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -789,6 +928,8 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Nº Lab Cultura Fim Tratamento" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -799,6 +940,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data Fim do Tratamento" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -808,6 +951,26 @@
           <MaxLength
             Value="5" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Resultado do Tratamento" />
+          <SupportedValue
+            DisplayName="Curado"
+            Value="C" />
+          <SupportedValue
+            DisplayName="Tratamento Completo"
+            Value="TC" />
+          <SupportedValue
+            DisplayName="Falencia do Tratamento"
+            Value="FT" />
+          <SupportedValue
+            DisplayName="Perda de Seguimento"
+            Value="PS" />
+          <SupportedValue
+            DisplayName="Obito"
+            Value="OB" />
+          <SupportedValue
+            DisplayName="Não Avaliado"
+            Value="NA" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -815,6 +978,7 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -824,6 +988,8 @@
           <MaxLength
             Value="100" />
           <AnsiConstraint />
+          <DisplayName
+            Value="Observação" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -831,6 +997,7 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <Hidden />
         </EntityProperty.Attributes>
       </EntityProperty>
     </EntityType.Properties>

@@ -2802,6 +2802,313 @@ namespace LightSwitchApplication
         }
     }
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+    public sealed partial class pacientetbDetail
+        : global::Microsoft.LightSwitch.Framework.Client.ScreenObject<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass>
+    {
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private pacientetbDetail(long pacientetbid) : base("LightSwitchApplication.ManualSourceDB.DesktopClient:pacientetbDetail")
+        {
+                this.pacientetbid = pacientetbid;
+            global::LightSwitchApplication.pacientetbDetail.DetailsClass.Initialize(this);
+        }
+
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+        public static pacientetbDetail CreateInstance(long pacientetbid)
+        {
+            return new global::LightSwitchApplication.pacientetbDetail(
+                        pacientetbid
+            );
+        }
+
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_InitializeDataWorkspace(global::System.Collections.Generic.List<global::Microsoft.LightSwitch.IDataService> saveChangesTo);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_Created();
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_Activated();
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_Saving(ref bool handled);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_Saved();
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_Closing(ref bool cancel);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_SaveError(global::System.Exception exception, ref bool handled);
+     
+        #region Private Properties
+        
+        /// <summary>
+        /// Gets the Application object for this application.  The Application object provides access to active screens, methods to open screens and access to the current user.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::LightSwitchApplication.Application Application
+        {
+            get
+            {
+                return global::LightSwitchApplication.Application.Current;
+            }
+        }
+        
+        /// <summary>
+        /// Gets the containing data workspace.  The data workspace provides access to all data sources in the application.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        private global::LightSwitchApplication.DataWorkspace DataWorkspace
+        {
+            get
+            {
+                return (global::LightSwitchApplication.DataWorkspace)((global::Microsoft.LightSwitch.Details.Client.IScreenDetails)this.Details).DataWorkspace;
+            }
+        }
+        
+        #endregion
+ 
+        partial void pacientetb_Changed();
+
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetb_Loaded(bool succeeded);
+
+        partial void pacientetbid_Changed();
+
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::LightSwitchApplication.pacientetb pacientetb
+        {
+            get
+            {
+                return global::LightSwitchApplication.pacientetbDetail.DetailsClass.GetValue(this, global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties.pacientetb);
+            }
+        }
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetb_Validate(global::Microsoft.LightSwitch.Framework.Client.ScreenValidationResultsBuilder results);
+ 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public long pacientetbid
+        {
+            get 
+            {
+                return global::LightSwitchApplication.pacientetbDetail.DetailsClass.GetValue(this, global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties.pacientetbid);
+            }
+            set
+            {
+                global::LightSwitchApplication.pacientetbDetail.DetailsClass.SetValue(this, global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties.pacientetbid, value);
+            }
+        }
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbid_Validate(global::Microsoft.LightSwitch.Framework.Client.ScreenValidationResultsBuilder results);
+ 
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public sealed class DetailsClass
+            : global::Microsoft.LightSwitch.Details.Framework.Client.ScreenDetails<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySet, global::LightSwitchApplication.pacientetbDetail.DetailsClass.CommandSet, global::LightSwitchApplication.pacientetbDetail.DetailsClass.MethodSet>
+        {
+
+            static DetailsClass()
+            {
+                var initializePropertyEntry = global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties.pacientetb;
+            }
+
+            [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+            private static global::Microsoft.LightSwitch.Details.Framework.Client.ScreenDetails<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass>.Entry
+                __pacientetbDetailEntry = new global::Microsoft.LightSwitch.Details.Framework.Client.ScreenDetails<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass>.Entry(
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeInitializeDataWorkspace,
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeSavingEvent,
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeSavedEvent,
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeClosingEvent,
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeCreated,
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeActivated,
+                    global::LightSwitchApplication.pacientetbDetail.DetailsClass.__pacientetbDetail_InvokeSaveErrorEvent);
+            private static void __pacientetbDetail_InvokeInitializeDataWorkspace(global::LightSwitchApplication.pacientetbDetail s, global::System.Collections.Generic.List<global::Microsoft.LightSwitch.IDataService> saveChangesTo)
+            {
+                s.pacientetbDetail_InitializeDataWorkspace(saveChangesTo);
+            }
+            private static bool __pacientetbDetail_InvokeSavingEvent(global::LightSwitchApplication.pacientetbDetail s)
+            {
+                bool handled = false;
+                s.pacientetbDetail_Saving(ref handled);
+                return handled;
+            }
+            private static void __pacientetbDetail_InvokeSavedEvent(global::LightSwitchApplication.pacientetbDetail s)
+            {
+                s.pacientetbDetail_Saved();
+            }
+            private static bool __pacientetbDetail_InvokeClosingEvent(global::LightSwitchApplication.pacientetbDetail s)
+            {
+                bool cancel = false;
+                s.pacientetbDetail_Closing(ref cancel);
+                return cancel;
+            }
+            private static void __pacientetbDetail_InvokeCreated(global::LightSwitchApplication.pacientetbDetail s)
+            {
+                s.pacientetbDetail_Created();
+            }
+            private static void __pacientetbDetail_InvokeActivated(global::LightSwitchApplication.pacientetbDetail s)
+            {
+                s.pacientetbDetail_Activated();
+            }
+            private static bool __pacientetbDetail_InvokeSaveErrorEvent(global::LightSwitchApplication.pacientetbDetail s, global::System.Exception ex)
+            {
+                bool handled = false;
+                s.pacientetbDetail_SaveError(ex, ref handled);
+                return handled;
+            }
+
+            public DetailsClass() : base()
+            {
+            }
+
+            public new global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySet Properties
+            {
+                get
+                {
+                    return base.Properties;
+                }
+            }
+
+            public new global::LightSwitchApplication.pacientetbDetail.DetailsClass.CommandSet Commands
+            {
+                get
+                {
+                    return base.Commands;
+                }
+            }
+
+            public new global::LightSwitchApplication.pacientetbDetail.DetailsClass.MethodSet Methods
+            {
+                get
+                {
+                    return base.Methods;
+                }
+            }
+
+            [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+            private global::Microsoft.LightSwitch.Details.Framework.Client.ScreenReferenceProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetb>.Data _pacientetb;
+
+            [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
+            private global::Microsoft.LightSwitch.Details.Framework.Client.ScreenLocalProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, long>.Data _pacientetbid;
+
+            [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public sealed class PropertySet
+                : global::Microsoft.LightSwitch.Details.Framework.Client.ScreenPropertySet<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass>
+            {
+
+                public global::Microsoft.LightSwitch.Details.Framework.Client.ScreenReferenceProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetb> pacientetb
+                {
+                    get
+                    {
+                        return (global::Microsoft.LightSwitch.Details.Framework.Client.ScreenReferenceProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetb>)base.GetItem(global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties.pacientetb);
+                    }
+                }
+
+                public global::Microsoft.LightSwitch.Details.Framework.Client.ScreenLocalProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, long> pacientetbid
+                {
+                    get
+                    {
+                        return (global::Microsoft.LightSwitch.Details.Framework.Client.ScreenLocalProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, long>)base.GetItem(global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties.pacientetbid);
+                    }
+                }
+
+            }
+
+            [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public sealed class CommandSet
+                : global::Microsoft.LightSwitch.Details.Framework.Client.ScreenCommandSet<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass>
+            {
+            }
+
+            [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public sealed class MethodSet
+                : global::Microsoft.LightSwitch.Details.Framework.Client.ScreenMethodSet<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass>
+            {
+            }
+
+            [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal sealed class PropertySetProperties
+            {
+
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.Client.ScreenReferenceProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetb>.Entry
+                    pacientetb = new global::Microsoft.LightSwitch.Details.Framework.Client.ScreenReferenceProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetb>.Entry(
+                        "pacientetb",
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetb_Stub,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetb_Validate,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetb_CreateQuery,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetb_OnValueChanged,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetb_OnLoaded);
+                private static void _pacientetb_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.Client.ScreenReferenceProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::LightSwitchApplication.pacientetb>.Data> c, global::LightSwitchApplication.pacientetbDetail.DetailsClass d, object sf)
+                {
+                    c(d, ref d._pacientetb, sf);
+                }
+                private static void _pacientetb_Validate(global::LightSwitchApplication.pacientetbDetail s, global::Microsoft.LightSwitch.Framework.Client.ScreenValidationResultsBuilder r)
+                {
+                    s.pacientetb_Validate(r);
+                }
+                private static global::Microsoft.LightSwitch.IDataServiceQueryable _pacientetb_CreateQuery(global::LightSwitchApplication.pacientetbDetail.DetailsClass d, object[] args)
+                {
+                    return null;
+                }
+                private static void _pacientetb_OnValueChanged(global::LightSwitchApplication.pacientetbDetail s)
+                {
+                    s.pacientetb_Changed();
+                }
+
+                private static void _pacientetb_OnLoaded(global::LightSwitchApplication.pacientetbDetail s, bool succeeded)
+                {
+                    s.pacientetb_Loaded(succeeded);
+                }
+
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.Client.ScreenLocalProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, long>.Entry
+                    pacientetbid = new global::Microsoft.LightSwitch.Details.Framework.Client.ScreenLocalProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, long>.Entry(
+                        "pacientetbid",
+                        false,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetbid_Stub,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetbid_Validate,
+                        global::LightSwitchApplication.pacientetbDetail.DetailsClass.PropertySetProperties._pacientetbid_OnValueChanged);
+                private static void _pacientetbid_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.pacientetbDetail.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.Client.ScreenLocalProperty<global::LightSwitchApplication.pacientetbDetail, global::LightSwitchApplication.pacientetbDetail.DetailsClass, long>.Data> c, global::LightSwitchApplication.pacientetbDetail.DetailsClass d, object sf)
+                {
+                    c(d, ref d._pacientetbid, sf);
+                }
+                private static void _pacientetbid_Validate(global::LightSwitchApplication.pacientetbDetail s, global::Microsoft.LightSwitch.Framework.Client.ScreenValidationResultsBuilder r)
+                {
+                    s.pacientetbid_Validate(r);
+                }
+                private static void _pacientetbid_OnValueChanged(global::LightSwitchApplication.pacientetbDetail s)
+                {
+                    s.pacientetbid_Changed();
+                }
+
+            }
+
+            [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal sealed class CommandSetProperties
+            {
+            }
+
+            [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            internal sealed class MethodSetProperties
+            {
+            }
+        }
+    }
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
     public sealed partial class t_registodiarioppesListDetail
         : global::Microsoft.LightSwitch.Framework.Client.ScreenObject<global::LightSwitchApplication.t_registodiarioppesListDetail, global::LightSwitchApplication.t_registodiarioppesListDetail.DetailsClass>
     {

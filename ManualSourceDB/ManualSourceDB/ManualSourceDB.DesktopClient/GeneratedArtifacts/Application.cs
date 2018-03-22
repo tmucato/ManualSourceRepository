@@ -172,6 +172,21 @@ namespace LightSwitchApplication
         }
         
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_CanRun(ref bool result, long pacientetbid);
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        partial void pacientetbDetail_Run(ref bool handled, long pacientetbid);
+    
+        /// <summary>
+        /// Opens the ShowpacientetbDetail screen.  If the screen is already opened, it is activated and shown.
+        /// </summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public void ShowpacientetbDetail(long pacientetbid)
+        {
+            ((global::Microsoft.LightSwitch.Details.Client.IClientApplicationDetails)this.Details).InvokeMethod(this.Details.Methods.ShowpacientetbDetail, pacientetbid);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void t_registodiarioppesListDetail_CanRun(ref bool result);
         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         partial void t_registodiarioppesListDetail_Run(ref bool handled);
@@ -278,6 +293,8 @@ namespace LightSwitchApplication
                         return global::LightSwitchApplication.mothersListDetail.CreateInstance();
                     case "paciente_resistente_tbsListDetail":
                         return global::LightSwitchApplication.paciente_resistente_tbsListDetail.CreateInstance();
+                    case "pacientetbDetail":
+                        return global::LightSwitchApplication.pacientetbDetail.CreateInstance((long)args[0]);
                     case "t_registodiarioppesListDetail":
                         return global::LightSwitchApplication.t_registodiarioppesListDetail.CreateInstance();
                     case "t_registodiariovgbsListDetail":
@@ -489,6 +506,15 @@ namespace LightSwitchApplication
                     {
                         return (global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
                                base.GetItem(global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties.Showpaciente_resistente_tbsListDetail);
+                    }
+                }
+
+                public global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass> ShowpacientetbDetail
+                {
+                    get
+                    {
+                        return (global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>)
+                               base.GetItem(global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties.ShowpacientetbDetail);
                     }
                 }
 
@@ -923,6 +949,32 @@ namespace LightSwitchApplication
                 }
  
                 public static readonly global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
+                    ShowpacientetbDetail = new global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry(
+                        "ShowpacientetbDetail",
+                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowpacientetbDetail_Stub,
+                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowpacientetbDetail_CanInvoke,
+                        global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._ShowpacientetbDetail_InvokeMethod);
+                private static void _ShowpacientetbDetail_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.Application.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data> c, global::LightSwitchApplication.Application.DetailsClass d, object sf)
+                {
+                    c(d, ref d._ShowpacientetbDetailMethod, sf);
+                }
+                private static global::System.Exception _ShowpacientetbDetail_CanInvoke(global::LightSwitchApplication.Application.DetailsClass d, global::System.Collections.ObjectModel.ReadOnlyCollection<object> args, global::System.Exception ex)
+                {
+                    bool result = true;
+                    d.Application.pacientetbDetail_CanRun(ref result, (long)args[0]);
+                    return result ? null : ex;
+                }
+                private static void _ShowpacientetbDetail_InvokeMethod(global::LightSwitchApplication.Application.DetailsClass d, global::System.Collections.ObjectModel.ReadOnlyCollection<object> args)
+                {
+                    bool handled = false;
+                    d.Application.pacientetbDetail_Run(ref handled, (long)args[0]);
+                    if (!handled)
+                    {
+                        d.ShowScreen("LightSwitchApplication.ManualSourceDB.DesktopClient:pacientetbDetail", () => global::LightSwitchApplication.pacientetbDetail.CreateInstance((long)args[0]), args);
+                    }
+                }
+ 
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry
                     Showt_registodiarioppesListDetail = new global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Entry(
                         "Showt_registodiarioppesListDetail",
                         global::LightSwitchApplication.Application.DetailsClass.MethodSetProperties._Showt_registodiarioppesListDetail_Stub,
@@ -993,6 +1045,8 @@ namespace LightSwitchApplication
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowmothersListDetailMethod;
 
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _Showpaciente_resistente_tbsListDetailMethod;
+
+            private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _ShowpacientetbDetailMethod;
 
             private global::Microsoft.LightSwitch.Details.Framework.ApplicationMethod<global::LightSwitchApplication.Application, global::LightSwitchApplication.Application.DetailsClass>.Data _Showt_registodiarioppesListDetailMethod;
 

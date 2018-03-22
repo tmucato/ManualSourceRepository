@@ -260,6 +260,9 @@
     <Compile Include="Screens\mothersListDetail.lsml.cs">
       <DependentUpon>mothersListDetail.lsml</DependentUpon>
     </Compile>
+    <Compile Include="Screens\pacientetbDetail.lsml.cs">
+      <DependentUpon>pacientetbDetail.lsml</DependentUpon>
+    </Compile>
     <Compile Include="Screens\paciente_resistente_tbsListDetail.lsml.cs">
       <DependentUpon>paciente_resistente_tbsListDetail.lsml</DependentUpon>
     </Compile>
@@ -272,6 +275,7 @@
     <None Include="Properties\AppManifest.xml" />
     <LightSwitchModel Include="Properties\dbmanualsourceData\children.lsml" />
     <LightSwitchModel Include="Properties\dbmanualsourceData\mothers.lsml" />
+    <LightSwitchModel Include="Properties\dbmanualsourceData\pacientetbs.lsml" />
     <None Include="Properties\OutOfBrowserSettings.xml" />
     <ClientResource Include="Properties\Config.xml" />
     <LightSwitchModel Include="Properties\Proxies.lsml" />
@@ -286,6 +290,7 @@
     <LightSwitchModel Include="Screens\cpnsListDetail.lsml" />
     <LightSwitchModel Include="Screens\t_registodiariovgbsListDetail.lsml" />
     <LightSwitchModel Include="Screens\t_registodiarioppesListDetail.lsml" />
+    <LightSwitchModel Include="Screens\pacientetbDetail.lsml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
