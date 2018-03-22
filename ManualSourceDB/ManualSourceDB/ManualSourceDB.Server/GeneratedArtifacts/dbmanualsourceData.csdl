@@ -174,7 +174,7 @@
     </Key>
     <Property Name="id" Type="Edm.Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="idmother" Type="Edm.Int64" Nullable="false" ConcurrencyMode="Fixed" />
-    <Property Name="nlivro" Type="Edm.String" Nullable="false" MaxLength="10" Unicode="false" ConcurrencyMode="Fixed" />
+    <Property Name="nlivro" Type="Edm.Int32" Nullable="false" ConcurrencyMode="Fixed" />
     <Property Name="cons_more4" Type="Edm.Boolean" ConcurrencyMode="Fixed" />
     <Property Name="partnerpreence" Type="Edm.Boolean" ConcurrencyMode="Fixed" />
     <Property Name="weightgainyno" Type="Edm.String" MaxLength="5" Unicode="false" ConcurrencyMode="Fixed" />
@@ -890,7 +890,7 @@
     </Key>
     <Property Name="Id" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="us" Type="Edm.String" MaxLength="65535" Unicode="false" />
-    <Property Name="Nid" Type="Edm.String" MaxLength="65535" Unicode="false" />
+    <Property Name="Nid" Type="Edm.String" Nullable="false" MaxLength="65535" Unicode="false" />
     <Property Name="Data" Type="Edm.DateTime" Precision="0" ConcurrencyMode="Fixed" />
     <Property Name="Referidode" Type="Edm.Int32" ConcurrencyMode="Fixed" />
     <Property Name="ResultadoHIVExposta" Type="Edm.Int32" ConcurrencyMode="Fixed" />

@@ -79,6 +79,8 @@
             Precision="0"
             PreserveSeconds="True" />
           <NotSearchable />
+          <DisplayName
+            Value="Data" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -88,6 +90,20 @@
           <MaxLength
             Value="25" />
           <AnsiConstraint />
+          <SupportedValue
+            DisplayName="de 10 a 14"
+            Value="1" />
+          <SupportedValue
+            DisplayName="de 15 - 19"
+            Value="2" />
+          <SupportedValue
+            DisplayName="de 20 - 24"
+            Value="3" />
+          <SupportedValue
+            DisplayName="≥ 25 anos"
+            Value="4" />
+          <DisplayName
+            Value="Faixa etária" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -95,6 +111,8 @@
         PropertyType=":Int32?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Idade Gestacional" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -102,6 +120,14 @@
         PropertyType=":Boolean?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Idade Gestacional ˂ 12 semanas" />
+          <SupportedValue
+            DisplayName="SIM"
+            Value="True" />
+          <SupportedValue
+            DisplayName="NÂO"
+            Value="False" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -109,6 +135,14 @@
         PropertyType=":Boolean?">
         <EntityProperty.Attributes>
           <NotSearchable />
+          <DisplayName
+            Value="Parceiro presente" />
+          <SupportedValue
+            DisplayName="NÃO"
+            Value="False" />
+          <SupportedValue
+            DisplayName="SIM"
+            Value="True" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty

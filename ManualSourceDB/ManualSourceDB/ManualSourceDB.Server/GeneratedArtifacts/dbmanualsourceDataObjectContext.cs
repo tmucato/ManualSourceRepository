@@ -6100,7 +6100,7 @@ namespace LightSwitchApplication.Implementation
         /// <param name="id">Initial value of the id property.</param>
         /// <param name="idmother">Initial value of the idmother property.</param>
         /// <param name="nlivro">Initial value of the nlivro property.</param>
-        public static cpn_final Createcpn_final(global::System.Int64 id, global::System.Int64 idmother, global::System.String nlivro)
+        public static cpn_final Createcpn_final(global::System.Int64 id, global::System.Int64 idmother, global::System.Int32 nlivro)
         {
             cpn_final cpn_final = new cpn_final();
             cpn_final.id = id;
@@ -6169,7 +6169,7 @@ namespace LightSwitchApplication.Implementation
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.String nlivro
+        public global::System.Int32 nlivro
         {
             get
             {
@@ -6184,8 +6184,8 @@ namespace LightSwitchApplication.Implementation
                 OnnlivroChanged();
             }
         }
-        private global::System.String _nlivro;
-        partial void OnnlivroChanging(global::System.String value);
+        private global::System.Int32 _nlivro;
+        partial void OnnlivroChanging(global::System.Int32 value);
         partial void OnnlivroChanged();
     
         /// <summary>
@@ -20020,10 +20020,12 @@ namespace LightSwitchApplication.Implementation
         /// Create a new t_registodiariovgb object.
         /// </summary>
         /// <param name="id">Initial value of the Id property.</param>
-        public static t_registodiariovgb Createt_registodiariovgb(global::System.Int32 id)
+        /// <param name="nid">Initial value of the Nid property.</param>
+        public static t_registodiariovgb Createt_registodiariovgb(global::System.Int32 id, global::System.String nid)
         {
             t_registodiariovgb t_registodiariovgb = new t_registodiariovgb();
             t_registodiariovgb.Id = id;
+            t_registodiariovgb.Nid = nid;
             return t_registodiariovgb;
         }
 
@@ -20085,7 +20087,7 @@ namespace LightSwitchApplication.Implementation
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
         [DataMemberAttribute()]
         public global::System.String Nid
         {

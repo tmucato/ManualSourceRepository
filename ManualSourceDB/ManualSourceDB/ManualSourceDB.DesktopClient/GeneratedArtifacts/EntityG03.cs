@@ -127,7 +127,7 @@ namespace LightSwitchApplication
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.LightSwitch.BuildTasks.CodeGen", "12.0.0.0")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public string nlivro
+        public int nlivro
         {
             get
             {
@@ -940,11 +940,11 @@ namespace LightSwitchApplication
                     }
                 }
                 
-                public global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, string> nlivro
+                public global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, int> nlivro
                 {
                     get
                     {
-                        return base.GetItem(global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties.nlivro) as global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, string>;
+                        return base.GetItem(global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties.nlivro) as global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, int>;
                     }
                 }
                 
@@ -1188,7 +1188,7 @@ namespace LightSwitchApplication
             {
                 new long id { get; }
                 new long idmother { get; set; }
-                new string nlivro { get; set; }
+                new int nlivro { get; set; }
                 new global::System.Nullable<bool> cons_more4 { get; set; }
                 new global::System.Nullable<bool> partnerpreence { get; set; }
                 new string weightgainyno { get; set; }
@@ -1298,8 +1298,8 @@ namespace LightSwitchApplication
                 }
     
                 [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-                public static readonly global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, string>.Entry
-                    nlivro = new global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, string>.Entry(
+                public static readonly global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, int>.Entry
+                    nlivro = new global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, int>.Entry(
                         "nlivro",
                         global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties._nlivro_Stub,
                         global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties._nlivro_ComputeIsReadOnly,
@@ -1307,7 +1307,7 @@ namespace LightSwitchApplication
                         global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties._nlivro_GetImplementationValue,
                         global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties._nlivro_SetImplementationValue,
                         global::LightSwitchApplication.cpn_final.DetailsClass.PropertySetProperties._nlivro_OnValueChanged);
-                private static void _nlivro_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.cpn_final.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, string>.Data> c, global::LightSwitchApplication.cpn_final.DetailsClass d, object sf)
+                private static void _nlivro_Stub(global::Microsoft.LightSwitch.Details.Framework.Base.DetailsCallback<global::LightSwitchApplication.cpn_final.DetailsClass, global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, int>.Data> c, global::LightSwitchApplication.cpn_final.DetailsClass d, object sf)
                 {
                     c(d, ref d._nlivro, sf);
                 }
@@ -1321,11 +1321,11 @@ namespace LightSwitchApplication
                 {
                     e.nlivro_Validate(r);
                 }
-                private static string _nlivro_GetImplementationValue(global::LightSwitchApplication.cpn_final.DetailsClass d)
+                private static int _nlivro_GetImplementationValue(global::LightSwitchApplication.cpn_final.DetailsClass d)
                 {
                     return d.ImplementationEntity.nlivro;
                 }
-                private static void _nlivro_SetImplementationValue(global::LightSwitchApplication.cpn_final.DetailsClass d, string v)
+                private static void _nlivro_SetImplementationValue(global::LightSwitchApplication.cpn_final.DetailsClass d, int v)
                 {
                     d.ImplementationEntity.nlivro = v;
                 }
@@ -2416,7 +2416,7 @@ namespace LightSwitchApplication
             private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, long>.Data _idmother;
             
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
-            private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, string>.Data _nlivro;
+            private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, int>.Data _nlivro;
             
             [global::System.Diagnostics.DebuggerBrowsable(global::System.Diagnostics.DebuggerBrowsableState.Never)]
             private global::Microsoft.LightSwitch.Details.Framework.EntityStorageProperty<global::LightSwitchApplication.cpn_final, global::LightSwitchApplication.cpn_final.DetailsClass, global::System.Nullable<bool>>.Data _cons_more4;

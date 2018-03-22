@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 
 // Original file name:
-// Generation date: 19-03-2018 10:30:56 AM
+// Generation date: 22-03-2018 4:11:30 PM
 namespace LightSwitchApplication.Implementation
 {
     
@@ -1153,1150 +1153,1150 @@ namespace LightSwitchApplication.Implementation
                 "opertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false" +
                 "\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"idmother\" Type=\"" +
                 "Edm.Int64\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nlivro\" Ty" +
-                "pe=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=" +
-                "\"Fixed\" /><Property Name=\"cons_more4\" Type=\"Edm.Boolean\" Co";
+                "pe=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"cons_m" +
+                "ore4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart2 = "ncurrencyMode=\"Fixed\" /><Property Name=\"partnerpreence\" Type=\"Edm.Boolean\" Concur" +
-                "rencyMode=\"Fixed\" /><Property Name=\"weightgainyno\" Type=\"Edm.String\" MaxLength=\"" +
-                "5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dag\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dam\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"supnutr\" Type=\"Edm.String\" MaxLength=\"5\" Unicod" +
-                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultcured\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resul" +
-                "tabandon\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
-                "\" /><Property Name=\"receiveddesparasitante\" Type=\"Edm.String\" MaxLength=\"5\" Unic" +
-                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"salferr_more3\" Type=\"Edm.B" +
-                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_diag\" Type=\"Edm.Boolean\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"its_treatment\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_syphiliste" +
-                "sting\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"its_wsyphilistreat\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"its_psyphilistreat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"f" +
-                "alse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"womanserostatus\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"part" +
-                "nerserostatus\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"ctz_entr\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"ctz_init\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"finalresult_arv\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"tip\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=" +
-                "\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bednet\" Type=\"Edm.String\" MaxL" +
-                "ength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mal_diag_lab" +
-                "\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"mal_treatment\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"mp\" Type=\"Edm.String\" MaxLength=\"5\" Unicode" +
-                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vat_1_dose\" Type=\"Edm.Boolean" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vat_2_5_dose\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"tb_isoniazid\" Type=\"Edm.Boolean\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"tb_treatment\" Type=\"Edm.Boolean\" ConcurrencyMo" +
-                "de=\"Fixed\" /></EntityType><EntityType Name=\"cpn\"><Key><PropertyRef Name=\"id\" /><" +
-                "/Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGener" +
-                "atedPattern=\"Identity\" /><Property Name=\"nr_consulta\" Type=\"Edm.Int32\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"nlivro\" Type=\"Edm.String\" Nullable=\"false\" MaxL" +
-                "ength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nyear\" Type" +
-                "=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"visdate\"" +
-                " Type=\"Edm.DateTime\" Nullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"agegroup\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"false\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"gestationalage\" Type=\"Edm.Int32\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"gageless12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"partnerpresence\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"weight\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"weightgainyno\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"dag\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\"" +
-                " /><Property Name=\"dam\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"supnutr\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultc" +
-                "ured\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"resultabandon\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"receiveddesparasitante\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"salfe" +
-                "rr_acfolico\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"ta\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"hgb\" Type=\"Edm.String\" MaxLength=\"5\" Unicod" +
-                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"proteinuria\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"glico" +
-                "suria\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"its_ulceragenital\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"its_leucorreia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"its_syndromictreatment\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"f" +
-                "alse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_syphilistesting\" Type=\"Edm.S" +
-                "tring\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"i" +
-                "ts_wsyphilistreat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMo" +
-                "de=\"Fixed\" /><Property Name=\"its_psyphilistreat\" Type=\"Edm.String\" MaxLength=\"5\"" +
-                " Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_syphilistratmentm" +
-                "ulhr\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"its_syphilistratmentparceir\" Type=\"Edm.String\" MaxLength=\"5\" Uni" +
-                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"serostatusentcpn\" Type=\"E" +
-                "dm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"cpnhivtest\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"partnerhivtest\" Type=\"Edm.String\" MaxLength=\"5\" Unicode" +
-                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ctz\" Type=\"Edm.Boolean\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"ctz_init_cont\" Type=\"Edm.String\" MaxLength=" +
-                "\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tarv\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nvp\" Type=\"Edm.Boolean\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"azt_nvp\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"em_tarv_entrada\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"tarv_init_visit\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"arv_cont\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"tip\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"bednet\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tdr_htz\" Type=\"Edm.String\" MaxLengt" +
-                "h=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"result_tdr_htz\" " +
-                "Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"pos_malaria_treated\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"hpp\" Type=\"Edm.String\" MaxLength=\"5\" Un" +
-                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vat_1_dose\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vat_2_5_dose\" Type=\"Edm.Boolean" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tb_isoniazid\" Type=\"Edm.String\" MaxL" +
-                "ength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tb_treatment" +
-                "\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"obs\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMod" +
-                "e=\"Fixed\" /><Property Name=\"providername\" Type=\"Edm.String\"";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart3 = " MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"idmothe" +
-                "r\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><NavigationProper" +
-                "ty Name=\"mother\" Relationship=\"LightSwitchApplication.idmother\" ToRole=\"mother\" " +
-                "FromRole=\"cpn\" /></EntityType><EntityType Name=\"cpp\"><Key><PropertyRef Name=\"id\"" +
-                " /></Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false\" annotation:StoreG" +
-                "eneratedPattern=\"Identity\" /><Property Name=\"nr_consulta\" Type=\"Edm.Int32\" Nulla" +
-                "ble=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"idmother\" Type=\"Edm.Int64\"" +
-                " Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nlivro\" Type=\"Edm.St" +
-                "ring\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"visdate\" Type=\"Edm.DateTime\" Nullable=\"false\" Precision=\"0\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"age\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"localparto\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"diasapoisparto\" Type=\"Edm.String\" Ma" +
-                "xLength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"parceirop" +
-                "resente\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadorecemn" +
-                "ascido\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
-                " /><Property Name=\"anemia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"e_clinicogenecologico\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"outrapatologia\" Type=\"Edm.String\" MaxL" +
-                "ength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dag_dam\" Ty" +
-                "pe=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"suplementonutricional\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true" +
-                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transferida\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"almaternoexclusivo\" Type=\"" +
-                "Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"testemalaria\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"fa" +
-                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultado_TDR_HTZ\" Type=\"Edm.Stri" +
-                "ng\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"puer" +
-                "peramalariatratada\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"" +
-                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadoentradacpp\" Type=\"Edm.Str" +
-                "ing\" MaxLength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"re" +
-                "sultadocpp\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"dosepuerpera\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"fa" +
-                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"iniciottosifiliscpp\" Type=\"Edm.St" +
-                "ring\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"parceirottocpp\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"tr" +
-                "ue\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"seroestadoentradac" +
-                "pp\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"testehivconsultacpp\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"fal" +
-                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"emtarv\" Type=\"Edm.Boolean\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"iniciatarv\" Type=\"Edm.Boolean\" ConcurrencyMod" +
-                "e=\"Fixed\" /><Property Name=\"continuatarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"rn_tarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"testehivparceiro\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"ttopuerpera\" Type=\"Edm.String\" MaxLengt" +
-                "h=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"rntto\" Type=\"Ed" +
-                "m.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"vitAcpp\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"salferroso_acfolico\" Type=\"Edm.String\" " +
-                "MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"transfistula\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unic" +
-                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"rnccr\" Type=\"Edm.String\" M" +
-                "axLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"transcsr_pf\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicod" +
-                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLe" +
-                "ngth=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"providername" +
-                "\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></E" +
-                "ntityType><EntityType Name=\"csr_pf\"><Key><PropertyRef Name=\"id\" /></Key><Propert" +
-                "y Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"" +
-                "Identity\" /><Property Name=\"nr_consulta\" Type=\"Edm.Int32\" Nullable=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"ano\" Type=\"Edm.Int32\" Nullable=\"false\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"nlivro\" Type=\"Edm.String\" Nullable=\"false\"" +
-                " MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"idmoth" +
-                "er\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"visdate\" Type=\"Ed" +
-                "m.DateTime\" Nullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"nid_csr_pf\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_tarv\" Type=\"Edm.String\" MaxLeng" +
-                "th=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"Ed" +
-                "m.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"residencia\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=" +
-                "\"Fixed\" /><Property Name=\"telefone\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"fa" +
-                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sexo\" Type=\"Edm.String\" MaxLength" +
-                "=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name" +
-                "=\"grupoetario\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"parceiropresente\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"leucorreia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"ulceragenital\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"c" +
-                "orrimentouretral\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"r" +
-                "ecebeutto\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"outraspa" +
-                "tologias\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"exameclnmama\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"examenormal\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"nodmama\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "mastite\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"outrasleso" +
-                "es\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tratado\" Type=\"" +
-                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transferidaExameCln\" Type" +
-                "=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"exameVIA\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vi" +
-                "apos\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"viapos_hivpos" +
-                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vianeg\" Type=\"Edm" +
-                ".Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"lesaocolo\" Type=\"Edm.Boolean" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"suspeitacancro\" Type=\"Edm.Boolean\" N" +
-                "ullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"naoexameVIA\" Type=\"Edm" +
-                ".Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"crioter";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart4 = "apia\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"transferidaCncrUterino\" Type=\"Edm.String\" MaxLength=\"20\" Unicode" +
-                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadosifilis_entr\" Type=\"Edm" +
+            private const string ModelPart2 = "y Name=\"partnerpreence\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Na" +
+                "me=\"weightgainyno\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMo" +
+                "de=\"Fixed\" /><Property Name=\"dag\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"dam\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"supnutr\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"resultcured\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"resultabandon\" Type=\"Edm.String\" MaxL" +
+                "ength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"receiveddesp" +
+                "arasitante\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"salferr_more3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"its_diag\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"its_treatment\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"its_syphilistesting\" Type=\"Edm.String\" MaxLeng" +
+                "th=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_wsyphilistr" +
+                "eat\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_psyphilist" +
+                "reat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"womanserostatus\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"partnerserostatus\" Type=\"Edm.String\"" +
+                " MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ctz_ent" +
+                "r\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ctz_init\" Type=\"" +
+                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"finalresult_arv\" Type=\"Ed" +
+                "m.String\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"tip\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"bednet\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"mal_diag_lab\" Type=\"Edm.String\" MaxLength=\"5" +
+                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mal_treatment\" Type=" +
+                "\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"mp\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"vat_1_dose\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"vat_2_5_dose\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"tb_isoniazid\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"tb_treatment\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /></EntityType><Entit" +
+                "yType Name=\"cpn\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"E" +
+                "dm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Proper" +
+                "ty Name=\"nr_consulta\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"nlivro\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" Concu" +
+                "rrencyMode=\"Fixed\" /><Property Name=\"nyear\" Type=\"Edm.Int32\" Nullable=\"false\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"visdate\" Type=\"Edm.DateTime\" Nullable=\"f" +
+                "alse\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"agegroup\" Type=\"Ed" +
+                "m.String\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"gestationalage\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ga" +
+                "geless12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"partnerpr" +
+                "esence\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"weight\" Typ" +
+                "e=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"weightgainyno\" Type=\"Edm" +
                 ".String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"resultSifilisCSRPF\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"dosesifilis\" Type=\"Edm.String\" MaxLength=\"1\" Fixe" +
-                "dLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"parceir" +
-                "ottoCSRPF\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"seroesta" +
-                "do_entr\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
-                "\" /><Property Name=\"testehivCSRPF\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"emtarv\" Type=\"Edm.Boolean\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"iniciatarv\" Type=\"Edm.Boolean\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"continuatarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"resultadotesteparceiro\" Type=\"Edm.String\" MaxLength=\"3\" Un" +
-                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadopf\" Type=\"Edm.Stri" +
-                "ng\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"pil" +
-                "utapf\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"injectavelpf\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\"" +
-                " ConcurrencyMode=\"Fixed\" /><Property Name=\"diupf\" Type=\"Edm.String\" MaxLength=\"2" +
-                "0\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"implantepf\" Type=\"E" +
-                "dm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"lam\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"contracepc" +
-                "aoemergencia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"laque" +
-                "tubar\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"preservativo" +
-                "\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"nr_preservativof\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"nr_preservativom\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"outrosmetodos\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"transferidapor\" Type=\"Edm.String\" MaxLength=\"20" +
+                "\"dag\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dam\" Type=\"Ed" +
+                "m.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"supnutr\" Type=\"Edm.Int32\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"resultcured\" Type=\"Edm.String\" MaxLengt" +
+                "h=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultabandon\" T" +
+                "ype=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"receiveddesparasitante\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"salferr_acfolico\" Type=\"Edm.String\" M" +
+                "axLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ta\" Type=" +
+                "\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"hgb\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"proteinuria\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"glicosuria\" Type=\"Edm.String\" MaxLeng" +
+                "th=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_ulceragenit" +
+                "al\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_leucorreia\"" +
+                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_syndromictreat" +
+                "ment\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"its_syphilistesting\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"fa" +
+                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_wsyphilistreat\" Type=\"Edm.Str" +
+                "ing\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its" +
+                "_psyphilistreat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"its_syphilistratmentmulhr\" Type=\"Edm.String\" MaxLengt" +
+                "h=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"its_syphilistrat" +
+                "mentparceir\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"serostatusentcpn\" Type=\"Edm.String\" MaxLength=\"5\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"cpnhivtest\" Type=\"Edm.String\"" +
+                " MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"partner" +
+                "hivtest\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"ctz\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"ctz_init_cont\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"tarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"nvp\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"azt_nvp\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"em_tarv" +
+                "_entrada\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tarv_init" +
+                "_visit\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"arv_cont\" T" +
+                "ype=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tip\" Type=\"Edm.Strin" +
+                "g\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bedne" +
+                "t\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"tdr_htz\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"result_tdr_htz\" Type=\"Edm.String\" MaxLength=\"5\" " +
+                "Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"pos_malaria_treated\" T" +
+                "ype=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"hpp\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"vat_1_dose\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"vat_2_5_dose\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"tb_isoniazid\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"tb_treatment\" Type=\"Edm.String\" MaxLength=\"5" +
                 "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.Strin" +
                 "g\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"prov" +
-                "idername\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixe" +
-                "d\" /></EntityType><EntityType Name=\"laboratoriotb\"><Key><PropertyRef Name=\"id\" /" +
-                "></Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGen" +
-                "eratedPattern=\"Identity\" /><Property Name=\"ano\" Type=\"Edm.Int32\" Nullable=\"false" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes\" Type=\"Edm.Int32\" Nullable=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"numlab\" Type=\"Edm.String\" Nullable=" +
-                "\"false\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "nit_nid\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"3\" Unicode=\"false\" Concur" +
-                "rencyMode=\"Fixed\" /><Property Name=\"NIT\" Type=\"Edm.String\" MaxLength=\"10\" Unicod" +
-                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"NID\" Type=\"Edm.String\" MaxLe" +
-                "ngth=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"" +
-                "Edm.String\" Nullable=\"false\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"sexo\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"1\" Fix" +
-                "edLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"idade\"" +
-                " Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"residencia\" Type=\"Ed" +
-                "m.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"ocupacao\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"telefone\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"usreferencia\" Type=\"Edm.String\" Nul" +
-                "lable=\"false\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"proveniencia\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"HIV\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"fa" +
-                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ot_imunodepressao\" Type=\"Edm.Stri" +
-                "ng\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tip" +
-                "odoente\" Type=\"Edm.String\" MaxLength=\"40\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
-                "\" /><Property Name=\"motivoexame\" Type=\"Edm.String\" MaxLength=\"40\" Unicode=\"false" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mescontrolo\" Type=\"Edm.Int32\" Concur" +
-                "rencyMode=\"Fixed\" /><Property Name=\"examesolicitado\" Type=\"Edm.String\" MaxLength" +
-                "=\"40\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datacolheita1\" T" +
-                "ype=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datac" +
-                "olheita2\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"datarecepcao1\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"datarecepcao2\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMod" +
-                "e=\"Fixed\" /><Property Name=\"tipoamostra\" Type=\"Edm.String\" MaxLength=\"30\" Unicod" +
-                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"aspectomicro1\" Type=\"Edm.Str" +
-                "ing\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"as" +
-                "pectomicro2\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"resultadobk1\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"" +
-                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultadobk1\" Type=\"Edm.Dat" +
-                "eTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk2\" Typ" +
-                "e=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"dataresultadobk2\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"resultadomtb\" Type=\"Edm.String\" MaxLength=\"2\" Unicode=\"fal" +
-                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultadomtb\" Type=\"Edm.DateTi" +
-                "me\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadorif\" Type=\"" +
-                "Edm.String\" MaxLength=\"2\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"dataresultadorif\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"repetirxpert\" Type=\"Edm.String\" MaxLength=\"2\" Unicode=\"false\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"iniciaistecinico\" Type=\"Edm.String\" Ma" +
-                "xLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"obs\" Type" +
-                "=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></EntityT" +
-                "ype><EntityType Name=\"livro\"><Key><PropertyRef Name=\"ID\" /></Key><Property Name=" +
-                "\"nlivro\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"provincia\" Type=\"Edm.String\" Nullable=\"fals" +
-                "e\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dist" +
-                "rito\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"15\" Unicode=\"false\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"uscode\" Type=\"Edm.String\" Nullable=\"false\" Max" +
-                "Length=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"usname\" Ty" +
-                "pe=\"Edm.String\" Nullable=\"false\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=" +
-                "\"Fixed\" /><Property Name=\"initdate\" Type=\"Edm.DateTime\" Nullable=\"false\" Precisi" +
-                "on=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tipolivro\" Type=\"Edm.String\" Nu" +
-                "llable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"ID\" Type=\"Edm.Int32\" Nullable=\"false\" /></EntityTyp";
+                "idername\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" ";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart5 = "e><EntityType Name=\"maternidade\"><Key><PropertyRef Name=\"id\" /></Key><Property Na" +
-                "me=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Iden" +
-                "tity\" /><Property Name=\"admissiondate\" Type=\"Edm.DateTime\" Nullable=\"false\" Prec" +
-                "ision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"admissionhr\" Type=\"Edm.Time\"" +
-                " ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_cpn\" Type=\"Edm.String\" Nullable=\"" +
-                "false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "nid_tarv\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"name\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"transfer\" Type=\"Edm.String\" MaxLength=\"5\" " +
-                "Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"age\" Type=\"Edm.Int32\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"gestbirth\" Type=\"Edm.String\" MaxLength" +
-                "=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"gestage\" Type=\"Ed" +
-                "m.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"serostatus_unk\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"serostatus_neg3m\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"serostatus_pos\" Type=\"Edm.Boolean" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"cpn_arv_init\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mat_hiv_testing\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"triprofilafia\"" +
-                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tarv_init_entr\" Ty" +
-                "pe=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tarv_init_matern\" Typ" +
-                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"delivdate\" Type=\"Edm.D" +
-                "ateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"delivhr\" Type=\"" +
-                "Edm.Time\" ConcurrencyMode=\"Fixed\" /><Property Name=\"freq_fpos\" Type=\"Edm.Boolean" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"fneg\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"eutocic\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"ventosa\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"caesarean\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"oth_dystocia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ac" +
-                "tiveman3stag\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"manua" +
-                "l_plac_remove\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ceas" +
-                "arean_plac_remove\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "delivcomp\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vertical" +
-                "_deliv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"partogr_fil" +
-                "led\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"plac_previa\" T" +
-                "ype=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"detach_plac\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"uterineatony\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"placreten\" Type=\"Edm.Boolean\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"laceration\" Type=\"Edm.Boolean\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"out_rupt_uter\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"maternity_rupt_uter\" Type=\"Edm.Boolean\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"tp_matern_local\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"tp_arrastado\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"pre_enclapsiasevera\" Type=\"Edm.Boolean\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"C_eclampsia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"sepsis\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"ot_complications\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"malaria\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"a" +
-                "nemia\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"hiv_sida\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"tb\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"poison" +
-                "trademed\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ot_compli" +
-                "cations2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"maternald" +
-                "eath\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"maternaldeath" +
-                "cause\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"pi_antibiotics\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"ev_im_pphemor\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"antihypertensive\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"magn_sulphate\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"intrauterine_asp\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"bloodtransf\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"h" +
-                "yster_obstetric\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ti" +
-                "p_malaria_4dose\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"di" +
-                "u_ppimediate\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ot_pp" +
-                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nadovivo\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nadomorto\" Type=\"Edm.Boole" +
-                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nadomorto_focoentrada\" Type=\"Edm.B" +
-                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nadomorto_macerado\" Type=\"Edm." +
-                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mot_skintoskin\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"breastfeeding_1hr\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"premature\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"neonatalsepsis\" Type=\"Edm.Boolean\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"neonatalasphyxia\" Type=\"Edm.Boolean\" Concur" +
-                "rencyMode=\"Fixed\" /><Property Name=\"malformation\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"success_reanimation\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"unsuccess_reanimation\" Type=\"Edm.Boolean\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"complicat_spec\" Type=\"Edm.Boolean\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"twin\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"gender\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" " +
-                "Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"weight\" Type=\"Edm.Int3" +
-                "2\" ConcurrencyMode=\"Fixed\" /><Property Name=\"weight_under2500gr\" Type=\"Edm.Boole" +
-                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"newborn_arv\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"nb_syphilistreat\" Type=\"Edm.String\" MaxL" +
-                "ength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mot_vitamin_a\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode" +
-                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mot_saltferrous\" Type=\"Edm.St" +
+            private const string ModelPart3 = "ConcurrencyMode=\"Fixed\" /><Property Name=\"idmother\" Type=\"Edm.Int32\" Nullable=\"fa" +
+                "lse\" ConcurrencyMode=\"Fixed\" /><NavigationProperty Name=\"mother\" Relationship=\"L" +
+                "ightSwitchApplication.idmother\" ToRole=\"mother\" FromRole=\"cpn\" /></EntityType><E" +
+                "ntityType Name=\"cpp\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Typ" +
+                "e=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Pr" +
+                "operty Name=\"nr_consulta\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"idmother\" Type=\"Edm.Int64\" Nullable=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"nlivro\" Type=\"Edm.String\" Nullable=\"false\" MaxLength" +
+                "=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"visdate\" Type=\"E" +
+                "dm.DateTime\" Nullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"age\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"localparto" +
+                "\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"diasapoisparto\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"parceiropresente\" Type=\"Edm.Int32\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"estadorecemnascido\" Type=\"Edm.String\" MaxLen" +
+                "gth=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"anemia\" Type=" +
+                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"e_clinicogenecologico\" T" +
+                "ype=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"outrapatologia\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" Concu" +
+                "rrencyMode=\"Fixed\" /><Property Name=\"dag_dam\" Type=\"Edm.String\" MaxLength=\"3\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"suplementonutricional\" T" +
+                "ype=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"transferida\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"almaternoexclusivo\" Type=\"Edm.String\" MaxLength=\"1\" FixedL" +
+                "ength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"testemala" +
+                "ria\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"resultado_TDR_HTZ\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"puerperamalariatratada\" Type=\"Edm.St" +
                 "ring\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"mot_home_arv\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true" +
-                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"chd_home_arv\" Type=\"" +
-                "Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"discharge_date\" Type=\"Edm.DateTime\" Precision=\"0\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"transfer_out_us\" Type=\"Edm.String\" MaxLength=" +
-                "\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"hospitaldays\" Typ" +
-                "e=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String\" M" +
-                "axLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr";
+                "><Property Name=\"estadoentradacpp\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"fal" +
+                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocpp\" Type=\"Edm.String\" Ma" +
+                "xLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dosepuerpe" +
+                "ra\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"iniciottosifiliscpp\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=" +
+                "\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"parceirottocpp\"" +
+                " Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"seroestadoentradacpp\" Type=\"Edm.String\" MaxLength=" +
+                "\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"testehivconsultac" +
+                "pp\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"emtarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"iniciatarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"cont" +
+                "inuatarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"rn_tarv\" " +
+                "Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"testehivparceiro\" T" +
+                "ype=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"ttopuerpera\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"rntto\" Type=\"Edm.String\" MaxLength=\"50\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"vitAcpp\" Type=\"Edm.String\" Ma" +
+                "xLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"salferroso_acfolico\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\"" +
+                " Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transfistula\" Type=\"E" +
+                "dm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"rnccr\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" " +
+                "Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transcsr_pf\" Type=\"Edm" +
+                ".String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"providername\" Type=\"Edm.String\" MaxLength=\"5" +
+                "0\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"csr_" +
+                "pf\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int64\" Nul" +
+                "lable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"nr_c" +
+                "onsulta\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"ano\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"nlivro\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"idmother\" Type=\"Edm.Int32\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"visdate\" Type=\"Edm.DateTime\" Nullable=\"false\" Pre" +
+                "cision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_csr_pf\" Type=\"Edm.Strin" +
+                "g\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"nid_tarv\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"Edm.String\" MaxLength=\"45\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"residencia\" Type=\"Edm.String\"" +
+                " MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"telefo" +
+                "ne\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"sexo\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=" +
+                "\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"grupoetario\" Type=\"Edm.Int32\" " +
+                "Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"parceiropresente\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"leucorreia\" Type=\"Edm." +
+                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ulceragenital\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"corrimentouretral\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"recebeutto\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"outraspatologias\" Type=\"Edm.String\" MaxL" +
+                "ength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"exameclnmam" +
+                "a\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"examenormal\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nodmama\" Type=\"Edm.Boo" +
+                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mastite\" Type=\"Edm.Boolean\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"outraslesoes\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"tratado\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"transferidaExameCln\" Type=\"Edm.String\" MaxLength=\"20\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"exameVIA\" Type=\"Edm.Boole" +
+                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"viapos\" Type=\"Edm.Boolean\" Concurr" +
+                "encyMode=\"Fixed\" /><Property Name=\"viapos_hivpos\" Type=\"Edm.Boolean\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"vianeg\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"lesaocolo\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"suspeitacancro\" Type=\"Edm.Boolean\" Nullable=\"false\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"naoexameVIA\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"crioterapia\" Type=\"Edm.String\" MaxLengt";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart6 = "operty Name=\"providername\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"mother\"><Key><PropertyRef Na" +
-                "me=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation" +
-                ":StoreGeneratedPattern=\"Identity\" /><Property Name=\"nid_cpn\" Type=\"Edm.String\" N" +
-                "ullable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"nid_tarv\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"name\" Type=\"Edm.String\" Nullable=\"false\" MaxLength" +
-                "=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"residence\" Type=" +
-                "\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"phone\" Type=\"Edm.Decimal\" Precision=\"15\" Scale=\"0\" ConcurrencyMode=\"Fixed\"" +
-                " /><Property Name=\"dob\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed" +
-                "\" /><NavigationProperty Name=\"children\" Relationship=\"LightSwitchApplication.mot" +
-                "her_id\" ToRole=\"child\" FromRole=\"mother\" /><NavigationProperty Name=\"cpns\" Relat" +
-                "ionship=\"LightSwitchApplication.idmother\" ToRole=\"cpn\" FromRole=\"mother\" /></Ent" +
-                "ityType><EntityType Name=\"paciente_resistente_tb\"><Key><PropertyRef Name=\"id\" />" +
-                "</Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGene" +
-                "ratedPattern=\"Identity\" /><Property Name=\"distrito\" Type=\"Edm.String\" MaxLength=" +
-                "\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"us\" Type=\"Edm.Str" +
-                "ing\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"da" +
-                "taregisto\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"NIT2\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"Edm.String\" MaxLength=\"50\" " +
-                "Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sexo\" Type=\"Edm.String" +
-                "\" Nullable=\"false\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"grupoetario\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"endereco\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"telefone\" Type=\"Edm.String\" MaxLeng" +
-                "th=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ocupacao\" Type" +
-                "=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"NIT\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"dataregistotb\" Type=\"Edm.DateTime\" Precision=\"0\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"localizacaolesao\" Type=\"Edm.String\" MaxLength=" +
-                "\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"categoriadoete\" Ty" +
-                "pe=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"ttoprevio2l\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"diagconfirmadopor\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"datacolheitatsa\" Type=\"Edm.DateTime\" Precision=\"0" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultadotsa\" Type=\"Edm.DateTime" +
-                "\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_s\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_h\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_r\" Type=\"Edm" +
-                ".Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_e\" Type=\"Edm.B" +
-                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_z\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_Amk_Km\" Type=\"Edm." +
-                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_cm\" Type=\"Edm.B" +
-                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_FQ\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_Pto_Eto\" Type=\"Ed" +
-                "m.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_Outro1\" Type=" +
-                "\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"sensibilidade_Outro2\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"sensibilidade_Outro3\" Type=\"Edm.String\" M" +
-                "axLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"perfilre" +
-                "sistencia\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"contactosrastreadostbr\" Type=\"Edm.Int32\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"contactoscomtbr\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"tastehiv\" Type=\"Edm.String\" MaxLength=\"2\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"dataresultadohiv\" Type=\"Edm.DateTime\" P" +
-                "recision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tpc\" Type=\"Edm.String\" Ma" +
-                "xLength=\"2\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datainicio" +
-                "tpc\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"emtarv\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"NID\" Type=\"Edm.String\" MaxLength=\"20\" Unic" +
-                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datainiciotarv\" Type=\"Edm." +
-                "DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"regimetratamen" +
-                "to\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"ustratamento\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"false\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"usdatainiciotto\" Type=\"Edm.DateTime\" Pre" +
-                "cision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"comtratamento\" Type=\"Edm.St" +
-                "ring\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"c" +
-                "omdatainiciotto\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"resultadobk_0m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"dataresultadobk_0m\" Type=\"Edm.DateTime\" " +
-                "Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_0m\" Typ" +
-                "e=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"dataresultadocultura_0m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMo" +
-                "de=\"Fixed\" /><Property Name=\"resultadobk_1m\" Type=\"Edm.String\" MaxLength=\"15\" Un" +
-                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_1m\" Typ" +
-                "e=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"dataresultado_1m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"resultadobk_2m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"" +
-                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_2m\" Type=\"Edm." +
-                "String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"dataresultado_2m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"resultadobk_3m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_3m\" Type=\"Edm.String\"" +
-                " MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datare" +
-                "sultado_3m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"resultadobk_4m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"resultadocultura_4m\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado" +
-                "_4m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"resultadobk_5m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMod" +
-                "e=\"Fixed\" /><Property Name=\"resultadocultura_5m\" Type=\"Edm.String\" MaxLength=\"15" +
-                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=";
+            private const string ModelPart4 = "h=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transferidaCncrU" +
+                "terino\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"estadosifilis_entr\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"" +
+                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultSifilisCSRPF\" Type=\"Edm.S" +
+                "tring\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"d" +
+                "osesifilis\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"parceirottoCSRPF\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"seroestado_entr\" Type=\"Edm.String\" MaxLe" +
+                "ngth=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"testehivCSRP" +
+                "F\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"emtarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"iniciatarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"conti" +
+                "nuatarv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadot" +
+                "esteparceiro\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"estadopf\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"fals" +
+                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"pilutapf\" Type=\"Edm.String\" MaxLeng" +
+                "th=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"injectavelpf\" " +
+                "Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prop" +
+                "erty Name=\"diupf\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMo" +
+                "de=\"Fixed\" /><Property Name=\"implantepf\" Type=\"Edm.String\" MaxLength=\"20\" Unicod" +
+                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"lam\" Type=\"Edm.Boolean\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"contracepcaoemergencia\" Type=\"Edm.Boolean\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"laquetubar\" Type=\"Edm.Boolean\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"preservativo\" Type=\"Edm.String\" MaxLength=\"2" +
+                "0\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nr_preservativof\" T" +
+                "ype=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nr_preservativom\" Type" +
+                "=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"outrosmetodos\" Type=\"Edm." +
+                "String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"transferidapor\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"providername\" Type=\"Edm.String\" MaxL" +
+                "ength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Na" +
+                "me=\"laboratoriotb\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=" +
+                "\"Edm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Prop" +
+                "erty Name=\"ano\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"mes\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"numlab\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"5\" Unicode=\"f" +
+                "alse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nit_nid\" Type=\"Edm.String\" Nulla" +
+                "ble=\"false\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
+                "me=\"NIT\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"NID\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"Edm.String\" Nullable=\"false\" Max" +
+                "Length=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sexo\" Type" +
+                "=\"Edm.String\" Nullable=\"false\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"idade\" Type=\"Edm.Int32\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"residencia\" Type=\"Edm.String\" MaxLength=\"50\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ocupacao\" Type=\"Edm.String\" M" +
+                "axLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"telefone" +
+                "\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"usreferencia\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"25\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"proveniencia\" Type=\"Edm.S" +
+                "tring\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "HIV\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"ot_imunodepressao\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"fals" +
+                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tipodoente\" Type=\"Edm.String\" MaxLe" +
+                "ngth=\"40\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"motivoexame\"" +
+                " Type=\"Edm.String\" MaxLength=\"40\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"mescontrolo\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Na" +
+                "me=\"examesolicitado\" Type=\"Edm.String\" MaxLength=\"40\" Unicode=\"false\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"datacolheita1\" Type=\"Edm.DateTime\" Precision=\"0\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"datacolheita2\" Type=\"Edm.DateTime\" Pr" +
+                "ecision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datarecepcao1\" Type=\"Edm.D" +
+                "ateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datarecepcao2\" " +
+                "Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tipo" +
+                "amostra\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"aspectomicro1\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"fal" +
+                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"aspectomicro2\" Type=\"Edm.String\" M" +
+                "axLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultad" +
+                "obk1\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"dataresultadobk1\" Type=\"Edm.DateTime\" Precision=\"0\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"resultadobk2\" Type=\"Edm.String\" MaxLength=\"15\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultadobk2\" Type=\"" +
+                "Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadom" +
+                "tb\" Type=\"Edm.String\" MaxLength=\"2\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"dataresultadomtb\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"resultadorif\" Type=\"Edm.String\" MaxLength=\"2\" Unicod" +
+                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultadorif\" Type=\"Edm." +
+                "DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"repetirxpert\" " +
+                "Type=\"Edm.String\" MaxLength=\"2\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"iniciaistecinico\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLength=\"60\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"livro\"><Ke" +
+                "y><PropertyRef Name=\"ID\" /></Key><Property Name=\"nlivro\" Type=\"Edm.String\" Nulla" +
+                "ble=\"false\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"provincia\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"15\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"distrito\" Type=\"Edm.String\" Nullable" +
+                "=\"false\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"uscode\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"usname\" Type=\"Edm.String\" Nullable=\"false\"" +
+                " MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"initda" +
+                "te\" Type=\"Edm.DateTime\" Nullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"tipolivro\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ID\" Type=\"Edm.Int32\" Nul" +
+                "lable=\"false\" /></EntityType><EntityType Name=\"maternidade\"";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart7 = "\"dataresultado_5m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"resultadobk_6m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_6m\" Type=\"Edm.String\" " +
-                "MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datares" +
-                "ultado_6m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"estadopaciente6meses\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"resultadobk_7m\" Type=\"Edm.String\" MaxLeng" +
-                "th=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultu" +
-                "ra_7m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"dataresultado_7m\" Type=\"Edm.DateTime\" Precision=\"0\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"resultadobk_8m\" Type=\"Edm.String\" MaxLength=\"15\"" +
-                " Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_8m\" " +
-                "Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"dataresultado_8m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"resultadobk_9m\" Type=\"Edm.String\" MaxLength=\"15\" Unicod" +
-                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_9m\" Type=\"E" +
-                "dm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"dataresultado_9m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"resultadobk_10m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"fal" +
-                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_10m\" Type=\"Edm.St" +
-                "ring\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"d" +
-                "ataresultado_10m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"resultadobk_11m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_11m\" Type=\"Edm.String" +
-                "\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datar" +
-                "esultado_11m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"resultadobk_12m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_12m\" Type=\"Edm.String\" Ma" +
-                "xLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresul" +
-                "tado_12m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"estadopaciente12meses\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"resultadobk_14m\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocult" +
-                "ura_14m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
-                "\" /><Property Name=\"dataresultado_14m\" Type=\"Edm.DateTime\" Precision=\"0\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"resultadobk_16m\" Type=\"Edm.String\" MaxLength=" +
-                "\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_" +
-                "16m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"dataresultado_16m\" Type=\"Edm.DateTime\" Precision=\"0\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"resultadobk_18m\" Type=\"Edm.String\" MaxLength=\"15\"" +
-                " Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_18m\"" +
-                " Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"dataresultado_18m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"estadopaciente18meses\" Type=\"Edm.String\" MaxLength=\"5" +
-                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_20m\" Typ" +
-                "e=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"resultadocultura_20m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_20m\" Type=\"Edm.DateTime\" " +
-                "Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_22m\" Type=\"E" +
-                "dm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"resultadocultura_22m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"dataresultado_22m\" Type=\"Edm.DateTime\" Prec" +
-                "ision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_24m\" Type=\"Edm.S" +
-                "tring\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "resultadocultura_24m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"dataresultado_24m\" Type=\"Edm.DateTime\" Precisio" +
-                "n=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadopaciente24meses\" Type=\"Edm" +
-                ".String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"resultadobk_26m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMo" +
-                "de=\"Fixed\" /><Property Name=\"resultadocultura_26m\" Type=\"Edm.String\" MaxLength=\"" +
-                "15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_26m\"" +
-                " Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"res" +
-                "ultadobk_28m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"resultadocultura_28m\" Type=\"Edm.String\" MaxLength=\"15\" " +
-                "Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_28m\" Typ" +
-                "e=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resulta" +
-                "dobk_30m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"resultadocultura_30m\" Type=\"Edm.String\" MaxLength=\"15\" Unic" +
-                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_30m\" Type=\"E" +
-                "dm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadopacie" +
-                "nte30meses\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"resultadofinaltto\" Type=\"Edm.String\" MaxLength=\"3\" Unicode" +
-                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datafimtto\" Type=\"Edm.DateTim" +
-                "e\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String" +
-                "\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityT" +
-                "ype Name=\"pacientetb\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Ty" +
-                "pe=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><P" +
-                "roperty Name=\"ano\" Type=\"Edm.Int32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"dataregisto\" Type=\"Edm.DateTime\" Nullable=\"false\" Precision=\"0\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"NIT\" Type=\"Edm.String\" Nullable=\"false\"" +
-                " MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nome\" " +
-                "Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMod" +
-                "e=\"Fixed\" /><Property Name=\"sexo\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"" +
-                "1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "grupoetario\" Type=\"Edm.Boolean\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"residencia\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"telefone\" Type=\"Edm.String\" MaxLength=\"15\" Uni" +
-                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ocupacao\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"prov" +
-                "eniencia\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"localizacaolesao\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"" +
-                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"categoriadoente\" Type=\"Edm.Stri" +
-                "ng\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data" +
-                "iniciotto\" Type=\"Edm.DateTime\" Nullable=\"false\" Precision=\"";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart8 = "0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"casonovoadulto\" Type=\"Edm.String\" Ma" +
-                "xLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"casonovoc" +
-                "rianca\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
-                " /><Property Name=\"retratamento\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tbresistente\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"nit_tbresistente\" Type=\"Edm.String\" MaxLe" +
-                "ngth=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"fintensivalo" +
-                "cal\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"5\" Unicode=\"false\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"fintensivanomelocal\" Type=\"Edm.String\" MaxLength" +
-                "=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"fmanutencaolocal" +
-                "\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"fmanutencaonomelocal\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"testado\" Type=\"Edm.String\" MaxLengt" +
-                "h=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"hivresultado\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"tpc\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"emtarv\" Type=\"Edm.String\" MaxLength=\"1" +
-                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"NID\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data" +
-                "iniciotarv\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"contactosrastreados\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"contactoscomtb\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"criancasrastreadas\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name" +
-                "=\"criancasquimioproflaxia\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"bkdata\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"bkresultado\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"bknumlab\" Type=\"Edm.String\" MaxLength=\"5\" Unico" +
-                "de=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"gxrifdata\" Type=\"Edm.DateTi" +
-                "me\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"gxresultado\" Type=\"E" +
-                "dm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"rifresultado\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"gxrifnumlab\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=" +
-                "\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"culturadata\" Type=\"Edm.DateTim" +
-                "e\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"culturaresultado\" Typ" +
-                "e=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"culturanumlab\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"rx\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"fa" +
-                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"outrosexames\" Type=\"Edm.String\" M" +
-                "axLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_bkd" +
-                "ata_2_3\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"bact_bkresultado_2_3\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"bact_bknumlab_2_3\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_culturada" +
-                "ta_2_3\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"bact_culturaresultado_2_3\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"bact_culturanumlab_2_3\" Type=\"Edm.Strin" +
-                "g\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_" +
-                "bkdata_5\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"bact_bkresultado_5\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concur" +
-                "rencyMode=\"Fixed\" /><Property Name=\"bact_bknumlab_5\" Type=\"Edm.String\" MaxLength" +
-                "=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_culturadata_" +
-                "5\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"b" +
-                "act_culturaresultado_5\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"bact_culturanumlab_5\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_bkdata_fi" +
-                "mtrat\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"bact_bkresultado_fimtrat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"bact_bknumlab_fimtrat\" Type=\"Edm.String\" " +
-                "MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_cul" +
-                "turadata_fimtrat\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"bact_culturaresultado_fimtrat\" Type=\"Edm.String\" MaxLength=\"5\" Uni" +
-                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_culturanumlab_fimtra" +
-                "t\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"datafimtratamento\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMod" +
-                "e=\"Fixed\" /><Property Name=\"resultadotratamento\" Type=\"Edm.String\" MaxLength=\"5\"" +
-                " Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tb_resistente\" Type=\"" +
-                "Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxL" +
-                "ength=\"100\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType N" +
-                "ame=\"patient\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm." +
-                "Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property " +
-                "Name=\"person_type\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"fa" +
-                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_cpn\" Type=\"Edm.String\" Nullab" +
-                "le=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"nid_ccr\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"nit\" Type=\"Edm.String\" Nullable=\"false\"" +
-                " MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nficha" +
-                "_gbv\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"nid_tarv\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"name\" Type=\"Edm.String\" Nullable=\"false\" M" +
-                "axLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"residenc" +
-                "e\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"phone\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"dob\" Type=\"Edm.DateTime\" Precision=\"0\" Concurren" +
-                "cyMode=\"Fixed\" /></EntityType><EntityType Name=\"t_categoria\"><Key><PropertyRef N" +
-                "ame=\"codcategoria\" /></Key><Property Name=\"codcategoria\" Type=\"Edm.Int32\" Nullab" +
-                "le=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"categor" +
-                "ia\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><EntityTy" +
-                "pe Name=\"t_grauexposicao\"><Key><PropertyRef Name=\"codigo\" /></Key><Property Name" +
-                "=\"codigo\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Id" +
-                "entity\" /><Property Name=\"grauexposicao\" Type=\"Edm.String\" MaxLength=\"65535\" Uni" +
-                "code=\"false\" /></EntityType><EntityType Name=\"t_historia_clinica_notificacao\"><K" +
-                "ey><PropertyRef Name=\"ordem\" /></Key><Property Name=\"ordem\" Type=\"Edm.Int32\" Nul" +
-                "lable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"noti" +
-                "ficacao\" Type=\"Edm.String\" MaxLength=\"9\" Unicode=\"false\" Co";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart9 = "ncurrencyMode=\"Fixed\" /><Property Name=\"id\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"historicoclinico\" Type=\"Edm.String\" MaxLength=\"65535\" Unic" +
-                "ode=\"false\" /><Property Name=\"valor\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
-                "/></EntityType><EntityType Name=\"t_historiaclinica\"><Key><PropertyRef Name=\"id\" " +
-                "/></Key><Property Name=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGe" +
-                "neratedPattern=\"Identity\" /><Property Name=\"historicoclinico\" Type=\"Edm.String\" " +
-                "MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"tabela\" Type=\"Edm.String\" Ma" +
-                "xLength=\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_intervenco\"><" +
-                "Key><PropertyRef Name=\"codintervencoes\" /></Key><Property Name=\"codintervencoes\"" +
-                " Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /" +
-                "><Property Name=\"intervencoes\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"fals" +
-                "e\" /></EntityType><EntityType Name=\"t_laboratorio_notificacao\"><Key><PropertyRef" +
-                " Name=\"ordem\" /></Key><Property Name=\"ordem\" Type=\"Edm.Int32\" Nullable=\"false\" a" +
-                "nnotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"notificacao\" Type=\"" +
-                "Edm.String\" MaxLength=\"9\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"id\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"analise\" Type" +
-                "=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"valor\" Type=\"E" +
-                "dm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_" +
-                "localacidente\"><Key><PropertyRef Name=\"codigo\" /></Key><Property Name=\"codigo\" T" +
-                "ype=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><" +
-                "Property Name=\"descricao\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" />" +
-                "</EntityType><EntityType Name=\"t_notificacao\"><Key><PropertyRef Name=\"notificaca" +
-                "o\" /></Key><Property Name=\"notificacao\" Type=\"Edm.String\" Nullable=\"false\" MaxLe" +
-                "ngth=\"9\" Unicode=\"false\" /><Property Name=\"data\" Type=\"Edm.DateTime\" Precision=\"" +
-                "0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"hora\" Type=\"Edm.Time\" ConcurrencyMo" +
-                "de=\"Fixed\" /><Property Name=\"us\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"fa" +
-                "lse\" /><Property Name=\"referido_de\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"tipo_violencia\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"nome\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property " +
-                "Name=\"endereco\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property " +
-                "Name=\"telefone\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property " +
-                "Name=\"datanasc\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"idade\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"Se" +
-                "xo\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"gravid" +
-                "ez\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"data_m" +
-                "estruacao\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"data_violencia\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\"" +
-                " /><Property Name=\"hora_violencia\" Type=\"Edm.Time\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"circunstancia\" Type=\"Edm.String\" MaxLength=\"Max\" Unicode=\"false\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"agressores\" Type=\"Edm.Int32\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"relacao\" Type=\"Edm.String\" MaxLength=\"65535\" Unic" +
-                "ode=\"false\" /><Property Name=\"condicao_exposta\" Type=\"Edm.Int32\" ConcurrencyMode" +
-                "=\"Fixed\" /><Property Name=\"condicao_fonte\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"comentario\" Type=\"Edm.String\" MaxLength=\"Max\" Unicode=\"fal" +
-                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"Referencia\" Type=\"Edm.Int32\" Concu" +
-                "rrencyMode=\"Fixed\" /><Property Name=\"data_inicial\" Type=\"Edm.DateTime\" Precision" +
-                "=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"clinico\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"65535\" Unicode=\"false\" /><Property Name=\"seguimentos\" Type=\"Edm.String\" Max" +
-                "Length=\"Max\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"especifiq" +
-                "ue\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><EntityTy" +
-                "pe Name=\"t_referencia\"><Key><PropertyRef Name=\"codreferencias\" /></Key><Property" +
-                " Name=\"codreferencias\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGenerat" +
-                "edPattern=\"Identity\" /><Property Name=\"referencias\" Type=\"Edm.String\" MaxLength=" +
-                "\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_referido\"><Key><Prope" +
-                "rtyRef Name=\"codreferido\" /></Key><Property Name=\"codreferido\" Type=\"Edm.Int32\" " +
-                "Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"r" +
-                "eferido\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><Ent" +
-                "ityType Name=\"t_regimeppe\"><Key><PropertyRef Name=\"codigo\" /></Key><Property Nam" +
-                "e=\"codigo\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"I" +
-                "dentity\" /><Property Name=\"regime\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"" +
-                "false\" /></EntityType><EntityType Name=\"t_registodiarioppe\"><Key><PropertyRef Na" +
-                "me=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation" +
-                ":StoreGeneratedPattern=\"Identity\" /><Property Name=\"us\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"65535\" Unicode=\"false\" /><Property Name=\"nid\" Type=\"Edm.String\" MaxLength=\"" +
-                "65535\" Unicode=\"false\" /><Property Name=\"data\" Type=\"Edm.DateTime\" Precision=\"0\"" +
-                " ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadohivExposta\" Type=\"Edm.Int32\"" +
-                " ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadohivfonte\" Type=\"Edm.Int32\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"grauexposicao\" Type=\"Edm.Int32\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"regimeppeprescrito\" Type=\"Edm.Int32\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"categoria\" Type=\"Edm.Int32\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"localacidente\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"resultadoppe\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"coduser\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"d" +
-                "ataregisto\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></Entity" +
-                "Type><EntityType Name=\"t_registodiariovgb\"><Key><PropertyRef Name=\"Id\" /></Key><" +
-                "Property Name=\"Id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPa" +
-                "ttern=\"Identity\" /><Property Name=\"us\" Type=\"Edm.String\" MaxLength=\"65535\" Unico" +
-                "de=\"false\" /><Property Name=\"Nid\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"f" +
-                "alse\" /><Property Name=\"Data\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=" +
-                "\"Fixed\" /><Property Name=\"Referidode\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"ResultadoHIVExposta\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"tipoviolencia\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"intervencao\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"referencia\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"result" +
-                "adoppe\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"coduser\" Type" +
-                "=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datareg\" Type=\"Edm.DateTi" +
-                "me\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"t_res" +
-                "ultadosppe\"><Key><PropertyRef Name=\"codresultado\" /></Key><Property Name=\"codres" +
-                "ultado\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Iden" +
-                "tity\" /><Property Name=\"resultado\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"" +
-                "false\" /></EntityType><EntityType Name=\"t_resultadoteste\"><Key><PropertyRef Name" +
-                "=\"codigo\" /></Key><Property Name=\"codigo\" Type=\"Edm.Int32\" Nullable=\"false\" anno" +
-                "tation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"resultadoteste\" Type=\"" +
-                "Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityTyp";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart10 = "e><EntityType Name=\"t_seguimento_notificacao\"><Key><PropertyRef Name=\"ordem\" /></" +
-                "Key><Property Name=\"ordem\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGen" +
-                "eratedPattern=\"Identity\" /><Property Name=\"notificacao\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"9\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"id\" Type=\"Edm." +
-                "Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"descricao\" Type=\"Edm.String\" Ma" +
-                "xLength=\"65535\" Unicode=\"false\" /><Property Name=\"inicial\" Type=\"Edm.DateTime\" P" +
-                "recision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C2sem\" Type=\"Edm.DateTime" +
-                "\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C4sem\" Type=\"Edm.DateT" +
-                "ime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C6sem\" Type=\"Edm.Da" +
-                "teTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C3mes\" Type=\"Edm" +
-                ".DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C6mes\" Type=\"" +
-                "Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType N" +
-                "ame=\"t_tipoviolencia\"><Key><PropertyRef Name=\"codigo\" /></Key><Property Name=\"co" +
-                "digo\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identi" +
-                "ty\" /><Property Name=\"tipoviolencia\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode" +
-                "=\"false\" /></EntityType><EntityType Name=\"t_usItem\"><Key><PropertyRef Name=\"id\" " +
-                "/></Key><Property Name=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGe" +
-                "neratedPattern=\"Identity\" /><Property Name=\"codigo\" Type=\"Edm.String\" MaxLength=" +
-                "\"65535\" Unicode=\"false\" /><Property Name=\"designacao\" Type=\"Edm.String\" MaxLengt" +
-                "h=\"65535\" Unicode=\"false\" /><Property Name=\"distrito\" Type=\"Edm.String\" MaxLengt" +
-                "h=\"65535\" Unicode=\"false\" /><Property Name=\"localidade\" Type=\"Edm.String\" MaxLen" +
-                "gth=\"65535\" Unicode=\"false\" /><Property Name=\"activo\" Type=\"Edm.Boolean\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"provincia\" Type=\"Edm.String\" MaxLength=\"65535" +
-                "\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_user\"><Key><PropertyRef Nam" +
-                "e=\"coduser\" /></Key><Property Name=\"coduser\" Type=\"Edm.Int32\" Nullable=\"false\" a" +
-                "nnotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"nome\" Type=\"Edm.Str" +
-                "ing\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"login\" Type=\"Edm.String" +
-                "\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"senha\" Type=\"Edm.String\" M" +
-                "axLength=\"65535\" Unicode=\"false\" /><Property Name=\"datareg\" Type=\"Edm.DateTime\" " +
-                "Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data\" Type=\"Edm.DateTime" +
-                "\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"tratame" +
-                "ntotb\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int64\" " +
-                "Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"i" +
-                "dpacientetb\" Type=\"Edm.Int64\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"faseintensiva\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"fasemanutencao\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
-                "=\"datainiciotto\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"ano1\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"an" +
-                "o2\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano3\" Type=\"Edm.I" +
-                "nt32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano4\" Type=\"Edm.Int32\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"ano5\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" " +
-                "/><Property Name=\"ano6\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"ano7\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano8\" Type=\"" +
-                "Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1\" Type=\"Edm.String\" Max" +
-                "Length=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2\" Type" +
-                "=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes3\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"mes4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"mes5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
-                "s6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7\" Type=\"Edm" +
-                ".Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes1dia1\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes1dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"mes1dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"mes1dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"mes1dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1di" +
-                "a6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia7\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia8\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia9\" Type=\"Edm.Boolean\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"mes1dia10\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes1dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"mes1dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"mes1dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"mes1dia14\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
-                "s1dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia16\"" +
-                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia17\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia18\" Type=\"Edm.Boole" +
-                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia19\" Type=\"Edm.Boolean\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"mes1dia20\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes1dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"mes1dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"mes1dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"mes1dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
-                "s1dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia26\"" +
-                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia27\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia28\" Type=\"Edm.Boole" +
-                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia29\" Type=\"Edm.Boolean\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"mes1dia30\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes1dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"mes2dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"mes2dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"mes2dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2d" +
-                "ia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia5\" Type" +
-                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia6\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia7\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes2dia8\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes2dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"mes2dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"mes2dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"mes2dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes" +
-                "2dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia14\" " +
-                "Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia15\" Type=\"Ed" +
-                "m.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia16\" Type=\"Edm.Boolea" +
-                "n\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia17\" Typ";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart11 = "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia18\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia19\" Type=\"Edm.Boolean\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes2dia20\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"mes2dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"mes2dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"mes2dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"mes2dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"mes2dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia" +
-                "26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia27\" Type" +
-                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia28\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia29\" Type=\"Edm.Boolean\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes2dia30\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"mes2dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"mes3dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes3dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes3dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
-                "s3dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia5\" T" +
-                "ype=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia6\" Type=\"Edm." +
-                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia7\" Type=\"Edm.Boolean\" " +
-                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia8\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"mes3dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"mes3dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes3dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"mes3dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "mes3dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia1" +
-                "4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia15\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia16\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia17\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes3dia18\" Type=\"Edm.Boolean\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"mes3dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"mes3dia20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes3dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"mes3dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "mes3dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia2" +
-                "4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia25\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia26\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia27\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes3dia28\" Type=\"Edm.Boolean\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"mes3dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"mes3dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes3dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"mes4dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es4dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia3\" " +
-                "Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia4\" Type=\"Edm" +
-                ".Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia5\" Type=\"Edm.Boolean\"" +
-                " ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia6\" Type=\"Edm.Boolean\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"mes4dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"mes4dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes4dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes4dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es4dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia12" +
-                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia13\" Type=\"" +
-                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia14\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia15\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes4dia16\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"mes4dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"mes4dia18\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"mes4dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes4dia20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es4dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia22" +
-                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia23\" Type=\"" +
-                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia24\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia25\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes4dia26\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"mes4dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"mes4dia28\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"mes4dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes4dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es4dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia1\"" +
-                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia2\" Type=\"Ed" +
-                "m.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia3\" Type=\"Edm.Boolean" +
-                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia4\" Type=\"Edm.Boolean\" Concurr" +
-                "encyMode=\"Fixed\" /><Property Name=\"mes5dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=" +
-                "\"Fixed\" /><Property Name=\"mes5dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"mes5dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"mes5dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es5dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia10\"" +
-                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia11\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia12\" Type=\"Edm.Boole" +
-                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia13\" Type=\"Edm.Boolean\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"mes5dia14\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes5dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"mes5dia16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"mes5dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"mes5dia18\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
-                "s5dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia20\"" +
-                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia21\" Type=\"E" +
-                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia22\" Type=\"Edm.Boole" +
-                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia23\" Type=\"Edm.Boolean\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"mes5dia24\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes5dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"mes5dia26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
-                "roperty Name=\"mes5dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"mes5dia28\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\"";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart12 = " /><Property Name=\"mes5dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
-                "rty Name=\"mes5dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
-                "=\"mes5dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6di" +
-                "a1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia2\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia3\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia4\" Type=\"Edm.Boolean\" Conc" +
-                "urrencyMode=\"Fixed\" /><Property Name=\"mes6dia5\" Type=\"Edm.Boolean\" ConcurrencyMo" +
-                "de=\"Fixed\" /><Property Name=\"mes6dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed" +
-                "\" /><Property Name=\"mes6dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prop" +
-                "erty Name=\"mes6dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
-                "=\"mes6dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia" +
-                "10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia11\" Type" +
-                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia12\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia13\" Type=\"Edm.Boolean\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes6dia14\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"mes6dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"mes6dia16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"mes6dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"mes6dia18\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"mes6dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia" +
-                "20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia21\" Type" +
-                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia22\" Type=\"Edm.Bo" +
-                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia23\" Type=\"Edm.Boolean\" C" +
-                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes6dia24\" Type=\"Edm.Boolean\" Concurren" +
-                "cyMode=\"Fixed\" /><Property Name=\"mes6dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"mes6dia26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"mes6dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"mes6dia28\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
-                "\"mes6dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia" +
-                "30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia31\" Type" +
-                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia1\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia2\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes7dia3\" Type=\"Edm.Boolean\" ConcurrencyM" +
-                "ode=\"Fixed\" /><Property Name=\"mes7dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
-                "d\" /><Property Name=\"mes7dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
-                "perty Name=\"mes7dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
-                "e=\"mes7dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7di" +
-                "a8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia9\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia10\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia11\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes7dia12\" Type=\"Edm.Boolean\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"mes7dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"mes7dia14\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes7dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"mes7dia16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "mes7dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia1" +
-                "8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia19\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia20\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia21\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes7dia22\" Type=\"Edm.Boolean\" Concurrenc" +
-                "yMode=\"Fixed\" /><Property Name=\"mes7dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
-                "ixed\" /><Property Name=\"mes7dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
-                "<Property Name=\"mes7dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"mes7dia26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
-                "mes7dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia2" +
-                "8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia29\" Type=" +
-                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia30\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia31\" Type=\"Edm.Boolean\" Co" +
-                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes8dia1\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"mes8dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
-                "ed\" /><Property Name=\"mes8dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pr" +
-                "operty Name=\"mes8dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"mes8dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8d" +
-                "ia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia7\" Type" +
-                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia8\" Type=\"Edm.Boo" +
-                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia9\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes8dia10\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"mes8dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"mes8dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"mes8dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes8dia14\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es8dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia16" +
-                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia17\" Type=\"" +
-                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia18\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia19\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes8dia20\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"mes8dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"mes8dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
-                "Property Name=\"mes8dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
-                " Name=\"mes8dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
-                "es8dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia26" +
-                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia27\" Type=\"" +
-                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia28\" Type=\"Edm.Bool" +
-                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia29\" Type=\"Edm.Boolean\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"mes8dia30\" Type=\"Edm.Boolean\" Concurrency" +
-                "Mode=\"Fixed\" /><Property Name=\"mes8dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"transferidode\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"" +
-                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datatransferde\" Type=\"Edm.DateT" +
-                "ime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transferidopara\" Ty" +
-                "pe=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"datatransferpara\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fi" +
-                "xed\" /><Property Name=\"data_ra_prurido\" Type=\"Edm.DateTime\" Precision=\"0\" Concur" +
-                "rencyMode=\"Fixed\" /><Property Name=\"data_ra_ercutanea\" Type=\"Edm.DateTime\" Preci" +
-                "sion=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_";
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart13 = "nauseas\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Na" +
-                "me=\"data_ra_vomitos\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /" +
-                "><Property Name=\"data_ra_dabdom_azia\" Type=\"Edm.DateTime\" Precision=\"0\" Concurre" +
-                "ncyMode=\"Fixed\" /><Property Name=\"data_ra_artralgia\" Type=\"Edm.DateTime\" Precisi" +
-                "on=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_neuropatiaper\" Type=\"Ed" +
-                "m.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_urin" +
-                "aalaranjada\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Proper" +
-                "ty Name=\"data_ra_dauditivos\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"" +
-                "Fixed\" /><Property Name=\"data_ra_dvisuais\" Type=\"Edm.DateTime\" Precision=\"0\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"data_ra_vertigens\" Type=\"Edm.DateTime\" Pr" +
-                "ecision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_nistagmo\" Type=\"Ed" +
-                "m.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_alte" +
-                "rmental\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property N" +
-                "ame=\"data_ra_ictericia\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed" +
-                "\" /><Property Name=\"data_ra_insufhepatica\" Type=\"Edm.DateTime\" Precision=\"0\" Con" +
-                "currencyMode=\"Fixed\" /><Property Name=\"data_ra_choque\" Type=\"Edm.DateTime\" Preci" +
-                "sion=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_purpura\" Type=\"Edm.Da" +
-                "teTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_insufren" +
-                "al\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><En" +
-                "tityType Name=\"usuario\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" " +
-                "Type=\"Edm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" />" +
-                "<Property Name=\"username\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"15\" Unic" +
-                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"name\" Type=\"Edm.String\" Nu" +
-                "llable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
-                "y Name=\"apelido\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"fals" +
-                "e\" ConcurrencyMode=\"Fixed\" /><Property Name=\"password\" Type=\"Edm.String\" MaxLeng" +
-                "th=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"posicao\" Type=" +
+            private const string ModelPart5 = "><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int32\" Nullabl" +
+                "e=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"admissio" +
+                "ndate\" Type=\"Edm.DateTime\" Nullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"admissionhr\" Type=\"Edm.Time\" ConcurrencyMode=\"Fixed\" /><Prop" +
+                "erty Name=\"nid_cpn\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"f" +
+                "alse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_tarv\" Type=\"Edm.String\" MaxL" +
+                "ength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"name\" Type=" +
                 "\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
-                "Name=\"systemrole\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMo" +
-                "de=\"Fixed\" /></EntityType><Association Name=\"idccr\"><End Role=\"ccr\" Type=\"LightS" +
-                "witchApplication.ccr\" Multiplicity=\"1\" /><End Role=\"ccrseg\" Type=\"LightSwitchApp" +
-                "lication.ccrseg\" Multiplicity=\"*\" /><ReferentialConstraint><Principal Role=\"ccr\"" +
-                "><PropertyRef Name=\"id\" /></Principal><Dependent Role=\"ccrseg\"><PropertyRef Name" +
-                "=\"idccr\" /></Dependent></ReferentialConstraint></Association><Association Name=\"" +
-                "idchild\"><End Role=\"child\" Type=\"LightSwitchApplication.child\" Multiplicity=\"1\" " +
-                "/><End Role=\"ccr\" Type=\"LightSwitchApplication.ccr\" Multiplicity=\"*\" /><Referent" +
-                "ialConstraint><Principal Role=\"child\"><PropertyRef Name=\"id\" /></Principal><Depe" +
-                "ndent Role=\"ccr\"><PropertyRef Name=\"idchild\" /></Dependent></ReferentialConstrai" +
-                "nt></Association><Association Name=\"mother_id\"><End Role=\"mother\" Type=\"LightSwi" +
-                "tchApplication.mother\" Multiplicity=\"0..1\" /><End Role=\"child\" Type=\"LightSwitch" +
-                "Application.child\" Multiplicity=\"*\" /><ReferentialConstraint><Principal Role=\"mo" +
-                "ther\"><PropertyRef Name=\"id\" /></Principal><Dependent Role=\"child\"><PropertyRef " +
-                "Name=\"id_mother\" /></Dependent></ReferentialConstraint></Association><Associatio" +
-                "n Name=\"idmother\"><End Role=\"mother\" Type=\"LightSwitchApplication.mother\" Multip" +
-                "licity=\"1\" /><End Role=\"cpn\" Type=\"LightSwitchApplication.cpn\" Multiplicity=\"*\" " +
-                "/><ReferentialConstraint><Principal Role=\"mother\"><PropertyRef Name=\"id\" /></Pri" +
-                "ncipal><Dependent Role=\"cpn\"><PropertyRef Name=\"idmother\" /></Dependent></Refere" +
-                "ntialConstraint></Association><EntityContainer Name=\"dbmanualsourceData\" m:IsDef" +
-                "aultEntityContainer=\"true\"><EntitySet Name=\"amostrastbs\" EntityType=\"LightSwitch" +
-                "Application.amostrastb\" /><EntitySet Name=\"ccrs\" EntityType=\"LightSwitchApplicat" +
-                "ion.ccr\" /><EntitySet Name=\"ccrsegs\" EntityType=\"LightSwitchApplication.ccrseg\" " +
-                "/><EntitySet Name=\"children\" EntityType=\"LightSwitchApplication.child\" /><Entity" +
-                "Set Name=\"cpn_finals\" EntityType=\"LightSwitchApplication.cpn_final\" /><EntitySet" +
-                " Name=\"cpns\" EntityType=\"LightSwitchApplication.cpn\" /><EntitySet Name=\"cpps\" En" +
-                "tityType=\"LightSwitchApplication.cpp\" /><EntitySet Name=\"csr_pfs\" EntityType=\"Li" +
-                "ghtSwitchApplication.csr_pf\" /><EntitySet Name=\"laboratoriotbs\" EntityType=\"Ligh" +
-                "tSwitchApplication.laboratoriotb\" /><EntitySet Name=\"livroes\" EntityType=\"LightS" +
-                "witchApplication.livro\" /><EntitySet Name=\"maternidades\" EntityType=\"LightSwitch" +
-                "Application.maternidade\" /><EntitySet Name=\"mothers\" EntityType=\"LightSwitchAppl" +
-                "ication.mother\" /><EntitySet Name=\"paciente_resistente_tbs\" EntityType=\"LightSwi" +
-                "tchApplication.paciente_resistente_tb\" /><EntitySet Name=\"pacientetbs\" EntityTyp" +
-                "e=\"LightSwitchApplication.pacientetb\" /><EntitySet Name=\"patients\" EntityType=\"L" +
-                "ightSwitchApplication.patient\" /><EntitySet Name=\"t_categorias\" EntityType=\"Ligh" +
-                "tSwitchApplication.t_categoria\" /><EntitySet Name=\"t_grauexposicaos\" EntityType=" +
-                "\"LightSwitchApplication.t_grauexposicao\" /><EntitySet Name=\"t_historia_clinica_n" +
-                "otificacaos\" EntityType=\"LightSwitchApplication.t_historia_clinica_notificacao\" " +
-                "/><EntitySet Name=\"t_historiaclinicas\" EntityType=\"LightSwitchApplication.t_hist" +
-                "oriaclinica\" /><EntitySet Name=\"t_intervencoes\" EntityType=\"LightSwitchApplicati" +
-                "on.t_intervenco\" /><EntitySet Name=\"t_laboratorio_notificacaos\" EntityType=\"Ligh" +
-                "tSwitchApplication.t_laboratorio_notificacao\" /><EntitySet Name=\"t_localacidente" +
-                "s\" EntityType=\"LightSwitchApplication.t_localacidente\" /><EntitySet Name=\"t_noti" +
-                "ficacaos\" EntityType=\"LightSwitchApplication.t_notificacao\" /><EntitySet Name=\"t" +
-                "_referencias\" EntityType=\"LightSwitchApplication.t_referencia\" /><EntitySet Name" +
-                "=\"t_referidoes\" EntityType=\"LightSwitchApplication.t_referido\" /><EntitySet Name" +
-                "=\"t_regimeppes\" EntityType=\"LightSwitchApplication.t_regimeppe\" /><EntitySet Nam" +
-                "e=\"t_registodiarioppes\" EntityType=\"LightSwitchApplication.t_registodiarioppe\" /" +
-                "><EntitySet Name=\"t_registodiariovgbs\" EntityType=\"LightSwitchApplication.t_regi" +
-                "stodiariovgb\" /><EntitySet Name=\"t_resultadosppes\" EntityType=\"LightSwitchApplic" +
-                "ation.t_resultadosppe\" /><EntitySet Name=\"t_resultadotestes\" EntityType=\"LightSw" +
-                "itchApplication.t_resultadoteste\" /><EntitySet Name=\"t_seguimento_notificacaos\" " +
-                "EntityType=\"LightSwitchApplication.t_seguimento_notificacao\" /><EntitySet Name=\"" +
-                "t_tipoviolencias\" EntityType=\"LightSwitchApplication.t_tipoviolencia\" /><EntityS" +
-                "et Name=\"t_us\" EntityType=\"LightSwitchApplication.t_usItem\" /><EntitySet Name=\"t" +
-                "_users\" EntityType=\"LightSwitchApplication.t_user\" /><EntitySet Name=\"tratamento" +
-                "tbs\" EntityType=\"LightSwitchApplication.tratamentotb\" /><EntitySet Name=\"usuario" +
-                "s\" EntityType=\"LightSwitchApplication.usuario\" /><AssociationSet Name=\"idccr\" As" +
-                "sociation=\"LightSwitchApplication.idccr\"><End Role=\"ccr\" EntitySet=\"ccrs\" /><End" +
-                " Role=\"ccrseg\" EntitySet=\"ccrsegs\" /></AssociationSet><AssociationSet Name=\"idch" +
-                "ild\" Association=\"LightSwitchApplication.idchild\"><End Role=\"child\" EntitySet=\"c" +
-                "hildren\" /><End Role=\"ccr\" EntitySet=\"ccrs\" /></AssociationSet><AssociationSet N" +
-                "ame=\"mother_id\" Association=\"LightSwitchApplication.mother_id\"><End Role=\"mother" +
-                "\" EntitySet=\"mothers\" /><End Role=\"child\" EntitySet=\"children\" /></AssociationSe" +
-                "t><AssociationSet Name=\"idmother\" Association=\"LightSwitchApplication.idmother\">" +
-                "<End Role=\"mother\" EntitySet=\"mothers\" /><End Role=\"cpn\" En";
+                "Name=\"transfer\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"age\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"gestbirth\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"gestage\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"serostatus_unk\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"serostatus_neg3m\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"serostatus_pos\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"cpn_arv_init\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mat_hiv_testing\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"triprofilafia\" Type=\"Edm.Boolean\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"tarv_init_entr\" Type=\"Edm.Boolean\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"tarv_init_matern\" Type=\"Edm.Boolean\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"delivdate\" Type=\"Edm.DateTime\" Precision=\"0\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"delivhr\" Type=\"Edm.Time\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"freq_fpos\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"fneg\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"e" +
+                "utocic\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ventosa\" Ty" +
+                "pe=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"caesarean\" Type=\"Edm." +
+                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"oth_dystocia\" Type=\"Edm.Boole" +
+                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"activeman3stag\" Type=\"Edm.Boolean\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"manual_plac_remove\" Type=\"Edm.Boolean" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ceasarean_plac_remove\" Type=\"Edm.Boo" +
+                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"delivcomp\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"vertical_deliv\" Type=\"Edm.Boolean\" Concu" +
+                "rrencyMode=\"Fixed\" /><Property Name=\"partogr_filled\" Type=\"Edm.Boolean\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"plac_previa\" Type=\"Edm.Boolean\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"detach_plac\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"uterineatony\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"placreten\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"laceration\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"out_rupt_uter\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ma" +
+                "ternity_rupt_uter\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "tp_matern_local\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tp" +
+                "_arrastado\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"pre_enc" +
+                "lapsiasevera\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C_ecl" +
+                "ampsia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sepsis\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ot_complications\" Type" +
+                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"malaria\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"anemia\" Type=\"Edm.String\" MaxLeng" +
+                "th=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"hiv_sida\" Type" +
+                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tb\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"poisontrademed\" Type=\"Edm.Boolean\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"ot_complications2\" Type=\"Edm.Boolean\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"maternaldeath\" Type=\"Edm.Boolean\" Concurr" +
+                "encyMode=\"Fixed\" /><Property Name=\"maternaldeathcause\" Type=\"Edm.String\" MaxLeng" +
+                "th=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"pi_antibiotics" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ev_im_pphemor\" Ty" +
+                "pe=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"antihypertensive\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"magn_sulphate\" Type=\"E" +
+                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"intrauterine_asp\" Type=\"Ed" +
+                "m.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bloodtransf\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"hyster_obstetric\" Type=\"Edm.Boole" +
+                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tip_malaria_4dose\" Type=\"Edm.Boole" +
+                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"diu_ppimediate\" Type=\"Edm.Boolean\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"ot_pp\" Type=\"Edm.Boolean\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"nadovivo\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"nadomorto\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"nadomorto_focoentrada\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"nadomorto_macerado\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"mot_skintoskin\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"breastfeeding_1hr\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"premature\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"neonatalsepsis\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"neonatalasphyxia\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Na" +
+                "me=\"malformation\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"s" +
+                "uccess_reanimation\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"unsuccess_reanimation\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"complicat_spec\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"twin\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"gender\" Typ" +
+                "e=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"weight\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"weight_under2500gr\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"newborn_arv\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"nb_syphilistreat\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mot_vitamin_a\" Type=\"Edm." +
+                "String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"mot_saltferrous\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=" +
+                "\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mot_home_arv\" T" +
+                "ype=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"chd_home_arv\" Type=\"Edm.String\" MaxLength=\"1\" FixedL" +
+                "ength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"discharge" +
+                "_date\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"transfer_out_us\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"hospitaldays\" Type=\"Edm.Int32\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"providername\" Type=";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-            private const string ModelPart14 = @"titySet=""cpns"" /></AssociationSet><FunctionImport Name=""mothers_cpnfinal"" ReturnType=""Collection(LightSwitchApplication.cpn_final)"" EntitySet=""cpn_finals"" m:HttpMethod=""GET""><Parameter Name=""idmother"" Type=""Edm.Int64"" Mode=""In"" /></FunctionImport><FunctionImport Name=""mother_cpns"" ReturnType=""Collection(LightSwitchApplication.cpn)"" EntitySet=""cpns"" m:HttpMethod=""GET""><Parameter Name=""mother_id"" Type=""Edm.Int32"" Mode=""In"" /></FunctionImport><FunctionImport Name=""Microsoft_LightSwitch_GetCanInformation"" ReturnType=""Edm.String"" m:HttpMethod=""GET""><Parameter Name=""dataServiceMembers"" Type=""Edm.String"" Mode=""In"" /></FunctionImport></EntityContainer></Schema></edmx:DataServices></edmx:Edmx>";
+            private const string ModelPart6 = "\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></EntityTyp" +
+                "e><EntityType Name=\"mother\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"" +
+                "id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity" +
+                "\" /><Property Name=\"nid_cpn\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" U" +
+                "nicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_tarv\" Type=\"Edm.Str" +
+                "ing\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"na" +
+                "me\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"residence\" Type=\"Edm.String\" MaxLength=\"60\" Unic" +
+                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"phone\" Type=\"Edm.Decimal\" " +
+                "Precision=\"15\" Scale=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dob\" Type=\"Ed" +
+                "m.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><NavigationProperty Name=\"ch" +
+                "ildren\" Relationship=\"LightSwitchApplication.mother_id\" ToRole=\"child\" FromRole=" +
+                "\"mother\" /><NavigationProperty Name=\"cpns\" Relationship=\"LightSwitchApplication." +
+                "idmother\" ToRole=\"cpn\" FromRole=\"mother\" /></EntityType><EntityType Name=\"pacien" +
+                "te_resistente_tb\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"" +
+                "Edm.Int64\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Prope" +
+                "rty Name=\"distrito\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"us\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"fal" +
+                "se\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataregisto\" Type=\"Edm.DateTime\" P" +
+                "recision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"NIT2\" Type=\"Edm.String\" N" +
+                "ullable=\"false\" MaxLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"nome\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"sexo\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"1\"" +
+                " FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"gr" +
+                "upoetario\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"endereco" +
+                "\" Type=\"Edm.String\" MaxLength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"telefone\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"ocupacao\" Type=\"Edm.String\" MaxLength=\"20\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"NIT\" Type=\"Edm.String\" Ma" +
+                "xLength=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataregis" +
+                "totb\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"localizacaolesao\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"categoriadoete\" Type=\"Edm.String\" MaxLength=\"5\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ttoprevio2l\" Type=\"Edm.S" +
+                "tring\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"d" +
+                "iagconfirmadopor\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"d" +
+                "atacolheitatsa\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"dataresultadotsa\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"sensibilidade_s\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"sensibilidade_h\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"sensibilidade_r\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"sensibilidade_e\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"sensibilidade_z\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"sensibilidade_Amk_Km\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"sensibilidade_cm\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"sensibilidade_FQ\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"sensibilidade_Pto_Eto\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixe" +
+                "d\" /><Property Name=\"sensibilidade_Outro1\" Type=\"Edm.String\" MaxLength=\"20\" Unic" +
+                "ode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sensibilidade_Outro2\" Type" +
+                "=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"sensibilidade_Outro3\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"perfilresistencia\" Type=\"Edm.String\" Max" +
+                "Length=\"10\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"contactosr" +
+                "astreadostbr\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"contact" +
+                "oscomtbr\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tastehiv\" T" +
+                "ype=\"Edm.String\" MaxLength=\"2\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"dataresultadohiv\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"tpc\" Type=\"Edm.String\" MaxLength=\"2\" Unicode=\"false\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"datainiciotpc\" Type=\"Edm.DateTime\" Precisi" +
+                "on=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"emtarv\" Type=\"Edm.String\" MaxLe" +
+                "ngth=\"1\" FixedLength=\"true\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"NID\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"datainiciotarv\" Type=\"Edm.DateTime\" Precision=\"0\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"regimetratamento\" Type=\"Edm.String\" MaxLength=" +
+                "\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ustratamento\" Typ" +
+                "e=\"Edm.String\" MaxLength=\"25\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"usdatainiciotto\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixe" +
+                "d\" /><Property Name=\"comtratamento\" Type=\"Edm.String\" MaxLength=\"25\" Unicode=\"fa" +
+                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"comdatainiciotto\" Type=\"Edm.DateT" +
+                "ime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_0m\" Typ" +
+                "e=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"dataresultadobk_0m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"resultadocultura_0m\" Type=\"Edm.String\" MaxLength=\"15\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultadocultura_0m\"" +
+                " Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"res" +
+                "ultadobk_1m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"resultadocultura_1m\" Type=\"Edm.String\" MaxLength=\"15\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_1m\" Type=\"" +
+                "Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadob" +
+                "k_2m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"resultadocultura_2m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"" +
+                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_2m\" Type=\"Edm.Dat" +
+                "eTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_3m\" T" +
+                "ype=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"resultadocultura_3m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_3m\" Type=\"Edm.DateTime\" " +
+                "Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_4m\" Type=\"Ed" +
+                "m.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"resultadocultura_4m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurr" +
+                "encyMode=\"Fixed\" /><Property Name=\"dataresultado_4m\" Type=\"Edm.DateTime\" Precisi" +
+                "on=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_5m\" Type=\"Edm.Strin" +
+                "g\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resu" +
+                "ltadocultura_5m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"dataresultado_5m\" Type=\"Edm.Dat";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart7 = "eTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_6m\" Ty" +
+                "pe=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"resultadocultura_6m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_6m\" Type=\"Edm.DateTime\" P" +
+                "recision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadopaciente6meses\" Typ" +
+                "e=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"resultadobk_7m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"resultadocultura_7m\" Type=\"Edm.String\" MaxLeng" +
+                "th=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_" +
+                "7m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "resultadobk_8m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"resultadocultura_8m\" Type=\"Edm.String\" MaxLength=\"15\"" +
+                " Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_8m\" Typ" +
+                "e=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resulta" +
+                "dobk_9m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"resultadocultura_9m\" Type=\"Edm.String\" MaxLength=\"15\" Unicod" +
+                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_9m\" Type=\"Edm." +
+                "DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_10" +
+                "m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"resultadocultura_10m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"fa" +
+                "lse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_10m\" Type=\"Edm.Date" +
+                "Time\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_11m\" T" +
+                "ype=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"resultadocultura_11m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_11m\" Type=\"Edm.DateTime" +
+                "\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_12m\" Type=" +
+                "\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"resultadocultura_12m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"dataresultado_12m\" Type=\"Edm.DateTime\" Pr" +
+                "ecision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estadopaciente12meses\" Typ" +
+                "e=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"resultadobk_14m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurr" +
+                "encyMode=\"Fixed\" /><Property Name=\"resultadocultura_14m\" Type=\"Edm.String\" MaxLe" +
+                "ngth=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultad" +
+                "o_14m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"resultadobk_16m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"resultadocultura_16m\" Type=\"Edm.String\" MaxLength" +
+                "=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_16" +
+                "m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"r" +
+                "esultadobk_18m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"resultadocultura_18m\" Type=\"Edm.String\" MaxLength=\"15" +
+                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataresultado_18m\" T" +
+                "ype=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"estad" +
+                "opaciente18meses\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"resultadobk_20m\" Type=\"Edm.String\" MaxLength=\"15\" Un" +
+                "icode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_20m\" Ty" +
+                "pe=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"dataresultado_20m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"resultadobk_22m\" Type=\"Edm.String\" MaxLength=\"15\" Unicod" +
+                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_22m\" Type=\"" +
+                "Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"dataresultado_22m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"resultadobk_24m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"f" +
+                "alse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocultura_24m\" Type=\"Edm." +
+                "String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"dataresultado_24m\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"estadopaciente24meses\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"" +
+                "false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_26m\" Type=\"Edm.Stri" +
+                "ng\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"res" +
+                "ultadocultura_26m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"dataresultado_26m\" Type=\"Edm.DateTime\" Precision=\"" +
+                "0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_28m\" Type=\"Edm.String\" " +
+                "MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resulta" +
+                "docultura_28m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"dataresultado_28m\" Type=\"Edm.DateTime\" Precision=\"0\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"resultadobk_30m\" Type=\"Edm.String\" MaxL" +
+                "ength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadocu" +
+                "ltura_30m\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fix" +
+                "ed\" /><Property Name=\"dataresultado_30m\" Type=\"Edm.DateTime\" Precision=\"0\" Concu" +
+                "rrencyMode=\"Fixed\" /><Property Name=\"estadopaciente30meses\" Type=\"Edm.String\" Ma" +
+                "xLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadof" +
+                "inaltto\" Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"datafimtto\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLength=\"60\" Unicode=\"false\"" +
+                " ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"pacientetb\"><Key><Prop" +
+                "ertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false\" " +
+                "annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"ano\" Type=\"Edm.Int" +
+                "32\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataregisto\" Type" +
+                "=\"Edm.DateTime\" Nullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"NIT\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"10\" Unicode=\"false\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"Edm.String\" Nullable=\"fals" +
+                "e\" MaxLength=\"60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"sexo" +
+                "\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"1\" FixedLength=\"true\" Unicode=\"f" +
+                "alse\" ConcurrencyMode=\"Fixed\" /><Property Name=\"grupoetario\" Type=\"Edm.Boolean\" " +
+                "Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"residencia\" Type=\"Edm" +
+                ".String\" MaxLength=\"30\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"telefone\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"ocupacao\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"proveniencia\" Type=\"Edm.String\" MaxL" +
+                "ength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"localizacao" +
+                "lesao\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"categoriadoente\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datainiciotto\" Type=\"Edm.DateTime\" N" +
+                "ullable=\"false\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Pr";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart8 = "operty Name=\"casonovoadulto\" Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"casonovocrianca\" Type=\"Edm.String\" MaxLen" +
+                "gth=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"retratamento\"" +
+                " Type=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pro" +
+                "perty Name=\"tbresistente\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"nit_tbresistente\" Type=\"Edm.String\" MaxLength=\"10\" Unicode=\"false\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"fintensivalocal\" Type=\"Edm.String\" Nullable=" +
+                "\"false\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "fintensivanomelocal\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"fmanutencaolocal\" Type=\"Edm.String\" MaxLength=\"5" +
+                "\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"fmanutencaonomelocal" +
+                "\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"testado\" Type=\"Edm.String\" MaxLength=\"1\" FixedLength=\"true\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"hivresultado\" Type=\"Edm.Strin" +
+                "g\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tpc\" " +
+                "Type=\"Edm.String\" MaxLength=\"3\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"emtarv\" Type=\"Edm.String\" MaxLength=\"1\" Unicode=\"false\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"NID\" Type=\"Edm.String\" MaxLength=\"20\" Unicode=\"false" +
+                "\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datainiciotarv\" Type=\"Edm.DateTime\" " +
+                "Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"contactosrastreados\" Typ" +
+                "e=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"contactoscomtb\" Type=\"Ed" +
+                "m.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"criancasrastreadas\" Type=\"Edm" +
+                ".Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"criancasquimioproflaxia\" Type=" +
+                "\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bkdata\" Type=\"Edm.DateTime" +
+                "\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bkresultado\" Type=\"Edm" +
+                ".String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"bknumlab\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixe" +
+                "d\" /><Property Name=\"gxrifdata\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"gxresultado\" Type=\"Edm.String\" MaxLength=\"5\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"rifresultado\" Type=\"Edm.Strin" +
+                "g\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"gxrif" +
+                "numlab\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"culturadata\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"culturaresultado\" Type=\"Edm.String\" MaxLength=\"5\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"culturanumlab\" Type=\"Edm." +
+                "String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "rx\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"outrosexames\" Type=\"Edm.String\" MaxLength=\"50\" Unicode=\"false\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"bact_bkdata_2_3\" Type=\"Edm.DateTime\" Pre" +
+                "cision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_bkresultado_2_3\" Type=" +
+                "\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"bact_bknumlab_2_3\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"bact_culturadata_2_3\" Type=\"Edm.DateTime\" Prec" +
+                "ision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_culturaresultado_2_3\" T" +
+                "ype=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"bact_culturanumlab_2_3\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_bkdata_5\" Type=\"Edm.DateTime\" Pr" +
+                "ecision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_bkresultado_5\" Type=\"" +
+                "Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Na" +
+                "me=\"bact_bknumlab_5\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"bact_culturadata_5\" Type=\"Edm.DateTime\" Precision" +
+                "=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_culturaresultado_5\" Type=\"Ed" +
+                "m.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"bact_culturanumlab_5\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"bact_bkdata_fimtrat\" Type=\"Edm.DateTime\" Preci" +
+                "sion=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_bkresultado_fimtrat\" Typ" +
+                "e=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"bact_bknumlab_fimtrat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"bact_culturadata_fimtrat\" Type=\"Edm.Date" +
+                "Time\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"bact_culturaresult" +
+                "ado_fimtrat\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"bact_culturanumlab_fimtrat\" Type=\"Edm.String\" MaxLength=\"" +
+                "5\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datafimtratamento\" " +
+                "Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resu" +
+                "ltadotratamento\" Type=\"Edm.String\" MaxLength=\"5\" Unicode=\"false\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"tb_resistente\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixe" +
+                "d\" /><Property Name=\"obs\" Type=\"Edm.String\" MaxLength=\"100\" Unicode=\"false\" Conc" +
+                "urrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"patient\"><Key><PropertyRef " +
+                "Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotati" +
+                "on:StoreGeneratedPattern=\"Identity\" /><Property Name=\"person_type\" Type=\"Edm.Str" +
+                "ing\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"nid_cpn\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicod" +
+                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_ccr\" Type=\"Edm.String\" N" +
+                "ullable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"nit\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"nficha_gbv\" Type=\"Edm.String\" MaxLengt" +
+                "h=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nid_tarv\" Type=" +
+                "\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"name\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"residence\" Type=\"Edm.String\" MaxLength=\"" +
+                "60\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"phone\" Type=\"Edm.S" +
+                "tring\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "dob\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><E" +
+                "ntityType Name=\"t_categoria\"><Key><PropertyRef Name=\"codcategoria\" /></Key><Prop" +
+                "erty Name=\"codcategoria\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGener" +
+                "atedPattern=\"Identity\" /><Property Name=\"categoria\" Type=\"Edm.String\" MaxLength=" +
+                "\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_grauexposicao\"><Key><" +
+                "PropertyRef Name=\"codigo\" /></Key><Property Name=\"codigo\" Type=\"Edm.Int32\" Nulla" +
+                "ble=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"grauex" +
+                "posicao\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><Ent" +
+                "ityType Name=\"t_historia_clinica_notificacao\"><Key><PropertyRef Name=\"ordem\" /><" +
+                "/Key><Property Name=\"ordem\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGe" +
+                "neratedPattern=\"Identity\" /><Property Name=\"notificacao\" Type=\"Edm.String\" MaxLe" +
+                "ngth=\"9\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart9 = "y Name=\"id\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"historicoc" +
+                "linico\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"va" +
+                "lor\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=" +
+                "\"t_historiaclinica\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type" +
+                "=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Pro" +
+                "perty Name=\"historicoclinico\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false" +
+                "\" /><Property Name=\"tabela\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" " +
+                "/></EntityType><EntityType Name=\"t_intervenco\"><Key><PropertyRef Name=\"codinterv" +
+                "encoes\" /></Key><Property Name=\"codintervencoes\" Type=\"Edm.Int32\" Nullable=\"fals" +
+                "e\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"intervencoes\" T" +
+                "ype=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><EntityType Na" +
+                "me=\"t_laboratorio_notificacao\"><Key><PropertyRef Name=\"ordem\" /></Key><Property " +
+                "Name=\"ordem\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=" +
+                "\"Identity\" /><Property Name=\"notificacao\" Type=\"Edm.String\" MaxLength=\"9\" Unicod" +
+                "e=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"id\" Type=\"Edm.Int32\" Concurr" +
+                "encyMode=\"Fixed\" /><Property Name=\"analise\" Type=\"Edm.String\" MaxLength=\"65535\" " +
+                "Unicode=\"false\" /><Property Name=\"valor\" Type=\"Edm.String\" MaxLength=\"65535\" Uni" +
+                "code=\"false\" /></EntityType><EntityType Name=\"t_localacidente\"><Key><PropertyRef" +
+                " Name=\"codigo\" /></Key><Property Name=\"codigo\" Type=\"Edm.Int32\" Nullable=\"false\"" +
+                " annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"descricao\" Type=\"" +
+                "Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t" +
+                "_notificacao\"><Key><PropertyRef Name=\"notificacao\" /></Key><Property Name=\"notif" +
+                "icacao\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"9\" Unicode=\"false\" /><Prop" +
+                "erty Name=\"data\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Pr" +
+                "operty Name=\"hora\" Type=\"Edm.Time\" ConcurrencyMode=\"Fixed\" /><Property Name=\"us\"" +
+                " Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"referido_" +
+                "de\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"tipo_violencia\" T" +
+                "ype=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"nome\" Type=\"Edm.String" +
+                "\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"endereco\" Type=\"Edm.String" +
+                "\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"telefone\" Type=\"Edm.String" +
+                "\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"datanasc\" Type=\"Edm.DateTi" +
+                "me\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"idade\" Type=\"Edm.Int" +
+                "32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"Sexo\" Type=\"Edm.String\" MaxLength=" +
+                "\"65535\" Unicode=\"false\" /><Property Name=\"gravidez\" Type=\"Edm.String\" MaxLength=" +
+                "\"65535\" Unicode=\"false\" /><Property Name=\"data_mestruacao\" Type=\"Edm.DateTime\" P" +
+                "recision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_violencia\" Type=\"Edm" +
+                ".DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"hora_violenci" +
+                "a\" Type=\"Edm.Time\" ConcurrencyMode=\"Fixed\" /><Property Name=\"circunstancia\" Type" +
+                "=\"Edm.String\" MaxLength=\"Max\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"agressores\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"r" +
+                "elacao\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"co" +
+                "ndicao_exposta\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"condi" +
+                "cao_fonte\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"comentario" +
+                "\" Type=\"Edm.String\" MaxLength=\"Max\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"Referencia\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"data_inicial\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"clinico\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><P" +
+                "roperty Name=\"seguimentos\" Type=\"Edm.String\" MaxLength=\"Max\" Unicode=\"false\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"especifique\" Type=\"Edm.String\" MaxLength=" +
+                "\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_referencia\"><Key><Pro" +
+                "pertyRef Name=\"codreferencias\" /></Key><Property Name=\"codreferencias\" Type=\"Edm" +
+                ".Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property" +
+                " Name=\"referencias\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></Enti" +
+                "tyType><EntityType Name=\"t_referido\"><Key><PropertyRef Name=\"codreferido\" /></Ke" +
+                "y><Property Name=\"codreferido\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:Stor" +
+                "eGeneratedPattern=\"Identity\" /><Property Name=\"referido\" Type=\"Edm.String\" MaxLe" +
+                "ngth=\"65535\" Unicode=\"false\" /></EntityType><EntityType Name=\"t_regimeppe\"><Key>" +
+                "<PropertyRef Name=\"codigo\" /></Key><Property Name=\"codigo\" Type=\"Edm.Int32\" Null" +
+                "able=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"regim" +
+                "e\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></EntityType><EntityTyp" +
+                "e Name=\"t_registodiarioppe\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"" +
+                "id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity" +
+                "\" /><Property Name=\"us\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><P" +
+                "roperty Name=\"nid\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Proper" +
+                "ty Name=\"data\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Prop" +
+                "erty Name=\"resultadohivExposta\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Prop" +
+                "erty Name=\"resultadohivfonte\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"grauexposicao\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"regimeppeprescrito\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"categoria\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"localaci" +
+                "dente\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadoppe\" " +
+                "Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"coduser\" Type=\"Edm.In" +
+                "t32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"dataregisto\" Type=\"Edm.DateTime\" " +
+                "Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"t_registo" +
+                "diariovgb\"><Key><PropertyRef Name=\"Id\" /></Key><Property Name=\"Id\" Type=\"Edm.Int" +
+                "32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Nam" +
+                "e=\"us\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /><Property Name=\"Nid" +
+                "\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"65535\" Unicode=\"false\" /><Proper" +
+                "ty Name=\"Data\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Prop" +
+                "erty Name=\"Referidode\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"ResultadoHIVExposta\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"tipoviolencia\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"inte" +
+                "rvencao\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"referencia\" " +
+                "Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"resultadoppe\" Type=\"E" +
+                "dm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"coduser\" Type=\"Edm.Int32\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"datareg\" Type=\"Edm.DateTime\" Precision=\"" +
+                "0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"t_resultadosppe\"><Ke" +
+                "y><PropertyRef Name=\"codresultado\" /></Key><Property Name=\"codresultado\" Type=\"E" +
+                "dm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Proper" +
+                "ty Name=\"resultado\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></Enti" +
+                "tyType><EntityType Name=\"t_resultadoteste\"><Key><PropertyRef Name=\"codigo\" /></K" +
+                "ey><Property Name=\"codigo\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGen" +
+                "eratedPattern=\"Identity\" /><Property Name=\"resultadoteste\" Type=\"Edm.String\" Max" +
+                "Length=\"65535\" Unicode=\"false\" /></EntityType><EntityType N";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart10 = "ame=\"t_seguimento_notificacao\"><Key><PropertyRef Name=\"ordem\" /></Key><Property N" +
+                "ame=\"ordem\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"" +
+                "Identity\" /><Property Name=\"notificacao\" Type=\"Edm.String\" MaxLength=\"9\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"id\" Type=\"Edm.Int32\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"descricao\" Type=\"Edm.String\" MaxLength=\"65535\"" +
+                " Unicode=\"false\" /><Property Name=\"inicial\" Type=\"Edm.DateTime\" Precision=\"0\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"C2sem\" Type=\"Edm.DateTime\" Precision=\"0\"" +
+                " ConcurrencyMode=\"Fixed\" /><Property Name=\"C4sem\" Type=\"Edm.DateTime\" Precision=" +
+                "\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C6sem\" Type=\"Edm.DateTime\" Precisi" +
+                "on=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C3mes\" Type=\"Edm.DateTime\" Prec" +
+                "ision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"C6mes\" Type=\"Edm.DateTime\" P" +
+                "recision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"t_tipoviol" +
+                "encia\"><Key><PropertyRef Name=\"codigo\" /></Key><Property Name=\"codigo\" Type=\"Edm" +
+                ".Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property" +
+                " Name=\"tipoviolencia\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"false\" /></En" +
+                "tityType><EntityType Name=\"t_usItem\"><Key><PropertyRef Name=\"id\" /></Key><Proper" +
+                "ty Name=\"id\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:StoreGeneratedPattern=" +
+                "\"Identity\" /><Property Name=\"codigo\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode" +
+                "=\"false\" /><Property Name=\"designacao\" Type=\"Edm.String\" MaxLength=\"65535\" Unico" +
+                "de=\"false\" /><Property Name=\"distrito\" Type=\"Edm.String\" MaxLength=\"65535\" Unico" +
+                "de=\"false\" /><Property Name=\"localidade\" Type=\"Edm.String\" MaxLength=\"65535\" Uni" +
+                "code=\"false\" /><Property Name=\"activo\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"provincia\" Type=\"Edm.String\" MaxLength=\"65535\" Unicode=\"fals" +
+                "e\" /></EntityType><EntityType Name=\"t_user\"><Key><PropertyRef Name=\"coduser\" /><" +
+                "/Key><Property Name=\"coduser\" Type=\"Edm.Int32\" Nullable=\"false\" annotation:Store" +
+                "GeneratedPattern=\"Identity\" /><Property Name=\"nome\" Type=\"Edm.String\" MaxLength=" +
+                "\"65535\" Unicode=\"false\" /><Property Name=\"login\" Type=\"Edm.String\" MaxLength=\"65" +
+                "535\" Unicode=\"false\" /><Property Name=\"senha\" Type=\"Edm.String\" MaxLength=\"65535" +
+                "\" Unicode=\"false\" /><Property Name=\"datareg\" Type=\"Edm.DateTime\" Precision=\"0\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"data\" Type=\"Edm.DateTime\" Precision=\"0\"" +
+                " ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"tratamentotb\"><Key><Pr" +
+                "opertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int64\" Nullable=\"false" +
+                "\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=\"idpacientetb\" Ty" +
+                "pe=\"Edm.Int64\" Nullable=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"fasein" +
+                "tensiva\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"fasemanute" +
+                "ncao\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datainiciotto" +
+                "\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"an" +
+                "o1\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano2\" Type=\"Edm.I" +
+                "nt32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano3\" Type=\"Edm.Int32\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"ano4\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"ano5\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Nam" +
+                "e=\"ano6\" Type=\"Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano7\" Type=\"" +
+                "Edm.Int32\" ConcurrencyMode=\"Fixed\" /><Property Name=\"ano8\" Type=\"Edm.Int32\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"mes1\" Type=\"Edm.String\" MaxLength=\"15\" Uni" +
+                "code=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2\" Type=\"Edm.String\" M" +
+                "axLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3\" Ty" +
+                "pe=\"Edm.String\" MaxLength=\"15\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"mes4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7\" Type=\"Edm.Boolean\" Concu" +
+                "rrencyMode=\"Fixed\" /><Property Name=\"mes8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes1dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes1dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"mes1dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes" +
+                "1dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia5\" Ty" +
+                "pe=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia6\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia7\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes1dia8\" Type=\"Edm.Boolean\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"mes1dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"mes1dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes1dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mes1dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
+                "es1dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia14" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia15\" Type=\"" +
+                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia16\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia17\" Type=\"Edm.Boolean\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"mes1dia18\" Type=\"Edm.Boolean\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"mes1dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"mes1dia20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes1dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mes1dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
+                "es1dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia24" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia25\" Type=\"" +
+                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia26\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes1dia27\" Type=\"Edm.Boolean\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"mes1dia28\" Type=\"Edm.Boolean\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"mes1dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"mes1dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes1dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mes2dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
+                "s2dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia3\" T" +
+                "ype=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia4\" Type=\"Edm." +
+                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia5\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia6\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes2dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes2dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes2dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"mes2dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
+                "s2dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia12\"" +
+                " Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia13\" Type=\"E" +
+                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia14\" Type=\"Edm.Boole" +
+                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia15\" Type=\"Edm.Boolean\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"mes2dia16\" Type=\"Edm.Boolean\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"mes2dia17\" Type=\"Edm.Boolean\"";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart11 = " ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia18\" Type=\"Edm.Boolean\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"mes2dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"mes2dia20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"mes2dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"mes2dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"mes2dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2di" +
+                "a24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia25\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia26\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia27\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes2dia28\" Type=\"Edm.Boolean\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"mes2dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"mes2dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"mes2dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"mes3dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes3dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia3" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia4\" Type=\"E" +
+                "dm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia5\" Type=\"Edm.Boolea" +
+                "n\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia6\" Type=\"Edm.Boolean\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"mes3dia7\" Type=\"Edm.Boolean\" ConcurrencyMode" +
+                "=\"Fixed\" /><Property Name=\"mes3dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"mes3dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"mes3dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes3dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia" +
+                "12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia13\" Type" +
+                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia14\" Type=\"Edm.Bo" +
+                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia15\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes3dia16\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes3dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
+                "Fixed\" /><Property Name=\"mes3dia18\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"mes3dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"mes3dia20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes3dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia" +
+                "22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia23\" Type" +
+                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia24\" Type=\"Edm.Bo" +
+                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes3dia25\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes3dia26\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes3dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
+                "Fixed\" /><Property Name=\"mes3dia28\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"mes3dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"mes3dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes3dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia" +
+                "1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia2\" Type=\"" +
+                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia3\" Type=\"Edm.Boole" +
+                "an\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia4\" Type=\"Edm.Boolean\" Concu" +
+                "rrencyMode=\"Fixed\" /><Property Name=\"mes4dia5\" Type=\"Edm.Boolean\" ConcurrencyMod" +
+                "e=\"Fixed\" /><Property Name=\"mes4dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"mes4dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"mes4dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes4dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia1" +
+                "0\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia11\" Type=" +
+                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia12\" Type=\"Edm.Boo" +
+                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia13\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes4dia14\" Type=\"Edm.Boolean\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"mes4dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes4dia16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"mes4dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"mes4dia18\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "mes4dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia2" +
+                "0\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia21\" Type=" +
+                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia22\" Type=\"Edm.Boo" +
+                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia23\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes4dia24\" Type=\"Edm.Boolean\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"mes4dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes4dia26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"mes4dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"mes4dia28\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "mes4dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia3" +
+                "0\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes4dia31\" Type=" +
+                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia1\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia2\" Type=\"Edm.Boolean\" Conc" +
+                "urrencyMode=\"Fixed\" /><Property Name=\"mes5dia3\" Type=\"Edm.Boolean\" ConcurrencyMo" +
+                "de=\"Fixed\" /><Property Name=\"mes5dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed" +
+                "\" /><Property Name=\"mes5dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prop" +
+                "erty Name=\"mes5dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"mes5dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia" +
+                "8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia9\" Type=\"" +
+                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia10\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia11\" Type=\"Edm.Boolean\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"mes5dia12\" Type=\"Edm.Boolean\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"mes5dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"mes5dia14\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes5dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mes5dia16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
+                "es5dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia18" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia19\" Type=\"" +
+                "Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia20\" Type=\"Edm.Bool" +
+                "ean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia21\" Type=\"Edm.Boolean\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"mes5dia22\" Type=\"Edm.Boolean\" Concurrency" +
+                "Mode=\"Fixed\" /><Property Name=\"mes5dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"mes5dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes5dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mes5dia26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"m" +
+                "es5dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia28" +
+                "\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Na";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart12 = "me=\"mes5dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5d" +
+                "ia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes5dia31\" Ty" +
+                "pe=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia1\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia2\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes6dia3\" Type=\"Edm.Boolean\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"mes6dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fi" +
+                "xed\" /><Property Name=\"mes6dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><P" +
+                "roperty Name=\"mes6dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"mes6dia7\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6" +
+                "dia8\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia9\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia10\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia11\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia12\" Type=\"Edm.Boolean\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"mes6dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"mes6dia14\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"mes6dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"mes6dia16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"mes6dia17\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6di" +
+                "a18\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia19\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia20\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia21\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia22\" Type=\"Edm.Boolean\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"mes6dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=" +
+                "\"Fixed\" /><Property Name=\"mes6dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" " +
+                "/><Property Name=\"mes6dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"mes6dia26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"mes6dia27\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6di" +
+                "a28\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia29\" Typ" +
+                "e=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia30\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes6dia31\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia1\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes7dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes7dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><" +
+                "Property Name=\"mes7dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property " +
+                "Name=\"mes7dia5\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes" +
+                "7dia6\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia7\" Ty" +
+                "pe=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia8\" Type=\"Edm.B" +
+                "oolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia9\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes7dia10\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes7dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
+                "Fixed\" /><Property Name=\"mes7dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"mes7dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"mes7dia14\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes7dia15\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia" +
+                "16\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia17\" Type" +
+                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia18\" Type=\"Edm.Bo" +
+                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia19\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes7dia20\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes7dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
+                "Fixed\" /><Property Name=\"mes7dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /" +
+                "><Property Name=\"mes7dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Proper" +
+                "ty Name=\"mes7dia24\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=" +
+                "\"mes7dia25\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia" +
+                "26\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia27\" Type" +
+                "=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia28\" Type=\"Edm.Bo" +
+                "olean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes7dia29\" Type=\"Edm.Boolean\" C" +
+                "oncurrencyMode=\"Fixed\" /><Property Name=\"mes7dia30\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes7dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"" +
+                "Fixed\" /><Property Name=\"mes8dia1\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"mes8dia2\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property" +
+                " Name=\"mes8dia3\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"me" +
+                "s8dia4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia5\" T" +
+                "ype=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia6\" Type=\"Edm." +
+                "Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia7\" Type=\"Edm.Boolean\" " +
+                "ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia8\" Type=\"Edm.Boolean\" Concurren" +
+                "cyMode=\"Fixed\" /><Property Name=\"mes8dia9\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes8dia10\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"mes8dia11\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"mes8dia12\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "mes8dia13\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia1" +
+                "4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia15\" Type=" +
+                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia16\" Type=\"Edm.Boo" +
+                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia17\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes8dia18\" Type=\"Edm.Boolean\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"mes8dia19\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes8dia20\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"mes8dia21\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"mes8dia22\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"" +
+                "mes8dia23\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia2" +
+                "4\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia25\" Type=" +
+                "\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia26\" Type=\"Edm.Boo" +
+                "lean\" ConcurrencyMode=\"Fixed\" /><Property Name=\"mes8dia27\" Type=\"Edm.Boolean\" Co" +
+                "ncurrencyMode=\"Fixed\" /><Property Name=\"mes8dia28\" Type=\"Edm.Boolean\" Concurrenc" +
+                "yMode=\"Fixed\" /><Property Name=\"mes8dia29\" Type=\"Edm.Boolean\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"mes8dia30\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" />" +
+                "<Property Name=\"mes8dia31\" Type=\"Edm.Boolean\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"transferidode\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"datatransferde\" Type=\"Edm.DateTime\" Precision=" +
+                "\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"transferidopara\" Type=\"Edm.String\"" +
+                " MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"datatr" +
+                "ansferpara\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Propert" +
+                "y Name=\"data_ra_prurido\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixe" +
+                "d\" /><Property Name=\"data_ra_ercutanea\" Type=\"Edm.DateTime\" Precision=\"0\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"data_ra_nauseas\" Type=\"";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart13 = "Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_vom" +
+                "itos\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name" +
+                "=\"data_ra_dabdom_azia\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\"" +
+                " /><Property Name=\"data_ra_artralgia\" Type=\"Edm.DateTime\" Precision=\"0\" Concurre" +
+                "ncyMode=\"Fixed\" /><Property Name=\"data_ra_neuropatiaper\" Type=\"Edm.DateTime\" Pre" +
+                "cision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_urinaalaranjada\" Ty" +
+                "pe=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_r" +
+                "a_dauditivos\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Prope" +
+                "rty Name=\"data_ra_dvisuais\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"data_ra_vertigens\" Type=\"Edm.DateTime\" Precision=\"0\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"data_ra_nistagmo\" Type=\"Edm.DateTime\" Pre" +
+                "cision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_altermental\" Type=\"" +
+                "Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_ic" +
+                "tericia\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /><Property N" +
+                "ame=\"data_ra_insufhepatica\" Type=\"Edm.DateTime\" Precision=\"0\" ConcurrencyMode=\"F" +
+                "ixed\" /><Property Name=\"data_ra_choque\" Type=\"Edm.DateTime\" Precision=\"0\" Concur" +
+                "rencyMode=\"Fixed\" /><Property Name=\"data_ra_purpura\" Type=\"Edm.DateTime\" Precisi" +
+                "on=\"0\" ConcurrencyMode=\"Fixed\" /><Property Name=\"data_ra_insufrenal\" Type=\"Edm.D" +
+                "ateTime\" Precision=\"0\" ConcurrencyMode=\"Fixed\" /></EntityType><EntityType Name=\"" +
+                "usuario\"><Key><PropertyRef Name=\"id\" /></Key><Property Name=\"id\" Type=\"Edm.Int64" +
+                "\" Nullable=\"false\" annotation:StoreGeneratedPattern=\"Identity\" /><Property Name=" +
+                "\"username\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"15\" Unicode=\"false\" Con" +
+                "currencyMode=\"Fixed\" /><Property Name=\"name\" Type=\"Edm.String\" Nullable=\"false\" " +
+                "MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"apelido" +
+                "\" Type=\"Edm.String\" Nullable=\"false\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyM" +
+                "ode=\"Fixed\" /><Property Name=\"password\" Type=\"Edm.String\" MaxLength=\"45\" Unicode" +
+                "=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"posicao\" Type=\"Edm.String\" Ma" +
+                "xLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /><Property Name=\"systemrol" +
+                "e\" Type=\"Edm.String\" MaxLength=\"45\" Unicode=\"false\" ConcurrencyMode=\"Fixed\" /></" +
+                "EntityType><Association Name=\"idccr\"><End Role=\"ccr\" Type=\"LightSwitchApplicatio" +
+                "n.ccr\" Multiplicity=\"1\" /><End Role=\"ccrseg\" Type=\"LightSwitchApplication.ccrseg" +
+                "\" Multiplicity=\"*\" /><ReferentialConstraint><Principal Role=\"ccr\"><PropertyRef N" +
+                "ame=\"id\" /></Principal><Dependent Role=\"ccrseg\"><PropertyRef Name=\"idccr\" /></De" +
+                "pendent></ReferentialConstraint></Association><Association Name=\"idchild\"><End R" +
+                "ole=\"child\" Type=\"LightSwitchApplication.child\" Multiplicity=\"1\" /><End Role=\"cc" +
+                "r\" Type=\"LightSwitchApplication.ccr\" Multiplicity=\"*\" /><ReferentialConstraint><" +
+                "Principal Role=\"child\"><PropertyRef Name=\"id\" /></Principal><Dependent Role=\"ccr" +
+                "\"><PropertyRef Name=\"idchild\" /></Dependent></ReferentialConstraint></Associatio" +
+                "n><Association Name=\"mother_id\"><End Role=\"mother\" Type=\"LightSwitchApplication." +
+                "mother\" Multiplicity=\"0..1\" /><End Role=\"child\" Type=\"LightSwitchApplication.chi" +
+                "ld\" Multiplicity=\"*\" /><ReferentialConstraint><Principal Role=\"mother\"><Property" +
+                "Ref Name=\"id\" /></Principal><Dependent Role=\"child\"><PropertyRef Name=\"id_mother" +
+                "\" /></Dependent></ReferentialConstraint></Association><Association Name=\"idmothe" +
+                "r\"><End Role=\"mother\" Type=\"LightSwitchApplication.mother\" Multiplicity=\"1\" /><E" +
+                "nd Role=\"cpn\" Type=\"LightSwitchApplication.cpn\" Multiplicity=\"*\" /><ReferentialC" +
+                "onstraint><Principal Role=\"mother\"><PropertyRef Name=\"id\" /></Principal><Depende" +
+                "nt Role=\"cpn\"><PropertyRef Name=\"idmother\" /></Dependent></ReferentialConstraint" +
+                "></Association><EntityContainer Name=\"dbmanualsourceData\" m:IsDefaultEntityConta" +
+                "iner=\"true\"><EntitySet Name=\"amostrastbs\" EntityType=\"LightSwitchApplication.amo" +
+                "strastb\" /><EntitySet Name=\"ccrs\" EntityType=\"LightSwitchApplication.ccr\" /><Ent" +
+                "itySet Name=\"ccrsegs\" EntityType=\"LightSwitchApplication.ccrseg\" /><EntitySet Na" +
+                "me=\"children\" EntityType=\"LightSwitchApplication.child\" /><EntitySet Name=\"cpn_f" +
+                "inals\" EntityType=\"LightSwitchApplication.cpn_final\" /><EntitySet Name=\"cpns\" En" +
+                "tityType=\"LightSwitchApplication.cpn\" /><EntitySet Name=\"cpps\" EntityType=\"Light" +
+                "SwitchApplication.cpp\" /><EntitySet Name=\"csr_pfs\" EntityType=\"LightSwitchApplic" +
+                "ation.csr_pf\" /><EntitySet Name=\"laboratoriotbs\" EntityType=\"LightSwitchApplicat" +
+                "ion.laboratoriotb\" /><EntitySet Name=\"livroes\" EntityType=\"LightSwitchApplicatio" +
+                "n.livro\" /><EntitySet Name=\"maternidades\" EntityType=\"LightSwitchApplication.mat" +
+                "ernidade\" /><EntitySet Name=\"mothers\" EntityType=\"LightSwitchApplication.mother\"" +
+                " /><EntitySet Name=\"paciente_resistente_tbs\" EntityType=\"LightSwitchApplication." +
+                "paciente_resistente_tb\" /><EntitySet Name=\"pacientetbs\" EntityType=\"LightSwitchA" +
+                "pplication.pacientetb\" /><EntitySet Name=\"patients\" EntityType=\"LightSwitchAppli" +
+                "cation.patient\" /><EntitySet Name=\"t_categorias\" EntityType=\"LightSwitchApplicat" +
+                "ion.t_categoria\" /><EntitySet Name=\"t_grauexposicaos\" EntityType=\"LightSwitchApp" +
+                "lication.t_grauexposicao\" /><EntitySet Name=\"t_historia_clinica_notificacaos\" En" +
+                "tityType=\"LightSwitchApplication.t_historia_clinica_notificacao\" /><EntitySet Na" +
+                "me=\"t_historiaclinicas\" EntityType=\"LightSwitchApplication.t_historiaclinica\" />" +
+                "<EntitySet Name=\"t_intervencoes\" EntityType=\"LightSwitchApplication.t_intervenco" +
+                "\" /><EntitySet Name=\"t_laboratorio_notificacaos\" EntityType=\"LightSwitchApplicat" +
+                "ion.t_laboratorio_notificacao\" /><EntitySet Name=\"t_localacidentes\" EntityType=\"" +
+                "LightSwitchApplication.t_localacidente\" /><EntitySet Name=\"t_notificacaos\" Entit" +
+                "yType=\"LightSwitchApplication.t_notificacao\" /><EntitySet Name=\"t_referencias\" E" +
+                "ntityType=\"LightSwitchApplication.t_referencia\" /><EntitySet Name=\"t_referidoes\"" +
+                " EntityType=\"LightSwitchApplication.t_referido\" /><EntitySet Name=\"t_regimeppes\"" +
+                " EntityType=\"LightSwitchApplication.t_regimeppe\" /><EntitySet Name=\"t_registodia" +
+                "rioppes\" EntityType=\"LightSwitchApplication.t_registodiarioppe\" /><EntitySet Nam" +
+                "e=\"t_registodiariovgbs\" EntityType=\"LightSwitchApplication.t_registodiariovgb\" /" +
+                "><EntitySet Name=\"t_resultadosppes\" EntityType=\"LightSwitchApplication.t_resulta" +
+                "dosppe\" /><EntitySet Name=\"t_resultadotestes\" EntityType=\"LightSwitchApplication" +
+                ".t_resultadoteste\" /><EntitySet Name=\"t_seguimento_notificacaos\" EntityType=\"Lig" +
+                "htSwitchApplication.t_seguimento_notificacao\" /><EntitySet Name=\"t_tipoviolencia" +
+                "s\" EntityType=\"LightSwitchApplication.t_tipoviolencia\" /><EntitySet Name=\"t_us\" " +
+                "EntityType=\"LightSwitchApplication.t_usItem\" /><EntitySet Name=\"t_users\" EntityT" +
+                "ype=\"LightSwitchApplication.t_user\" /><EntitySet Name=\"tratamentotbs\" EntityType" +
+                "=\"LightSwitchApplication.tratamentotb\" /><EntitySet Name=\"usuarios\" EntityType=\"" +
+                "LightSwitchApplication.usuario\" /><AssociationSet Name=\"idccr\" Association=\"Ligh" +
+                "tSwitchApplication.idccr\"><End Role=\"ccr\" EntitySet=\"ccrs\" /><End Role=\"ccrseg\" " +
+                "EntitySet=\"ccrsegs\" /></AssociationSet><AssociationSet Name=\"idchild\" Associatio" +
+                "n=\"LightSwitchApplication.idchild\"><End Role=\"child\" EntitySet=\"children\" /><End" +
+                " Role=\"ccr\" EntitySet=\"ccrs\" /></AssociationSet><AssociationSet Name=\"mother_id\"" +
+                " Association=\"LightSwitchApplication.mother_id\"><End Role=\"mother\" EntitySet=\"mo" +
+                "thers\" /><End Role=\"child\" EntitySet=\"children\" /></AssociationSet><AssociationS" +
+                "et Name=\"idmother\" Association=\"LightSwitchApplication.idmother\"><End Role=\"moth" +
+                "er\" EntitySet=\"mothers\" /><End Role=\"cpn\" EntitySet=\"cpns\" ";
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
+            private const string ModelPart14 = @"/></AssociationSet><FunctionImport Name=""mothers_cpnfinal"" ReturnType=""Collection(LightSwitchApplication.cpn_final)"" EntitySet=""cpn_finals"" m:HttpMethod=""GET""><Parameter Name=""idmother"" Type=""Edm.Int64"" Mode=""In"" /></FunctionImport><FunctionImport Name=""mother_cpns"" ReturnType=""Collection(LightSwitchApplication.cpn)"" EntitySet=""cpns"" m:HttpMethod=""GET""><Parameter Name=""mother_id"" Type=""Edm.Int32"" Mode=""In"" /></FunctionImport><FunctionImport Name=""Microsoft_LightSwitch_GetCanInformation"" ReturnType=""Edm.String"" m:HttpMethod=""GET""><Parameter Name=""dataServiceMembers"" Type=""Edm.String"" Mode=""In"" /></FunctionImport></EntityContainer></Schema></edmx:DataServices></edmx:Edmx>";
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
             private static string GetConcatenatedEdmxString()
             {
@@ -6394,7 +6394,7 @@ namespace LightSwitchApplication.Implementation
         /// <param name="idmother">Initial value of idmother.</param>
         /// <param name="nlivro">Initial value of nlivro.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static cpn_final Createcpn_final(long ID, long idmother, string nlivro)
+        public static cpn_final Createcpn_final(long ID, long idmother, int nlivro)
         {
             cpn_final cpn_final = new cpn_final();
             cpn_final.id = ID;
@@ -6458,7 +6458,7 @@ namespace LightSwitchApplication.Implementation
         /// There are no comments for Property nlivro in the schema.
         /// </summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public string nlivro
+        public int nlivro
         {
             get
             {
@@ -6477,8 +6477,8 @@ namespace LightSwitchApplication.Implementation
             }
         }
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        private string _nlivro;
-        partial void OnnlivroChanging(string value);
+        private int _nlivro;
+        partial void OnnlivroChanging(int value);
         partial void OnnlivroChanged();
         /// <summary>
         /// There are no comments for Property cons_more4 in the schema.
@@ -22860,11 +22860,13 @@ namespace LightSwitchApplication.Implementation
         /// Create a new t_registodiariovgb object.
         /// </summary>
         /// <param name="ID">Initial value of Id.</param>
+        /// <param name="nid">Initial value of Nid.</param>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Services.Design", "1.0.0")]
-        public static t_registodiariovgb Createt_registodiariovgb(int ID)
+        public static t_registodiariovgb Createt_registodiariovgb(int ID, string nid)
         {
             t_registodiariovgb t_registodiariovgb = new t_registodiariovgb();
             t_registodiariovgb.Id = ID;
+            t_registodiariovgb.Nid = nid;
             return t_registodiariovgb;
         }
         /// <summary>

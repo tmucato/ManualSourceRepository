@@ -9,6 +9,8 @@
     <Screen.Attributes>
       <SaveChangesTo
         EntityContainer="dbmanualsourceData" />
+      <DisplayName
+        Value="CPN" />
     </Screen.Attributes>
     <Screen.RootContentItem>
       <ContentItem
@@ -1656,7 +1658,7 @@
                 <ContentItem
                   Name="nlivro2"
                   Kind="Value"
-                  DataType=":String">
+                  DataType=":Int32">
                   <ContentItem.DataSource>
                     <ScreenExpressionTree>
                       <ChainExpression>

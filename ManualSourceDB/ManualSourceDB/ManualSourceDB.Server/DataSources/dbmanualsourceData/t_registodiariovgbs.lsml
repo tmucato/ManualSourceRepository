@@ -36,11 +36,12 @@
       </EntityProperty>
       <EntityProperty
         Name="Nid"
-        PropertyType=":String?">
+        PropertyType=":String">
         <EntityProperty.Attributes>
           <MaxLength
             Value="65535" />
           <AnsiConstraint />
+          <Required />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -230,7 +231,7 @@
           Property="t_registodiariovgb/Properties[us]" />
         <SsdlProperty
           Name="Nid"
-          Nullable="True"
+          Nullable="False"
           Type="text"
           Property="t_registodiariovgb/Properties[Nid]" />
         <SsdlProperty

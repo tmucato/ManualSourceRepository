@@ -35,12 +35,9 @@
       </EntityProperty>
       <EntityProperty
         Name="nlivro"
-        PropertyType=":String">
+        PropertyType=":Int32">
         <EntityProperty.Attributes>
           <Required />
-          <MaxLength
-            Value="10" />
-          <AnsiConstraint />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -395,10 +392,9 @@
           Type="bigint"
           Property="cpn_final/Properties[idmother]" />
         <SsdlProperty
-          MaxLength="10"
           Name="nlivro"
           Nullable="False"
-          Type="varchar"
+          Type="int"
           Property="cpn_final/Properties[nlivro]" />
         <SsdlProperty
           Name="cons_more4"
